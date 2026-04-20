@@ -1,0 +1,28 @@
+{
+  "task_objective": "Text-to-Nail Generation with Line Art Shape Control - Strictly follow Image 1 line art to control nail shape, generate new nail design from text prompt",
+  "input_assets": {
+    "structural_control": {
+      "source": "Image 1 Line Art",
+      "weight": 0.9,
+      "focus": "Nail shape silhouette, geometric outline, structural contours, thickness variation, and edge details",
+      "role": "Provide strict line art control for nail shape generation - ALL nail shapes must strictly conform to this line art"
+    },
+    "text_prompt": {
+      "source": "User Text Prompt",
+      "weight": 0.85,
+      "focus": "Nail design description, color scheme, pattern style, texture details, artistic elements, and decorative effects",
+      "role": "Provide creative direction and aesthetic elements for nail design generation"
+    },
+    "target_shape": {
+      "description": "Strictly determined by Image 1 Line Art - all generated nails must match the line art exactly"
+    }
+  },
+  "workflow": {
+    "role": "Professional Nail Designer & ControlNet Generation Expert",
+    "steps": {
+      "step_1_line_art_analysis": "Analyze Image 1 line art with absolute precision: extract complete nail shape silhouettes, geometric outlines, structural contours, thickness variations, and precise edge details of every nail.",
+      "step_2_text_interpretation": "Interpret user text prompt: understand design requirements including color palette, patterns, textures, artistic elements, decorative effects, and overall style direction.",
+      "step_3_generation_with_wear": "Generate nail designs under strict line art control and create four-panel grid layout: apply text prompt aesthetics onto Image 1's nail shape silhouettes with zero deviation. Generate a four-panel grid layout showcasing the text-prompt-generated nails with strict line art shape control:\n1. Primary Result View: High-fidelity nail design strictly following Image 1 line art silhouettes, applying text prompt creative elements - clean light gray background, no text, no fingers, no human elements, no layout shift, no perspective distortion.\n2. Vertical Mirror Reflection: Perfect upside-down flip maintaining exact line art shape compliance.\n3. On-Hand Wearing View (Palm Angle): Showing the generated nails on hand in clenched fist position - maintaining precise line art shape matching.\n4. On-Hand Wearing View (Dorsal Angle): Showing the generated nails on hand from back of hand perspective - maintaining precise line art shape matching.\nCRITICAL REQUIREMENTS:\n- ALL generated nails must strictly adhere to Image 1 line art shapes with pixel-perfect precision\n- Text prompt design elements must be faithfully rendered within the line art constrained shapes\n- Perfect shape consistency across all four views - zero deviation from line art\n- Realistic lighting and seamless edge blending\n- No design elements extending beyond line art boundaries"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "task_objective": "Press-on Nail Shape Transformation - Only change press-on nail shape silhouette, preserve pattern design",
+  "input_assets": {
+    "structural_reference": {
+      "source": "Image 1 Line Art",
+      "weight": 0.8,
+      "focus": "Target press-on nail shape silhouette, quantity, position, characters",
+      "role": "Provide geometric shape and structural reference for target press-on nail shape"
+    },
+    "aesthetic_reference": {
+      "source": "Image 2 Press-on Nail Design",
+      "weight": 0.9,
+      "focus": "Complete pattern design, color scheme, texture, shine effects",
+      "role": "Provide pattern design and visual elements to be preserved"
+    },
+    "target_shape": {
+      "description": "[Fill in press-on nail shape: Long Trapezoid/Square/Oval/Stiletto/etc]"
+    }
+  },
+  "workflow": {
+    "role": "Professional Press-on Nail Artist & Technical ControlNet Expert",
+    "steps": {
+      "step_1_structure_locking": "Strictly follow Image 1 line art, ensure complete matching of quantity, position, characters, and press-on nail shape geometric silhouette.",
+      "step_2_pattern_preservation": "Completely extract pattern design, color distribution, texture, and shine highlights from Image 2 press-on nail design",
+      "step_3_shape_mapping": "Precisely map Image 2's pattern design onto Image 1's target press-on nail shape silhouette, maintaining pattern proportion and layout"
+    }
+  },
+  "final_execution": "Generate a four-panel grid layout displaying:\n1. The precise result: High-fidelity press-on nail design, strictly adopt Image 1 press-on nail shape silhouette, completely preserve Image 2 pattern design, [Insert target press-on nail shape], clean light gray background, no text, no fingers, no human elements, no layout shift, no perspective distortion.\n2. Vertical mirror reflection: Upside-down flip of View 1.\n3. On-hand wearing view: Clenched fist angle (showing palm/fingers).\n4. On-hand wearing view: Back of hand angle (dorsal view)."
+}

@@ -1,0 +1,27 @@
+{
+  "task_objective": "Precise Press-on Nail Mapping and Multi-Angle Wear Showcase - Perfectly map Image 2 nails onto Image 1 hand with precise consistency",
+  "input_assets": {
+    "target_hand_reference": {
+      "source": "Image 1 Hand Reference",
+      "weight": 0.85,
+      "focus": "Fingernail positions, exact perspective, natural curvature, hand anatomy, lighting conditions, and background environment",
+      "role": "Provide precise target hand structure for nail mapping and wear effect"
+    },
+    "source_nail_reference": {
+      "source": "Image 2 Press-on Nail Design",
+      "weight": 0.95,
+      "focus": "First row of press-on nails - EXACT preservation of design details, color gradients, artistic elements, pattern integrity, texture depth, shine reflections, and material properties",
+      "role": "Provide source nail designs to be perfectly mapped and maintained with zero deviation"
+    }
+  },
+  "workflow": {
+    "role": "Master Nail Artist & Precision Digital Mapping Specialist",
+    "steps": {
+      "step_1_hand_analysis": "Comprehensive analysis of Image 1: precise fingernail positions, natural curvature, perspective angles, hand anatomy, lighting direction, and shadow patterns.",
+      "step_2_nail_extraction": "Perfect extraction of the first row of press-on nails from Image 2 - capture every detail with pixel-perfect precision: design elements, color transitions, textures, shine, and material characteristics.",
+      "step_3_precision_mapping": "Precision mapping: apply extracted nails onto Image 1's fingernails with perfect alignment, follow natural curvature and perspective, realistic lighting integration, and seamless edge blending - NO design distortion or loss of detail.",
+      "step_4_multi_angle_generation": "Generate four distinct wear views while maintaining absolute nail design consistency across all angles."
+    }
+  },
+  "final_execution": "Generate a four-panel grid layout showcasing the perfectly mapped press-on nails from four distinct angles:\n1. Original Hand Gesture: Strictly maintain Image 1's hand gesture, showing precise mapping with realistic lighting and seamless edge blending.\n2. Back of Hand View (Dorsal Perspective): Natural back of hand view with perfectly mapped nails maintaining full design consistency.\n3. Fist Clench View: Natural clenched fist angle showing the mapped nails from this practical wear perspective.\n4. Finger Pinch View: Fingertips pinching together, showcasing the nails from this detailed close-up angle.\nCRITICAL REQUIREMENTS:\n- Absolute consistency of nail design, colors, patterns, and artistic elements across ALL FOUR views\n- No loss of detail, no design distortion, no color shift in any view\n- Perfect alignment with natural finger curvature and perspective in each view\n- Realistic lighting and shadow integration matching each specific angle\n- Seamless edge blending between nails and fingers in all views"
+}

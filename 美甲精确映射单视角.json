@@ -1,0 +1,25 @@
+{
+  "task_objective": "Precise Press-on Nail Mapping - Perfectly map Image 2 nails onto Image 1 hand with exact hand gesture preservation",
+  "input_assets": {
+    "target_hand_reference": {
+      "source": "Image 1 Hand Reference",
+      "weight": 0.85,
+      "focus": "Fingernail positions, exact perspective, natural curvature, hand anatomy, lighting conditions, and background environment",
+      "role": "Provide precise target hand structure for nail mapping and wear effect"
+    },
+    "source_nail_reference": {
+      "source": "Image 2 Press-on Nail Design",
+      "weight": 0.95,
+      "focus": "First row of press-on nails - EXACT preservation of design details, color gradients, artistic elements, pattern integrity, texture depth, shine reflections, and material properties",
+      "role": "Provide source nail designs to be perfectly mapped and maintained with zero deviation"
+    }
+  },
+  "workflow": {
+    "role": "Master Nail Artist & Precision Digital Mapping Specialist",
+    "steps": {
+      "step_1_hand_analysis": "Comprehensive analysis of Image 1: precise fingernail positions, natural curvature, perspective angles, hand anatomy, lighting direction, and shadow patterns.",
+      "step_2_nail_extraction": "Perfect extraction of the first row of press-on nails from Image 2 - capture every detail with pixel-perfect precision: design elements, color transitions, textures, shine, and material characteristics.",
+      "step_3_precision_mapping_with_generation": "Precision mapping and image generation: apply extracted nails onto Image 1's fingernails with perfect alignment, follow natural curvature and perspective, realistic lighting integration, and seamless edge blending - NO design distortion or loss of detail. Generate a single high-fidelity image showcasing the perfectly mapped press-on nails with strictly maintained original hand gesture from Image 1, no changes to hand position, angle, or anatomy, realistic lighting integration matching Image 1's original lighting conditions, seamless edge blending between nails and fingers, and complete background environment from Image 1. CRITICAL REQUIREMENTS: Absolute preservation of Image 1's hand gesture, perspective, and anatomy; EXACT preservation of Image 2's nail design details, colors, patterns, and artistic elements; Perfect alignment with natural finger curvature and perspective; Realistic lighting and shadow integration matching the original image; Seamless edge blending between nails and fingers; No design distortion, no color shift, no detail loss."
+    }
+  }
+}
