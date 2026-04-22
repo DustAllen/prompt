@@ -1,0 +1,25 @@
+{
+  "task_objective": "High Fashion Photography Reference Sheet Creation",
+  "input_assets": {
+    "character_reference": {
+      "source": "Reference Image 1",
+      "weight": 0.8,
+      "description": "Preserve facial features, hair, skin tone, and body proportions"
+    },
+    "outfit_reference": {
+      "source": "Reference Image 2",
+      "weight": 0.8,
+      "description": "Preserve clothing cut, fabric texture, pattern, and accessories"
+    },
+    "lighting_reference": {
+      "source": "Reference Image 1",
+      "weight": 0.7,
+      "description": "Preserve lighting atmosphere and setting"
+    }
+  },
+  "workflow": {
+    "step_1_character_analysis": "Parse character identity from Reference Image 1 with strict precision, including facial features, hair, skin tone, and body proportions.",
+    "step_2_outfit_analysis": "Extract outfit details, fabric textures, patterns, and accessories from Reference Image 2, to be applied exclusively to the character from Reference Image 1.",
+    "step_3_composite_generation":  "Precisely dress the outfit from Reference Image 2 onto the character from Reference Image 1. The outfit must fit the character's body naturally with seamless edges, no visible artifacts, and physically accurate draping. Configure four distinct viewing angles in a 2x2 grid: Top-Left (0 degrees front view), Top-Right (90 degrees left profile), Bottom-Left (270 degrees right profile), Bottom-Right (180 degrees back view). Each view must clearly reveal the outfit's overall design and fine details (stitching, texture, pattern continuity, accessory placement). Preserve the complete environment from lighting_reference — background, setting, and spatial context remain untouched. Lighting from lighting_reference must interact realistically with the newly dressed outfit, producing coherent shadows, highlights, and fabric reflections. Guarantee consistent character identity and identical clothing details across all views."
+    }
+  }

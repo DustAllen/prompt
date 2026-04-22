@@ -1,0 +1,32 @@
+{
+  "task_objective": "Fashion Inspiration Transfer & Controlled Inpainting",
+  "input_assets": {
+    "structural_reference": {
+      "source": "Figure 1 Line Art",
+      "weight": 0.8,
+      "description": "Preserve exact proportions, silhouette, seam placement, hemline positions, collar shape, sleeve length, garment length"
+    },
+    "aesthetic_reference": {
+      "source": "Figure 2 Inspiration",
+      "weight": 0.7,
+      "description": "Extract aesthetic style, chromatic narrative, patterns, textures"
+    }
+  },
+  "mode_set": {
+    "description": "Consistent model from Figure 2 if present, full body, preserving identity and facial features.",
+    "weight": 0.7
+  },
+  "workflow": {
+    "step_1_structural_analysis": "Parse the garment structure from Figure 1 line art with strict precision, including silhouette, cutting lines, proportional relationships, and pattern details.",
+    "step_2_aesthetic_extraction": "Extract aesthetic style, chromatic narrative, patterns, and textures from Figure 2, to be applied exclusively to the garment structure inpainting from Figure 1.",
+    "step_3_inpainting_generation": {
+      "action": "Apply aesthetic elements to structural blueprint with strict constraints",
+      "detail": "Strictly map the garment structure line art from Figure 1 to the final output, combined with aesthetic elements from Figure 2 to generate fashion design prompts. The Figure 1 line art is the absolute structural blueprint — replicate its exact proportions, silhouette, seam placement, hemline positions, collar shape, sleeve length, and garment length with zero deviation. Only surface aesthetics (color, pattern, texture, fabric) may change. Guarantee no layout shift, no perspective warping, and fully consistent proportions.",
+      "constraints": {
+        "prefix": "No text, Straight-on front view, high fashion photography. The Figure 1 line art is the absolute structural blueprint — replicate its exact proportions, silhouette, seam placement, hemline positions, collar shape, sleeve length, and garment length with zero deviation. Only surface aesthetics (color, pattern, texture, fabric) may change. Guarantee no layout shift, no perspective warping, and fully consistent proportions. Consistent with “mode_set”.",
+        "limit": "4 distinct prompts, <100 words each."
+      }
+    }
+  },
+  "final_execution": "Generate 4 high-fidelity images based on the 4 prompts and present them in a 2x2 Four-panel Grid."
+}
