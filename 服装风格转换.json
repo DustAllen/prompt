@@ -4,22 +4,38 @@
     "base_reference": {
       "source": "Figure 1 Person with Outfit",
       "weight": 0.9,
-      "description": "High-precision preservation of person's identity(if present), facial features, body proportions, complete outfit structural framework, background elements, and lighting effects"
+      "description": "High-precision preservation of person's identity (if present), facial features, body proportions, complete outfit structural framework, background elements, and lighting effects"
     },
     "style_reference": {
       "source": "Figure 2 Aesthetic Style",
       "weight": 0.75,
       "description": "Extract aesthetic elements including color palette, pattern texture, fabric style, and overall design tone, applied exclusively to garment design"
     },
-    "structural_preservation": {
-      "description": "Design strictly following Figure 1's original garment structure, preserve all structural characteristics without deviation",
-      "constraint": "No changes to original garment structure features including seam placement, hemline positioning, collar styling, sleeve length, and overall silhouette"
+    "design_parameters": {
+      "design_mode": {
+        "description": "Design strictly following Figure 1's original garment structure, preserve all structural characteristics without deviation",
+        "constraint": "No changes to original garment structure features including seam placement, hemline positioning, collar styling, sleeve length, and overall silhouette"
+      }
+    }
+  },
+  "processing_rules": {
+    "model_handling": {
+      "with_model": "Maintain complete model consistency, identity features, facial details, body proportions, and pose from Figure 1 unchanged",
+      "without_model": "Maintain model-less design style, focus on garment presentation only"
     },
+    "background_lighting": {
+      "source": "Figure 1 exclusively",
+      "description": "Background elements and lighting effects must be completely preserved from Figure 1, no modifications allowed"
+    },
+    "aesthetic_application": {
+      "scope": "Garment design only",
+      "description": "Aesthetic style from Figure 2 applies exclusively to clothing design in Figure 1, other elements remain untouched"
+    }
   },
-
   "workflow": {
-    "step_1_base_analysis": "Parse elements from Figure 1 with strict precision: detect presence of model, extract person's identity features (if present), facial details, body proportions,pose, complete outfit structural framework, background elements, and lighting setup.",
+    "step_1_base_analysis": "Parse elements from Figure 1 with strict precision: detect presence of model, extract person's identity features (if present), facial details, body proportions, pose, complete outfit structural framework, background elements, and lighting setup.",
     "step_2_style_extraction": "Extract color palette, pattern texture, fabric style, and overall design elements from Figure 2, to be applied exclusively to the garment in Figure 1.",
-    "step_3_composite_generation": "Professional fashion photography, no text, high-definition details. Apply aesthetic elements from Figure 2 onto the garment in Figure 1 according to structural_preservation parameter. structural_preservation: strictly follow original garment structure from Figure 1, preserve all structural features without deviation, including seam placement, hemline positioning, collar styling, sleeve length, and overall silhouette. The aesthetic application must fit naturally with the garment structure with seamless integration, no visible artifacts, and physically accurate fabric draping. Background and lighting from Figure 1 remain completely untouched. Configure four distinct design variations in a 2x2 grid, Each variation must clearly reveal the garment's overall design and fine details (fabric texture, pattern continuity, seam placement)."
+    "step_3_composite_generation": "Professional fashion photography, no text, high-definition details. Apply aesthetic elements from Figure 2 onto the garment in Figure 1 according to design_parameters.design_mode. The aesthetic application must fit naturally with the garment structure with seamless integration, no visible artifacts, and physically accurate fabric draping. Background and lighting from Figure 1 remain completely untouched. Configure four distinct design variations in a 2x2 grid, Each variation must clearly reveal the garment's overall design and fine details (fabric texture, pattern continuity, seam placement)."
   },
+  "final_execution": "Generate 4 high-quality fashion style transfer images based on the 4 design variations and present them in a 2x2 Four-panel Grid."
 }
