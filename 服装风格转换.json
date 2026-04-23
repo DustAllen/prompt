@@ -4,18 +4,42 @@
     "base_reference": {
       "source": "Figure 1 Person with Outfit",
       "weight": 0.9,
-      "description": "High-precision preservation of person's identity, facial features, body proportions, and complete outfit structural framework"
+      "description": "High-precision preservation of person's identity, facial features, body proportions, complete outfit structural framework, background elements, and lighting effects"
     },
     "style_reference": {
       "source": "Figure 2 Aesthetic Style",
       "weight": 0.75,
-      "description": "Extract aesthetic elements including color palette, pattern texture, fabric style, and overall design tone"
+      "description": "Extract aesthetic elements including color palette, pattern texture, fabric style, and overall design tone, applied exclusively to garment design"
+    }
+  },
+  "processing_rules": {
+    "model_handling": {
+      "with_model": "Maintain complete model consistency, identity features, facial details, body proportions, and pose from Figure 1 unchanged",
+      "without_model": "Maintain model-less design style, focus on garment presentation only"
+    },
+    "background_lighting": {
+      "source": "Figure 1 exclusively",
+      "description": "Background elements and lighting effects must be completely preserved from Figure 1, no modifications allowed"
+    },
+    "aesthetic_application": {
+      "scope": "Garment design only",
+      "description": "Aesthetic style from Figure 2 applies exclusively to clothing design in Figure 1, other elements remain untouched"
+    }
+  },
+  "function_modes": {
+    "mode_1_structural_preservation": {
+      "description": "Design strictly following Figure 1's original garment structure, preserve all structural characteristics without deviation",
+      "constraint": "No changes to original garment structure features including seam placement, hemline positioning, collar styling, sleeve length, and overall silhouette"
+    },
+    "mode_2_creative_design": {
+      "description": "Creative redesign based on Figure 1's garment structure, develop new design solutions while maintaining structural foundation",
+      "constraint": "Maintain basic structural framework from Figure 1 while introducing creative variations in aesthetics, pattern, and detail treatments"
     }
   },
   "workflow": {
-    "step_1_base_analysis": "Parse elements from Figure 1 with strict precision, including person's identity features, facial details, body proportions, and complete outfit structural framework.",
-    "step_2_style_extraction": "Extract color palette, pattern texture, fabric style, and overall design elements from Figure 2, to be applied exclusively to the outfit in Figure 1.",
-    "step_3_composite_generation": "Professional fashion photography, no text, front standard view, high-definition details. Precisely apply the aesthetic elements from Figure 2 onto the outfit in Figure 1. The style transfer must fit naturally with the outfit structure with seamless integration, no visible artifacts, and physically accurate fabric draping. Configure four distinct design variations in a 2x2 grid: Top-Left (Classic Elegance), Top-Right (Modern Minimalist), Bottom-Left (Bold Pattern), Bottom-Right (Contemporary Edge). Each variation must clearly reveal the outfit's overall design and fine details (fabric texture, pattern continuity, seam placement). Preserve the complete person's identity and body proportions from Figure 1 — person's features and non-outfit elements remain untouched. Guarantee consistent person identity and identical body proportions across all variations."
+    "step_1_base_analysis": "Parse elements from Figure 1 with strict precision: detect presence of model, extract person's identity features (if present), facial details, body proportions, complete outfit structural framework, background elements, and lighting setup.",
+    "step_2_style_extraction": "Extract color palette, pattern texture, fabric style, and overall design elements from Figure 2, to be applied exclusively to the garment in Figure 1.",
+    "step_3_composite_generation": "Professional fashion photography, no text, front standard view, high-definition details. Precisely apply the aesthetic elements from Figure 2 onto the garment in Figure 1. The aesthetic application must fit naturally with the garment structure with seamless integration, no visible artifacts, and physically accurate fabric draping. Background and lighting from Figure 1 remain completely untouched. Configure four distinct design variations in a 2x2 grid: Top-Left (Classic Elegance), Top-Right (Modern Minimalist), Bottom-Left (Bold Pattern), Bottom-Right (Contemporary Edge). Each variation must clearly reveal the garment's overall design and fine details (fabric texture, pattern continuity, seam placement). When model is present in Figure 1, maintain consistent identity features and body proportions across all variations. When model is absent, maintain model-less presentation style."
   },
   "final_execution": "Generate 4 high-quality fashion style transfer images based on the 4 design variations and present them in a 2x2 Four-panel Grid."
 }
