@@ -1,0 +1,21 @@
+{
+  "task_objective": "Professional Fashion Style Transfer & High-Precision Image Editing",
+  "input_assets": {
+    "base_reference": {
+      "source": "Figure 1 Person with Outfit",
+      "weight": 0.9,
+      "description": "High-precision preservation of person's identity, facial features, body proportions, and complete outfit structural framework"
+    },
+    "style_reference": {
+      "source": "Figure 2 Aesthetic Style",
+      "weight": 0.75,
+      "description": "Extract aesthetic elements including color palette, pattern texture, fabric style, and overall design tone"
+    }
+  },
+  "workflow": {
+    "step_1_base_analysis": "Parse elements from Figure 1 with strict precision, including person's identity features, facial details, body proportions, and complete outfit structural framework.",
+    "step_2_style_extraction": "Extract color palette, pattern texture, fabric style, and overall design elements from Figure 2, to be applied exclusively to the outfit in Figure 1.",
+    "step_3_composite_generation": "Professional fashion photography, no text, front standard view, high-definition details. Precisely apply the aesthetic elements from Figure 2 onto the outfit in Figure 1. The style transfer must fit naturally with the outfit structure with seamless integration, no visible artifacts, and physically accurate fabric draping. Configure four distinct design variations in a 2x2 grid: Top-Left (Classic Elegance), Top-Right (Modern Minimalist), Bottom-Left (Bold Pattern), Bottom-Right (Contemporary Edge). Each variation must clearly reveal the outfit's overall design and fine details (fabric texture, pattern continuity, seam placement). Preserve the complete person's identity and body proportions from Figure 1 — person's features and non-outfit elements remain untouched. Guarantee consistent person identity and identical body proportions across all variations."
+  },
+  "final_execution": "Generate 4 high-quality fashion style transfer images based on the 4 design variations and present them in a 2x2 Four-panel Grid."
+}
