@@ -10,21 +10,16 @@
       "source": "Figure 2 Aesthetic Style",
       "weight": 0.75,
       "description": "Extract aesthetic elements including color palette, pattern texture, fabric style, and overall design tone, applied exclusively to garment design"
-    }
-  },
-  "function_modes": {
-    "mode_1_structural_preservation": {
+    },
+    "structural_preservation": {
       "description": "Design strictly following Figure 1's original garment structure, preserve all structural characteristics without deviation",
       "constraint": "No changes to original garment structure features including seam placement, hemline positioning, collar styling, sleeve length, and overall silhouette"
     },
-    "mode_2_creative_design": {
-      "description": "Creative redesign based on Figure 1's garment structure, develop new design solutions while maintaining structural foundation",
-      "constraint": "Maintain basic structural framework from Figure 1 while introducing creative variations in aesthetics, pattern, and detail treatments"
-    }
   },
+
   "workflow": {
     "step_1_base_analysis": "Parse elements from Figure 1 with strict precision: detect presence of model, extract person's identity features (if present), facial details, body proportions,pose, complete outfit structural framework, background elements, and lighting setup.",
     "step_2_style_extraction": "Extract color palette, pattern texture, fabric style, and overall design elements from Figure 2, to be applied exclusively to the garment in Figure 1.",
-    "step_3_composite_generation": "Professional fashion photography, no text, high-definition details. Apply aesthetic elements from Figure 2 onto the garment in Figure 1 according to selected function mode. Mode 1 (Structural Preservation): strictly follow original garment structure from Figure 1, preserve all structural features without deviation. Mode 2 (Creative Design): maintain basic structural framework from Figure 1 while introducing creative variations in aesthetics and details. The aesthetic application must fit naturally with the garment structure with seamless integration, no visible artifacts, and physically accurate fabric draping. Background and lighting from Figure 1 remain completely untouched. Configure four distinct design variations in a 2x2 grid, Each variation must clearly reveal the garment's overall design and fine details (fabric texture, pattern continuity, seam placement)."
+    "step_3_composite_generation": "Professional fashion photography, no text, high-definition details. Apply aesthetic elements from Figure 2 onto the garment in Figure 1 according to structural_preservation parameter. structural_preservation: strictly follow original garment structure from Figure 1, preserve all structural features without deviation, including seam placement, hemline positioning, collar styling, sleeve length, and overall silhouette. The aesthetic application must fit naturally with the garment structure with seamless integration, no visible artifacts, and physically accurate fabric draping. Background and lighting from Figure 1 remain completely untouched. Configure four distinct design variations in a 2x2 grid, Each variation must clearly reveal the garment's overall design and fine details (fabric texture, pattern continuity, seam placement)."
   },
 }
