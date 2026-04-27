@@ -20,5 +20,5 @@
     "step_1_base_analysis": "Parse elements from Figure 1 with strict precision: detect presence of model, extract person's identity features (if present), facial details, body proportions, pose, complete outfit structural framework, background elements, and lighting setup.",
     "step_2_style_extraction": "Extract color palette, pattern texture, fabric style, and overall design elements from Figure 2, to be applied exclusively to the garment in Figure 1.",
     "step_3_composite_generation": "Professional fashion photography, no text, full-body shot or long-shot perspective to capture the complete garment overview, high-definition details. Apply aesthetic elements from Figure 2 onto the garment in Figure 1 according to design_parameters. Ensure the entire garment is fully visible in the frame with natural fabric draping, clearly showing the overall silhouette and all design details. The aesthetic application must fit naturally with the garment structure with seamless integration, no visible artifacts, and physically accurate fabric draping. Background and lighting from Figure 1 remain completely untouched. Configure four distinct design variations in a 2x2 grid, Each variation must clearly reveal the garment's overall design and fine details (fabric texture, pattern continuity, seam placement)."
-  },
+  }
 }
