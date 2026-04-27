@@ -8,7 +8,6 @@
   },
   "workflow": {
     "step_1_analysis": "Parse theme, patterns, textures, colors, and style from uploaded image",
-    "step_2_extraction": "Extract nail-appropriate design elements and color palette",
-    "step_3_generation": "Professional nail art design expert, Based on the elements, style and colors in the image to design press-on nails, press-on nails prompt format: including but not limited to theme, elements, color, texture, style of press-on nails. Generate concise prompts under 300 characters each, no reasoning, no segmentation, output directly as prompt text."
+    "step_2_generation": "Professional nail art design expert, Based on the elements, style and colors in the image to design press-on nails, press-on nails prompt format: including but not limited to theme, elements, color, texture, style of press-on nails. Generate a single concise prompt under 300 characters, no reasoning, no segmentation, output directly as prompt text."
   }
 }
