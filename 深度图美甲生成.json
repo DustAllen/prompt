@@ -1,0 +1,25 @@
+{
+  "task_objective": "Nail Art Generation Based on Depth Map",
+  "input_assets": {
+    "depth_map_reference": {
+      "source": "Figure 1 Depth Map",
+      "weight": 0.9,
+      "description": "Preserve nail shape, curvature, and three-dimensional structure from depth map"
+    },
+    "aesthetic_reference": {
+      "source": "Figure 2 Inspiration",
+      "weight": 0.8,
+      "description": "Extract style, patterns, colors, and decorative elements for nail art design"
+    },
+    "style_choices": {
+      "source": "Style Selection",
+      "weight": 0.7,
+      "description": "Apply selected nail art style including color scheme, pattern type, and decorative elements"
+    }
+  },
+  "workflow": {
+    "step_1_depth_analysis": "Parse depth map elements with strict precision, including nail shape, curvature, three-dimensional structure, and surface topology.",
+    "step_2_aesthetic_extraction": "Extract style, color palette, patterns, and decorative elements from Figure 2, to be applied exclusively to the nail surface defined by the depth map.",
+    "step_3_composite_generation": "No text, Straight-on front view, macro nail photography, Precisely apply the aesthetic elements and style choices onto the nail surface defined by the depth map. The nail art must fit naturally with the nail's three-dimensional structure with seamless integration, no visible artifacts, and physically accurate material properties. Configure four distinct design variations in a 2x2 grid, Each variation must clearly reveal the nail art's overall design and fine details (color application, pattern continuity, decorative element placement). Preserve the complete structural integrity from the depth map — nail shape and curvature remain untouched. Style choices must be applied consistently across all variations, ensuring coherent visual presentation."
+  }
+}

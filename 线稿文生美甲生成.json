@@ -1,0 +1,15 @@
+{
+  "task_objective": "Text-to-Nail Art Generation with Line Art",
+  "input_assets": {
+    "line_art_reference": {
+      "source": "Figure 1 Nail Line Art",
+      "weight": 0.9,
+      "description": "Preserve nail shape, outline, and structural framework from line art"
+    },
+    "press_on_nail_prompt": "Insert your prompt here"
+  },
+  "workflow": {
+    "step_1_line_art_analysis": "Parse line art elements with strict precision, including nail shape, outline, structural framework, and edge details.",
+    "step_2_composite_generation": "No text, Straight-on front view, macro nail photography, Precisely apply the design elements from the text prompt onto the nail surface defined by the line art. The nail art must fit naturally within the line art framework with seamless integration, no visible artifacts, and physically accurate material properties. Configure four distinct design variations in a 2x2 grid, Each variation must clearly reveal the nail art's overall design and fine details (color application, pattern continuity, decorative element placement). Preserve the complete structural integrity from the line art — nail shape and outline remain untouched."
+  }
+}

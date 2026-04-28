@@ -1,0 +1,24 @@
+{
+  "task_objective": "Press-On Nail Shape Transformation - Change nail shape outline while preserving pattern design",
+  "input_assets": {
+    "structural_reference": {
+      "source": "Figure 1 Target Nail Shape Line Art",
+      "weight": 0.8,
+      "description": "Preserve target press-on nail shape outline, quantity, position, and geometric structure"
+    },
+    "aesthetic_reference": {
+      "source": "Figure 2 Press-On Nail Design",
+      "weight": 0.9,
+      "description": "Extract complete pattern design, color scheme, texture, and glossy effects to be preserved"
+    },
+    "target_shape": {
+      "source": "Stiletto"
+    }
+  },
+  "workflow": {
+    "step_1_structural_analysis": "Parse structural elements from Figure 1 with strict precision, including nail shape outline, quantity, position, and geometric dimensions.",
+    "step_2_aesthetic_extraction": "Extract complete pattern design, color distribution, texture, and glossy highlights from Figure 2, to be applied exclusively onto the nail shape defined by Figure 1.",
+    "step_3_composite_generation": "No text, Straight-on front view, macro nail photography, clean light grey background. Precisely map the pattern design from Figure 2 onto the nail shape outline defined by Figure 1. The pattern must fit naturally within the new shape with seamless integration, no visible artifacts, and physically accurate material properties. Preserve the complete structural integrity from Figure 1 — nail shape, quantity, and position remain untouched. Pattern design from Figure 2 must maintain consistent proportions and layout across the transformed shape. No fingers, no human elements, no layout shift, no perspective distortion."
+  },
+  "final_execution": "Generate 1 high-fidelity press-on nail design image, strictly following Figure 1's shape outline, completely preserving Figure 2's pattern design, Stiletto shape, clean light grey background, no fingers, no text, no human elements, no layout shift, no perspective distortion."
+}

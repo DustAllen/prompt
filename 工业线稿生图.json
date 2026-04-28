@@ -1,0 +1,24 @@
+{
+  "task_objective": "Industrial Product Pattern Generation & Relief Art Processing",
+  "input_assets": {
+    "structural_reference": {
+      "source": "Figure 1 Industrial Line Art",
+      "weight": 0.9,
+      "description": "Preserve outer frame boundary and central rectangular area structure"
+    },
+    "aesthetic_reference": {
+      "source": "Figure 2 Inspiration",
+      "weight": 0.8,
+      "description": "Extract style, patterns, textures, and chromatic elements for relief design"
+    },
+    "material_reference": {
+      "source": "Aged Brass Material Specs",
+      "weight": 0.6,
+      "description": "Preserve aged brass characteristics with matte finish and polished relief details"
+    }
+  },  "workflow": {
+    "step_1_structural_analysis": "Parse structural elements from Figure 1 with strict precision, including outer frame boundary and central rectangular area dimensions.",
+    "step_2_aesthetic_extraction": "Extract style, chromatic narrative, patterns, and textures from Figure 2, to be applied exclusively within the central rectangular area of Figure 1.",
+    "step_3_composite_generation": "No text, Straight-on front view, macro product photography，Precisely apply the aesthetic elements from Figure 2 onto the central rectangular area of Figure 1. The relief pattern must fit naturally within the canvas with seamless integration, no visible artifacts, and physically accurate material properties. Configure four distinct design variations in a 2x2 grid，Each variation must clearly reveal the relief's overall design and fine details (texture, pattern continuity, engraving precision). Preserve the complete structural integrity from Figure 1 — outer frame structure remains untouched. Material properties from material_reference must interact realistically with the relief pattern, producing coherent light reflections and surface textures. Guarantee consistent structural framework and identical material characteristics across all variations.soft grey background."
+  }
+}
