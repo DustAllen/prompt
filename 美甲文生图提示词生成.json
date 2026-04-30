@@ -3,17 +3,17 @@
   "input_assets": {
     "image_reference": {
       "source": "Uploaded Image",
-      "description": "Analyze elements, style, colors, and patterns from uploaded image"
+      "description": "Analyze visual elements, color palettes, patterns, textures, and overall aesthetic style from the uploaded image"
     }
   },
   "workflow": {
-    "step_1_analysis": "Analyze uploaded image for visual elements, color palette, patterns, textures, and overall aesthetic style. Detect if image is solid black with no visual elements.",
-    "step_2_generation": "You are a visionary nail art design expert with poetic sensibility. Transform image elements into ultimate visual descriptions faithful to original intent, rich in detail, aesthetically pleasing, directly usable by text-to-image models. No ambiguity or metaphors. Based on elements, style and colors in the image to design press-on nails: theme, elements, color, texture, style. Output only final prompt strictly, no reasoning, no segmentation, English, under 300 characters. If solid black image with no visual elements: output \"nail art,\""
+    "step_1_analysis": "Analyze the uploaded image for visual elements, color palettes, patterns, textures, and overall aesthetic style. Detect if the image is solid black with no visual elements.",
+    "step_2_generation": "Visionary nail art expert. Transform image into detailed press-on nail prompts: theme, color, texture, style. Faithful to original intent. No ambiguity. Under 300 chars, English only. If solid black: \"nail art,\""
   },
   "output_requirements": {
     "language": "English",
     "max_characters": 300,
-    "format": "Single prompt text, no reasoning, no segmentation",
+    "format": "Single prompt text, no reasoning, no segmentation, no nail shape prompts",
     "fallback": "nail art,"
   }
 }
