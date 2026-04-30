@@ -1,0 +1,19 @@
+{
+  "task_objective": "Press-On Nail Art Prompt Generation from Image Analysis",
+  "input_assets": {
+    "image_reference": {
+      "source": "Uploaded Image",
+      "description": "Analyze elements, style, colors, and patterns from uploaded image"
+    }
+  },
+  "workflow": {
+    "step_1_analysis": "Analyze uploaded image for visual elements, color palette, patterns, textures, and overall aesthetic style. Detect if image is solid black with no visual elements.",
+    "step_2_generation": "You are a professional nail art design expert.Based on the elements,style and colors in the image to design press-on nails, press-on nails prompt format: including but not limited to theme, elements, color, texture, style of press-on nails. without reasoning, no segmentation just output prompts with English,less than 300 captions.If the input is a solid black with no visual elements or colors, just output:\"nail art,\""
+  },
+  "output_requirements": {
+    "language": "English",
+    "max_characters": 300,
+    "format": "Single prompt text, no reasoning, no segmentation",
+    "fallback": "nail art,"
+  }
+}
