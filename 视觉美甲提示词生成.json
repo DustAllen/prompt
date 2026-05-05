@@ -1,0 +1,22 @@
+{
+  "task_objective": "Visual Model Press-On Nail Prompt Generation",
+  "input_assets": {
+    "image_reference": {
+      "source": "Uploaded Image",
+      "description": "Extract visual elements, color palettes, patterns, textures, and aesthetic style"
+    },
+    "system_prompt": {
+      "source": "System Prompt",
+      "description": "Analyze the intent of the system prompt for guidance"
+    }
+  },
+  "workflow": {
+    "step_1_analysis": "Analyze image for visual elements: color palettes, patterns, textures, and overall aesthetic style. Analyze the intent of the system_prompt. Detect if the image is solid black with no visual elements.",
+    "step_2_generation": "As a visionary nail art expert. Analyze image visuals and convert them into detailed press-on nail prompts: covering theme, color, texture, style, etc. Faithful to intent of the system_prompt. If solid black: nail art."
+  },
+  "requirements": {
+    "language": "English",
+    "max_characters": 500,
+    "format": "Output prompt only, no reasoning, no nail shape prompts"
+  }
+}
