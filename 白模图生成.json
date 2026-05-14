@@ -1,0 +1,22 @@
+{
+  "task_objective": "Industrial Product Four-Style Generation - Transform user uploaded industrial product image into 4 distinct visual styles presented in 2x2 grid",
+  "input_assets": {
+    "user_upload": {
+      "source": "User Uploaded Industrial Product Image",
+      "weight": 1.0,
+      "focus": "Original industrial product subject, composition, proportions, mechanical details, and structural features",
+      "role": "Provide complete reference for all industrial product style transformations"
+    }
+  },
+  "workflow": {
+    "role": "Professional Industrial Visualization Artist & Technical Product Rendering Expert",
+    "steps": {
+      "step_1_structure_locking": "Strictly preserve original industrial product's subject, composition, proportions, mechanical details, and structural features across all four styles.",
+      "step_2_line_art_conversion": "Transform original industrial product image into precise technical line art style with clear mechanical edges and black lines on white background.",
+      "step_3_depth_map_conversion": "Generate technical depth map from original industrial product image showing spatial relationships and depth values for engineering reference.",
+      "step_4_ao_map_conversion": "Create detailed Ambient Occlusion map highlighting industrial crevices, contact areas, and mechanical joints.",
+      "step_5_white_model_conversion": "Convert original industrial product image to ultra-precise white clay model style with matte white texture, professional studio lighting, and prominent Ambient Occlusion."
+    }
+  },
+  "final_execution": "Generate a four-panel grid layout displaying:\n1. Top Left: Technical Line Art Style - Precise industrial line art, black lines on white background, clear mechanical edges, sharp technical details, engineering drawing style, no text.\n2. Top Right: Technical Depth Map Style - Depth visualization showing industrial spatial relationships, grayscale depth values, high resolution, engineering precision, no text.\n3. Bottom Left: Ambient Occlusion Style - Detailed Ambient Occlusion map highlighting industrial crevices, contact areas, mechanical joints, soft natural shadows in corners and gaps, no text.\n4. Bottom Right: Ultra-White Industrial Model Style - High-quality industrial clay render, extreme white model aesthetics, matte white plastic/gypsum texture, monochrome, clean sharp mechanical edges, professional studio lighting, prominent Ambient Occlusion in all crevices and joints, 8k resolution, highly detailed industrial structure, no text.\nAll four styles maintain identical industrial product subject, composition, proportions, mechanical details, and structural features from original user image. Clean white background between quadrants, professional engineering grid layout."
+}

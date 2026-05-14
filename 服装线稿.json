@@ -1,5 +1,5 @@
 {
-  "task_objective": "Professional Fashion Inspiration Transfer & High-Precision Image Editing",
+  "task_objective": "Professional Fashion Inspiration Transfer & High-Precision Garment Design Editing",
   "input_assets": {
     "structural_reference": {
       "source": "Figure 1 Line Art",
@@ -13,12 +13,20 @@
     },
     "model_reference": {
       "weight": 0.7,
-      "description": "Figure 2 Maintain model consistency(if present), full-body presentation, precise preservation of identity features and facial details"
+      "description": "Figure 2 provides model references for garment-wearing presentation - full-body model consistency, precise preservation of identity features, facial details, body proportions, and natural garment-body interaction such as fabric draping and fit"
     }
   },
   "workflow": {
-    "step_1_structural_analysis": "Parse structural elements from Figure 1 with strict precision, including garment silhouette lines, cutting structure, proportional relationships, seam positions, and detail features.",
-    "step_2_aesthetic_extraction": "Extract color palette, pattern texture, and overall style elements from Figure 2, to be applied exclusively to the garment structure from Figure 1.",
-    "step_3_composite_generation": "Professional fashion photography, no text, front standard view, high-definition details. Precisely apply the aesthetic elements from Figure 2 onto the garment structure from Figure 1. The aesthetic elements must fit naturally with the garment structure with seamless integration, no visible artifacts, and physically accurate fabric draping. Configure four distinct design variations in a 2x2 grid， Each variation must clearly reveal the garment's overall design and fine details (fabric texture, pattern continuity, seam placement). Preserve the complete structural integrity from Figure 1 — garment proportions and silhouette remain untouched. Model parameters from model_reference must maintain consistent identity features and facial details across all variations. Guarantee consistent structural framework and identical model characteristics across all variations."
+    "step_1_structural_analysis": "Parse structural elements from Figure 1 with strict precision, including garment silhouette lines, cutting structure, proportional relationships, seam positions, collar construction, sleeve design, and detail features.",
+    "step_2_aesthetic_extraction": "Extract color palette, pattern texture, fabric characteristics, and overall style elements from Figure 2, to be applied exclusively to the garment structure from Figure 1.",
+    "step_3_composite_generation": "Generate the garment design by precisely applying aesthetic elements from Figure 2 onto the garment structure from Figure 1. Ensure seamless integration with no visible artifacts, physically accurate fabric draping, and natural aesthetic fit. Preserve complete structural integrity from Figure 1 while incorporating color system, pattern texture, and style elements from Figure 2."
+  },
+  "FINAL_OUTPUT": {
+    "description": "Professional fashion photography composite presentation in 2x2 grid layout",
+    "grid_1": "Garment alone without model, flat lay or mannequin presentation, clean background, showcasing complete garment structure, silhouette, and aesthetic details",
+    "grid_2": "Front full-body view (using model_reference parameters) - model wearing the garment, emphasizing overall garment fit, silhouette, collar styling, and complete front presentation",
+    "grid_3": "Tilted detail close-up (using model_reference parameters) - slightly angled diagonal perspective focusing on key garment details such as collar construction, button or closure area, fabric texture, and stitching craftsmanship",
+    "grid_4": "Back view (using model_reference parameters) - presenting the back design of the garment, including back seam details, hemline, and overall rear silhouette when worn",
+    "consistency_requirements": "Preserve the complete structural integrity from Figure 1 — garment proportions and silhouette remain untouched across all variations. When model_reference parameters are applied, maintain consistent identity features, facial details, body proportions, and natural garment-body interaction across all variations. Guarantee consistent structural framework and identical garment characteristics across all four grid variations."
   }
 }
