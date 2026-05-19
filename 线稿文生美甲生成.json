@@ -1,15 +1,15 @@
 {
-  "task_objective": "Text-to-Nail Art Generation with Line Art",
+  "task_objective": "High-Fidelity Line Art to Nail Art Generation",
   "input_assets": {
     "line_art_reference": {
       "source": "Figure 1 Nail Line Art",
-      "weight": 0.9,
-      "description": "Preserve nail shape, outline, and structural framework from line art"
+      "weight": 0.9
     },
-    "press_on_nail_prompt": "Insert your prompt here"
+    "press_on_nail_prompt": "Insert your 4 distinct prompts here"
   },
   "workflow": {
-    "step_1_line_art_analysis": "Parse line art elements with strict precision, including nail shape, outline, structural framework, and edge details.",
-    "step_2_composite_generation": "No text, Straight-on front view, macro nail photography. Apply design elements from press_on_nail_prompt (4 distinct prompts) onto the nail surface defined by the line art. Generate 4 unique nail art designs based on the 4 prompts, each in a 2x2 grid. Each design must fit naturally within the line art framework with seamless integration, no visible artifacts, and physically accurate material properties. Reveal nail art's overall design and fine details (color application, pattern continuity, decorative element placement). Preserve the complete structural integrity from the line art — nail shape and outline remain untouched."
-  }
+    "step_1_structure_locking": "Strictly follow Figure 1 line_art_referencte matching of quantity, position, characters, and press-on nail shape geometric silhouette.",
+    "step_2_composite_generation": "Artistically interpret each of the 4 distinct prompts to extract sophisticated aesthetic elements: chromatic palettes, tactile textures, intricate patterns, and ornamental embellishments. Compose a singular 2x2 grid tableau where each quadrant showcases an exclusive nail art composition. Apply each prompt's aesthetic vocabulary strictly within the confines of the immutable line art silhouette from Figure 1. Preserve pristine conformity with the original nail morphology, ensuring design elements adhere exquisitely to the contours. Synthesize volumetric features with harmonious illumination and perspectival coherence. Background: Soft grey."
+  },
+  "negative_prompt": "deformed nail shape, changing outline, extra fingers, messy lines, distorted patterns, low resolution, blurry, mismatched perspective, text, watermark."
 }
