@@ -1,0 +1,135 @@
+{
+  "template_metadata": {
+    "template_id": "character_design_sheet",
+    "reference_layout_style": "Layout_Character_Sheet",
+    "design_language": "Realistic Portrait / Professional Character Design"
+  },
+  "data_source": {
+    "character_reference": {
+      "image_index": 1,
+      "description": "人物肖像参考图"
+    }
+  },
+  "character_info": {
+    "input_type": "single_line_input",
+    "display_label": "角色信息（姓名,年龄,身份,性格）",
+    "placeholder": "姓名,年龄,身份,性格",
+    "default_value": "沈青辞,19岁,侯爵嫡女,温婉端雅，敏感沉静，精通诗词。"
+  },
+  "layout_config": {
+    "left_panel": {
+      "width_percent": 35,
+      "height_percent": 100
+    },
+    "center_panel": {
+      "width_percent": 50
+    },
+    "right_panel": {
+      "width_percent": 15
+    }
+  },
+  "sections": [
+    {
+      "section_id": "left_portrait",
+      "position": "left_panel",
+      "components": [
+        {
+          "output_role": "main_portrait",
+          "display_label": "人物肖像",
+          "ai_prompt": "一张清晰、风格统一的上半身肖像画，呈现头部、肩部及服饰。角色必须正面朝前，表情严格中立、无任何情绪。真人画风，保持与参考图一致的美术风格、光影效果、角色外观。",
+          "input_mapping": {
+            "source_image_index": 1
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "center_top",
+      "position": "center_top",
+      "section_title": "四视图",
+      "components": [
+        {
+          "output_role": "front_view",
+          "display_label": "正面",
+          "ai_prompt": "全身正交正面视图，真人画风，保持与参考图一致的美术风格、光影效果、角色外观、服饰细节。"
+        },
+        {
+          "output_role": "fortyfive_view",
+          "display_label": "45°视图",
+          "ai_prompt": "全身45°角视图，真人画风，保持与参考图一致的美术风格、光影效果、角色外观、服饰细节。"
+        },
+        {
+          "output_role": "side_view",
+          "display_label": "90°侧视图",
+          "ai_prompt": "全身90°侧视图，真人画风，保持与参考图一致的美术风格、光影效果、角色外观、服饰细节。"
+        },
+        {
+          "output_role": "back_view",
+          "display_label": "背视图",
+          "ai_prompt": "全身背视图，真人画风，保持与参考图一致的美术风格、光影效果、角色外观、服饰细节。"
+        },
+        {
+          "output_role": "height_scale",
+          "display_label": "身高标尺",
+          "ai_prompt": "紧邻背视图右侧设置一根垂直身高标尺，从角色头顶绘制一条水平指示线，指向标尺上对应的身高数值，标注精确身高（160-170cm之间，根据人设调整）。标尺清晰可读，刻度标注明确。"
+        }
+      ]
+    },
+    {
+      "section_id": "center_bottom",
+      "position": "center_bottom",
+      "components": [
+        {
+          "section_title": "面部表情特写图",
+          "layout": "3x2_grid",
+          "output_role": "facial_expressions",
+          "display_label": "表情特写",
+          "ai_prompt": "展示角色的6种不同面部表情（平静、微笑、忧思、惊讶、羞涩、坚定），真人画风，保持与参考图一致的美术风格、光影效果、角色外观。"
+        },
+        {
+          "section_title": "配件分解图",
+          "layout": "detail_grid",
+          "output_role": "accessory_details",
+          "display_label": "配件细节",
+          "ai_prompt": "展示装备或材质的细节特写，真人画风，保持与参考图一致的美术风格、光影效果、角色外观。包含发饰、服饰纹样、布料材质、配件等细节。"
+        }
+      ]
+    },
+    {
+      "section_id": "right_info",
+      "position": "right_panel",
+      "components": [
+        {
+          "output_role": "character_name",
+          "display_label": "姓名",
+          "content": "{{character_info[0]}}"
+        },
+        {
+          "output_role": "character_age",
+          "display_label": "年龄",
+          "content": "{{character_info[1]}}"
+        },
+        {
+          "output_role": "character_identity",
+          "display_label": "身份",
+          "content": "{{character_info[2]}}"
+        },
+        {
+          "output_role": "character_personality",
+          "display_label": "性格",
+          "content": "{{character_info[3]}}"
+        },
+        {
+          "section_title": "配色",
+          "output_role": "color_palette",
+          "display_label": "配色板块",
+          "ai_prompt": "展示角色配色板块，包含5-6个色卡，每个色卡下方标注颜色名称，色彩提取自参考图中的服饰、配饰。"
+        }
+      ]
+    }
+  ],
+  "global_requirements": {
+    "style_consistency": "所有面板、视图及表情，需在美术风格、光影效果、角色外观上保持完全一致，不得出现风格混搭。",
+    "art_style": "真人画风，真实感强，光影细腻。"
+  }
+}

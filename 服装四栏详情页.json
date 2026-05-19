@@ -1,0 +1,88 @@
+{
+  "template_metadata": {
+    "template_id": "high_end_couture_flow",
+    "reference_layout_style": "Layout_Four_Column_Grid",
+    "design_language": "Minimalist Luxury / Professional Fashion Portfolio"
+  },
+  "data_source": {
+    "layout_reference": {
+      "image_index": 1,
+      "description": "详情页布局参考图"
+    },
+    "inspiration_source": {
+      "image_index": 2,
+      "description": "设计灵感来源图"
+    }
+  },
+  "page_header": {
+    "title": "从灵感到高级定制：AI 驱动的全流程设计展示",
+    "subtitle": "AI-DRIVEN HIGH COUTURE DESIGN PROCESS"
+  },
+  "sections": [
+    {
+      "section_id": "main_content_grid",
+      "section_title": "",
+      "layout": "four_column_grid",
+      "components": [
+        {
+          "input_role": "aesthetic_inspiration_images",
+          "display_label": "灵感源泉 / INSPIRATION",
+          "ai_copywriting_directive": {
+            "target_field": "description",
+            "prompt": "分析用户上传的image2灵感图（设计灵感来源图），提取核心视觉特征（色彩、材质、氛围、图案元素、艺术美学），生成一段80字左右的高级感艺术描述。"
+          },
+          "description": "{{AI_GENERATED:灵感图的艺术化解析}}"
+        },
+        {
+          "output_role": "technical_sketch_image",
+          "display_label": "技术图稿 / TECHNICAL SKETCH",
+          "depends_on": "final_render_image"
+        },
+        {
+          "input_role": "final_render_image",
+          "display_label": "成品效果图 / FINAL RENDER"
+        },
+        {
+          "input_role": "model_presentation_images",
+          "display_label": "模特展示 / MODEL PRESENTATION"
+        }
+      ]
+    }
+  ],
+  "process_flow": {
+    "flow_title": "AI 驱动生成流程 / AI-DRIVEN DESIGN PROCESS",
+    "steps": [
+      {
+        "step_number": "1",
+        "step_name": "灵感阶段 / AESTHETIC PHASE",
+        "description": "通过AI分析灵感素材，提取视觉关键词与情感线索。"
+      },
+      {
+        "step_number": "2",
+        "step_name": "结构阶段 / STRUCTURAL PHASE",
+        "description": "AI基于灵感图生成结构线稿，优化比例与细节设计。"
+      },
+      {
+        "step_number": "3",
+        "step_name": "生成阶段 / GENERATIVE PHASE",
+        "description": "呈现无模特静物成品效果图，体现面料质感与装饰细节。"
+      },
+      {
+        "step_number": "4",
+        "step_name": "展示阶段 / PRESENTATION PHASE",
+        "description": "多角度模特展示，呈现成品的整体效果与细节表现力。"
+      }
+    ]
+  },
+  "design_keywords": {
+    "section_title": "设计关键词 / DESIGN KEYWORDS",
+    "ai_copywriting_directive": {
+      "target_field": "keywords",
+      "prompt": "基于所有灵感图和成品图，提取5个核心设计关键词（风格、元素、材质、氛围、艺术美学等），中英文输出。"
+    },
+    "keywords": "{{AI_GENERATED:设计关键词列表}}"
+  },
+  "page_footer": {
+    "watermark_text": "AI HIGH-COUTURE DESIGN STUDIO"
+  }
+}
