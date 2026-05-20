@@ -1,8 +1,8 @@
 {
   "video_metadata": {
-    "video_id": "fashion_couture_video_001",
+    "video_id": "fashion_couture_video_001_7s",
     "video_type": "Fashion Advertising",
-    "duration": "12 seconds",
+    "duration": "7 seconds",
     "style": "高级冷调柔光, 电影级质感, 克制性感, 高级氛围感"
   },
   "character_profile": {
@@ -17,7 +17,7 @@
   },
   "shot_list": [
     {
-      "time_range": "0-3秒",
+      "time_range": "0-2秒",
       "description": "镜头从人物半垂眼的特写切入，眼神缓慢抬起，直视镜头，形成极具故事感的特写绝杀。女生半垂着眼，身体微微向前倾斜，眼神朦胧妩媚向镜头、指向观众，眼神抬起看向镜头。",
       "technical_details": {
         "shot_type": "面部特写",
@@ -26,7 +26,7 @@
       }
     },
     {
-      "time_range": "3-7秒",
+      "time_range": "2-5秒",
       "description": "她微微歪头，发丝轻扫脸颊，慢眨眼，嘴角半笑不笑，随后侧脸先以眼神锁定镜头，再缓缓转向正面，电影感拉满。眼神魅惑。",
       "technical_details": {
         "shot_type": "面部特写加中景来回切换",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "time_range": "7-10秒",
+      "time_range": "5-6秒",
       "description": "她极轻地轻咬下唇，克制又性感，镜头定格在她的面部特写，氛围感达到顶点。动作自然流畅，五官精致，光影高级，画面唯美。",
       "technical_details": {
         "shot_type": "面部特写",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "time_range": "10-12秒",
+      "time_range": "6-7秒",
       "description": "带有法国口音讲\"Chanel\"（一定要有广告感）",
       "audio": "带有法国口音的配音：'Chanel'"
     }
