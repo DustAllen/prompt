@@ -1,32 +1,47 @@
 {
-  "task_objective": "Professional Fashion Inspiration Transfer & High-Precision Garment Design Editing",
+  "task_objective": "Fashion Line Art to Garment Design & Wear Presentation - Generate garment design from Figure 1 line art with Figure 2 inspiration aesthetics, and present in 4-grid showcase with high-precision image editing",
   "input_assets": {
     "structural_reference": {
       "source": "Figure 1 Line Art",
-      "weight": 0.85,
-      "description": "High-precision preservation of garment structural framework, including exact proportions, silhouette form, seam placement, hemline positioning, collar styling, sleeve length, and overall garment length"
+      "focus": "EXACT garment structural framework - proportions, silhouette form, seam placement, hemline positioning, collar styling, sleeve length, and overall garment length - ABSOLUTE PRESERVATION REQUIRED",
+      "role": "Provide locked structural blueprint for garment design generation"
     },
     "aesthetic_reference": {
       "source": "Figure 2 Inspiration",
-      "weight": 0.75,
-      "description": "Extract high-end aesthetic elements, including color system, pattern texture, and overall style tone"
+      "focus": "Color system, pattern texture, fabric characteristics, and overall style tone",
+      "role": "Provide aesthetic elements to be applied onto the garment structure"
     },
-    "model_reference": {
-      "weight": 0.7,
-      "description": "Figure 2 provides model references for garment-wearing presentation - full-body model consistency, precise preservation of identity features, facial details, body proportions, and natural garment-body interaction such as fabric draping and fit"
+    "model_type": {
+      "type": "text_variable",
+      "options": ["Asian female model", "Caucasian female model", "African female model"],
+      "description": "Select model type for garment-wearing presentation, body proportions and skin tone auto-adapt to selected model type"
     }
   },
   "workflow": {
-    "step_1_structural_analysis": "Parse structural elements from Figure 1 with strict precision, including garment silhouette lines, cutting structure, proportional relationships, seam positions, collar construction, sleeve design, and detail features.",
-    "step_2_aesthetic_extraction": "Extract color palette, pattern texture, fabric characteristics, and overall style elements from Figure 2, to be applied exclusively to the garment structure from Figure 1.",
-    "step_3_composite_generation": "Generate the garment design by precisely applying aesthetic elements from Figure 2 onto the garment structure from Figure 1. Ensure seamless integration with no visible artifacts, physically accurate fabric draping, and natural aesthetic fit. Preserve complete structural integrity from Figure 1 while incorporating color system, pattern texture, and style elements from Figure 2."
+    "role": "Professional Fashion Designer & High-Precision Image Editing Specialist",
+    "steps": {
+      "step_1_inspiration_analysis": "Comprehensive analysis of Figure 2 inspiration: extract core visual features including colors, textures, mood, pattern elements, fabric characteristics, and artistic aesthetics. Identify dominant color palette, pattern rhythm, material properties, and overall style direction.",
+      "step_2_sketch_design_generation": "Generate garment sketch design based on Figure 1 line art structure with inspiration aesthetics from Figure 2. STRICTLY preserve Figure 1's garment proportions, silhouette form, seam placement, hemline positioning, collar styling, sleeve length, and overall garment length. Apply inspiration-derived color system, pattern texture, and style elements onto the locked structure with pixel-level precision. No structural deviation allowed.",
+      "step_3_render_generation": "Generate high-fidelity rendered garment effect image from the sketch design with realistic fabric rendering: accurate material simulation (silk sheen, cotton matte, wool texture), physically-based fabric draping following gravity and body curvature, natural wrinkle patterns at stress points, and coherent lighting interaction. Produce fabric material recommendations, craftsmanship suggestions, and style positioning analysis.",
+      "step_4_multi_view_presentation": "Generate four distinct presentation views using selected model type with auto-adapted body proportions and skin tone. Ensure garment-to-body fit is physically accurate with natural fabric-body interaction, proper tension at stress points, and realistic shadow casting between garment and body. Maintain absolute garment design consistency and model identity across all views."
+    }
   },
-  "FINAL_OUTPUT": {
-    "description": "Professional fashion photography composite presentation in 2x2 grid layout",
-    "grid_1": "Garment alone without model, flat lay or mannequin presentation, clean background, showcasing complete garment structure, silhouette, and aesthetic details",
-    "grid_2": "Front full-body view (using model_reference parameters) - model wearing the garment, emphasizing overall garment fit, silhouette, collar styling, and complete front presentation",
-    "grid_3": "Tilted detail close-up (using model_reference parameters) - slightly angled diagonal perspective focusing on key garment details such as collar construction, button or closure area, fabric texture, and stitching craftsmanship",
-    "grid_4": "Back view (using model_reference parameters) - presenting the back design of the garment, including back seam details, hemline, and overall rear silhouette when worn",
-    "consistency_requirements": "Preserve the complete structural integrity from Figure 1 — garment proportions and silhouette remain untouched across all variations. When model_reference parameters are applied, maintain consistent identity features, facial details, body proportions, and natural garment-body interaction across all variations. Guarantee consistent structural framework and identical garment characteristics across all four grid variations."
+  "output_requirements": [
+    "ABSOLUTE preservation of Figure 1 garment structural framework across all outputs - no structural deviation in any view",
+    "Aesthetic elements from Figure 2 applied exclusively to the garment with pixel-level precision",
+    "Model type selection (Asian/Caucasian/African female model) with auto-adapted body proportions and skin tone",
+    "Model identity, facial details, and body proportions must be 100% consistent across all wear views",
+    "Physically accurate fabric draping: gravity simulation, natural wrinkle patterns, proper tension at seams and stress points",
+    "Realistic material rendering: fabric-specific sheen, texture, and light interaction",
+    "Coherent lighting and shadow: garment shadows cast on body, ambient occlusion at fabric folds, consistent light direction across all views",
+    "Seamless edge blending between garment and body with no visible artifacts or compositing errors",
+    "Garment design must be 100% consistent across all 4 grids - identical colors, patterns, textures, and details",
+    "Balanced 2x2 grid composition with high-end fashion photography quality"
+  ],
+  "outputs": {
+    "grid_1": "Garment alone on display mannequin - posed mannequin presentation on clean background, showcasing complete garment structure, silhouette, fabric texture, pattern details, and aesthetic elements with studio lighting.",
+    "grid_2": "Front full-body view (using selected model_type parameters) - model wearing the garment in natural standing pose, emphasizing overall garment fit, silhouette, collar styling, fabric draping, and complete front presentation with realistic body-garment interaction.",
+    "grid_3": "Dutch angle close-up (using selected model_type parameters) - 3/4 tilted composition with dynamic camera angle, focusing on key garment details: collar construction, button or closure area, fabric texture close-up, stitching craftsmanship, and material quality with enhanced detail rendering.",
+    "grid_4": "Back view (using selected model_type parameters) - presenting the back design of the garment when worn, including back seam details, hemline, rear silhouette, and how the fabric drapes naturally on the back of the body."
   }
 }

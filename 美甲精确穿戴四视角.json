@@ -1,0 +1,40 @@
+{
+  "task_objective": "Precise Press-on Nail Mapping - Perfectly map Image 1 press-on nails onto Image 2 hand and generate multi-perspective presentation in 4-grid layout",
+  "input_assets": {
+    "source_nail_reference": {
+      "source": "Image 1 Press-on Nail Design",
+      "weight": 0.95,
+      "focus": "EXACT preservation of press-on nail designs - every detail, color gradients, artistic elements, pattern integrity, texture depth, shine reflections, material properties, and complete nail design consistency",
+      "role": "Provide source nail designs to be perfectly mapped and maintained with zero deviation across all output variations"
+    },
+    "target_hand_reference": {
+      "source": "Image 2 Hand Reference",
+      "weight": 0.90,
+      "focus": "Hand anatomy, skin tone, skin texture, fingernail shapes, natural hand proportions, lighting conditions, and background environment",
+      "role": "Provide base hand structure, skin tone, and anatomy for nail mapping and all perspective variations"
+    },
+    "model_hand_type": {
+      "type": "text_variable",
+      "options": ["Asian female model hand", "Caucasian female model hand", "African female model hand"],
+      "weight": 0.90,
+      "focus": "Model-specific hand anatomy, skin tone, skin texture, natural hand proportions, realistic hand structure matching the selected ethnicity",
+      "role": "Define the ethnicity and hand reference for nail mapping and all perspective variations"
+    }
+  },
+  "workflow": {
+    "role": "Master Nail Artist & Precision Digital Mapping Specialist",
+    "steps": {
+      "step_1_hand_nail_analysis": "Comprehensive analysis: analyze Image 1's press-on nail designs (every detail, color, texture, pattern, shine); analyze Image 2's hand anatomy, skin tone, skin texture, fingernail positions, natural curvature, perspective, lighting, and environment.",
+      "step_2_nail_mapping_generation": "Precision mapping and image generation: apply Image 1's nails onto Image 2's hand with perfect alignment, follow natural curvature and perspective, realistic lighting integration, and seamless edge blending. Ensure NO design distortion or detail loss.",
+      "step_3_multi_perspective_generation": "Generate multiple perspective variations while maintaining complete nail design consistency from Image 1 and hand skin tone/anatomy consistency from Image 2."
+    }
+  },
+  "FINAL_OUTPUT": {
+    "description": "Professional press-on nail presentation in 2x2 grid layout with complete nail design consistency",
+    "grid_1": "Studio product shot - Shoe alone, no foot or model, clean white background, high-definition details showcasing complete shoe structure, silhouette, and aesthetic elements with precise material texture and construction details",
+    "grid_2": "Asian female foot wearing the shoe (using Reference 1 from model_hand_type) - below-knee leg view, natural Asian skin tone, showing the shoe in realistic context with proper Asian foot anatomy and natural foot-shoe interaction",
+    "grid_3": "Caucasian female foot wearing the shoe (using Reference 2 from model_hand_type) - below-knee leg view, light to medium skin tone, showcasing the shoe on European foot anatomy with natural proportions and foot-shoe interaction",
+    "grid_4": "African female foot wearing the shoe (using Reference 3 from model_hand_type) - below-knee leg view, darker skin tone, presenting the shoe with African foot anatomy characteristics and natural foot-shoe interaction",
+    "consistency_requirements": "Preserve the complete structural integrity from Image 1 — shoe proportions and silhouette remain untouched. Each ethnic foot type from model_hand_type must maintain consistent ethnic skin tone, specific ankle contours, and foot anatomy across all relevant variations. Guarantee consistent structural framework and identical shoe characteristics across all variations."
+  }
+}

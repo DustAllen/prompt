@@ -13,7 +13,7 @@
     },
     "model_reference": {
       "weight": 0.7,
-      "description": "African female foot reference - darker skin tone with African characteristics, distinct foot anatomy and proportions"
+      "description": "Lower leg reference (below knee only) for shoe-wearing presentation - foot and ankle presentation, close-up detail shots, emphasizing the shoe being worn on foot, preserving leg skin tone, ankle structure, and foot anatomical features"
     }
   },
   "workflow": {

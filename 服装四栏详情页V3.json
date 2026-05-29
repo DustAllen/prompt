@@ -1,0 +1,59 @@
+{
+  "task_objective": "Fashion Detail Page Generation - Create comprehensive 4-column garment design showcase page from line art and inspiration images",
+  "input_assets": {
+    "structure_reference": {
+      "source": "Input 1 Garment Line Art",
+      "weight": 0.95,
+      "focus": "Garment proportions, silhouette form, seam placement, hemline positioning, collar styling, sleeve length, and overall garment length - ABSOLUTE PRESERVATION REQUIRED",
+      "role": "Fixed garment structure blueprint"
+    },
+    "aesthetic_reference": {
+      "source": "Input 2 Inspiration Image",
+      "weight": 0.90,
+      "focus": "Color system, pattern texture, fabric characteristics, and overall style tone",
+      "role": "Provide aesthetic foundation for garment design generation"
+    },
+    "model_type": {
+      "type": "text_variable",
+      "options": ["Asian female model", "Caucasian female model", "African female model"],
+      "description": "Select model type for garment-wearing presentation, body proportions and skin tone auto-adapt to selected model type"
+    }
+  },
+  "workflow": {
+    "role": "Professional Fashion Designer & Detail Page Specialist",
+    "steps": {
+      "step_1_inspiration_analysis": "Comprehensive analysis of Input 2 inspiration: extract core visual features including colors, textures, mood, pattern elements, fabric characteristics, and artistic aesthetics. Generate artistic description, bullet-point analysis, and mood keywords.",
+      "step_2_sketch_design_generation": "Generate garment sketch design based on Input 1 line art structure with inspiration aesthetics from Input 2. STRICTLY preserve Input 1's garment proportions, silhouette form, seam placement, hemline positioning, collar styling, sleeve length, and overall garment length. Apply inspiration-derived design elements onto the locked structure.",
+      "step_3_render_generation": "Generate high-fidelity rendered garment effect image from the sketch design with realistic fabric rendering, physically-based draping, and coherent lighting interaction. Produce fabric material recommendations, craftsmanship suggestions, and style positioning analysis.",
+      "step_4_presentation_generation": "Generate four-column detail page including inspiration showcase, line art design, rendered effect, and model-wearing presentation using selected model type."
+    }
+  },
+  "output_requirements": [
+    "ABSOLUTE preservation of Input 1 garment structural framework",
+    "Aesthetic elements from Input 2 applied exclusively to the garment",
+    "Model type selection (Asian/Caucasian/African) with auto-adapted body proportions and skin tone",
+    "Physically accurate fabric draping and material rendering",
+    "Coherent lighting and shadow integration",
+    "Professional fashion photography quality throughout",
+    "Balanced 4-column layout composition"
+  ],
+  "outputs": {
+    "column_1": "Inspiration Showcase - Display Input 2 inspiration image with AI-generated artistic description (80 words), key visual feature analysis (4-5 bullet points), and mood keywords (6-8 words, Chinese-English).",
+    "column_2": "Garment Line Art Design - Generate garment sketch design based on Input 1 structure with Input 2 aesthetics applied. STRICTLY preserve Input 1's garment structure. Include AI-generated structure translation logic bullet points.",
+    "column_3": "Rendered Effect - High-fidelity rendered garment design with realistic fabrics, textures, draping, and lighting. Include AI-generated fabric material recommendations, craftsmanship suggestions, and style positioning analysis.",
+    "column_4": "Model Presentation - Dual views: (1) back of hand pose showing nail design on model, (2) clenched fist pose showing nails on visible fingers. Both views use selected model type with matching skin tone."
+  },
+  "campaign_image": {
+    "description": "Brand campaign image - model wearing the garment design from Column 3, posed in professional fashion photography style with high-end aesthetic.",
+    "consistency": "Garment design MUST be 100% identical to Column 3 rendered effect"
+  },
+  "ai_copywriting": {
+    "inspiration_description": "Analyze Input 2 inspiration image and generate an 80-word artistic description.",
+    "visual_features": "Extract 4-5 key visual features from inspiration image as bullet points.",
+    "mood_keywords": "Extract 6-8 mood keywords with Chinese-English translation.",
+    "material_recommendations": "List 4-5 recommended fabric materials with descriptions.",
+    "craftsmanship_suggestions": "List 4-5 craftsmanship suggestions with icon identifiers.",
+    "style_analysis": "Analyze series style: brand positioning, target audience, user persona.",
+    "dna_mapping": "List 5-6 pairs of inspiration elements to garment design elements correspondences."
+  }
+}

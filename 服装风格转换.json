@@ -1,24 +1,51 @@
 {
-  "task_objective": "Professional Fashion Style Transfer & High-Precision Image Editing",
+  "task_objective": "Professional Fashion Style Transfer & High-Precision Garment Design Editing",
   "input_assets": {
     "base_reference": {
       "source": "Figure 1 Person with Outfit",
-      "weight": 0.9,
-      "description": "High-precision preservation of person's identity (if present), facial features, body proportions, complete outfit structural framework, background elements, and lighting effects"
+      "weight": 0.90,
+      "focus": "High-precision preservation of person's identity (if present), facial features, body proportions, complete outfit structural framework, background elements, and lighting effects",
+      "role": "Provide base structure for style transfer"
     },
     "style_reference": {
       "source": "Figure 2 Aesthetic Style",
       "weight": 0.75,
-      "description": "Extract aesthetic elements including color palette, pattern texture, fabric style, and overall design tone, applied exclusively to garment design"
+      "focus": "Extract aesthetic elements including color palette, pattern texture, fabric style, and overall design tone, applied exclusively to garment design",
+      "role": "Provide style inspiration for garment transformation"
     },
     "design_parameters": {
-        "description": "Design strictly following Figure 1's original garment structure, preserve all structural characteristics without deviation",
-        "constraint": "No changes to original garment structure features including seam placement, hemline positioning, collar styling, sleeve length, and overall silhouette"
+      "description": "Design strictly following Figure 1's original garment structure, preserve all structural characteristics without deviation",
+      "constraint": "No changes to original garment structure features including seam placement, hemline positioning, collar styling, sleeve length, and overall silhouette"
+    },
+    "model_type": {
+      "type": "text_variable",
+      "options": ["Asian female model", "Caucasian female model", "African female model"],
+      "description": "Select model type for presentation, body proportions and skin tone auto-adapt to selected model type"
     }
   },
   "workflow": {
-    "step_1_base_analysis": "Parse elements from Figure 1 with strict precision: detect presence of model, extract person's identity features (if present), facial details, body proportions, pose, complete outfit structural framework, background elements, and lighting setup.",
-    "step_2_style_extraction": "Extract color palette, pattern texture, fabric style, and overall design elements from Figure 2, to be applied exclusively to the garment in Figure 1.",
-    "step_3_composite_generation": "Professional fashion photography, no text, full-body shot or long-shot perspective to capture the complete garment overview, high-definition details. Apply aesthetic elements from Figure 2 onto the garment in Figure 1 according to design_parameters. Ensure the entire garment is fully visible in the frame with natural fabric draping, clearly showing the overall silhouette and all design details. The aesthetic application must fit naturally with the garment structure with seamless integration, no visible artifacts, and physically accurate fabric draping. Background and lighting from Figure 1 remain completely untouched. Configure four distinct design variations in a 2x2 grid, Each variation must clearly reveal the garment's overall design and fine details (fabric texture, pattern continuity, seam placement)."
+    "role": "Professional Fashion Designer & Style Transfer Specialist",
+    "steps": {
+      "step_1_base_analysis": "Parse elements from Figure 1 with strict precision: detect presence of model, extract person's identity features (if present), facial details, body proportions, pose, complete outfit structural framework, background elements, and lighting setup.",
+      "step_2_style_extraction": "Extract color palette, pattern texture, fabric style, and overall design elements from Figure 2, to be applied exclusively to the garment in Figure 1.",
+      "step_3_composite_generation": "Professional fashion photography, no text, full-body shot or long-shot perspective to capture the complete garment overview, high-definition details. Apply aesthetic elements from Figure 2 onto the garment in Figure 1 according to design_parameters. Ensure the entire garment is fully visible in the frame with natural fabric draping, clearly showing the overall silhouette and all design details. The aesthetic application must fit naturally with the garment structure with seamless integration, no visible artifacts, and physically accurate fabric draping.",
+      "step_4_variation_generation": "Generate four distinct design variations in a 2x2 grid layout while maintaining garment structure consistency and model identity across all views."
+    }
+  },
+  "output_requirements": [
+    "ABSOLUTE preservation of Figure 1 garment structural framework",
+    "Aesthetic elements from Figure 2 applied exclusively to the garment",
+    "Model type selection (Asian/Caucasian/African female model) with auto-adapted body proportions and skin tone",
+    "Natural fabric draping with physically accurate rendering",
+    "Background and lighting from Figure 1 remain completely untouched",
+    "Four distinct design variations with consistent garment structure",
+    "Balanced 2x2 grid composition",
+    "High-quality fashion photography presentation throughout"
+  ],
+  "outputs": {
+    "grid_1": "Style Variation 01 - Garment with Figure 2 aesthetic applied, maintaining Figure 1 structure, professional fashion photography quality.",
+    "grid_2": "Style Variation 02 - Alternative aesthetic interpretation from Figure 2, preserving Figure 1 garment structure.",
+    "grid_3": "Style Variation 03 - Creative adaptation of Figure 2 elements onto Figure 1 garment framework.",
+    "grid_4": "Style Variation 04 - Artistic fusion of Figure 2 aesthetics with Figure 1 garment structure."
   }
 }

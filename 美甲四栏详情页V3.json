@@ -1,0 +1,61 @@
+{
+  "task_objective": "Nail Art Detail Page Generation - Create comprehensive 4-column nail design showcase page from sketch and inspiration images",
+  "input_assets": {
+    "structure_reference": {
+      "source": "Input 1 Nail Shape Sketch",
+      "weight": 0.95,
+      "focus": "Nail shapes, nail count, proportions, spacing, curvature, and layout composition - ABSOLUTE PRESERVATION REQUIRED",
+      "role": "Fixed nail structure blueprint"
+    },
+    "aesthetic_reference": {
+      "source": "Input 2 Inspiration Image",
+      "weight": 0.90,
+      "focus": "Colors, patterns, styling mood, material textures, and artistic aesthetics",
+      "role": "Provide aesthetic foundation for nail design generation"
+    },
+    "model_type": {
+      "type": "text_variable",
+      "options": ["Asian female model", "Caucasian female model", "African female model"],
+      "description": "Select model type for hand presentation, skin tone auto-adapts to selected type"
+    }
+  },
+  "workflow": {
+    "role": "Professional Nail Art Director & Detail Page Designer",
+    "steps": {
+      "step_1_inspiration_analysis": "Comprehensive analysis of Input 2 inspiration: extract core visual features including colors, textures, mood, pattern elements, and artistic aesthetics. Generate artistic description, bullet-point analysis, and mood keywords.",
+      "step_2_sketch_design_generation": "Generate nail sketch design based on Input 1 nail shape sketch with inspiration aesthetics from Input 2. STRICTLY preserve Input 1's nail count, positions, shapes, contours, proportions, spacing, curvature, and layout. Apply inspiration-derived design elements onto the locked structure.",
+      "step_3_render_generation": "Generate high-fidelity rendered nail effect image from the sketch design with realistic materials, textures, gloss, and lighting. Produce polish material recommendations, craftsmanship suggestions, and style positioning analysis.",
+      "step_4_presentation_generation": "Generate four-column detail page including inspiration showcase, line art design, rendered effect, and hand-wearing presentation using selected model type."
+    }
+  },
+  "output_requirements": [
+    "ABSOLUTE preservation of Input 1 nail shape structure across all outputs",
+    "Aesthetic elements from Input 2 applied exclusively to nail design",
+    "Model type selection (Asian/Caucasian/African) with auto-adapted skin tone",
+    "Color system MUST be extracted from the inspiration image (Input 2)",
+    "Nail design in wear views and campaign image MUST be 100% identical to Column 3 render",
+    "Hand-wearing view details: back of hand pose and clenched fist pose",
+    "Campaign image: back of hand with nails near face, facial features match hand skin tone",
+    "Professional fashion photography quality throughout",
+    "Balanced 4-column layout composition"
+  ],
+  "outputs": {
+    "column_1": "Inspiration Showcase - Display Input 2 inspiration image with AI-generated artistic description, key visual feature analysis bullet points, and mood keywords (6-8 words, Chinese-English对照).",
+    "column_2": "Nail Line Art Design - Generate nail sketch design based on Input 1 structure with Input 2 aesthetics applied. STRICTLY preserve Input 1's nail shape, count, and layout. Include AI-generated shape translation logic bullet points.",
+    "column_3": "Rendered Effect - High-fidelity rendered nail design with realistic materials, textures, gloss, and lighting. Include AI-generated polish material recommendations, craftsmanship suggestions, and style positioning analysis.",
+    "column_4": "Hand Presentation - Dual views: (1) back of hand pose showing nail design, (2) clenched fist pose showing nails on visible fingers. Both views use selected model type with matching skin tone."
+  },
+  "campaign_image": {
+    "description": "Brand campaign image - back of hand wearing the nail design from Column 3, gently positioned near face with facial features matching the selected model's hand skin tone. High-end fashion photography style.",
+    "consistency": "Nail design MUST be 100% identical to Column 3 rendered effect"
+  },
+  "ai_copywriting": {
+    "inspiration_description": "Analyze Input 2 inspiration image and generate an 80-word artistic description highlighting core visual features.",
+    "visual_features": "Extract 4-5 key visual features from inspiration image as bullet points.",
+    "mood_keywords": "Extract 6-8 mood keywords with Chinese-English translation.",
+    "material_recommendations": "List 4-5 recommended polish materials with descriptions.",
+    "craftsmanship_suggestions": "List 4-5 craftsmanship suggestions with icon identifiers.",
+    "style_analysis": "Analyze series style: brand positioning, target audience, user persona.",
+    "dna_mapping": "List 5-6 pairs of inspiration elements to nail design elements correspondences."
+  }
+}
