@@ -10,11 +10,6 @@
       "source": "Figure 2 Inspiration",
       "focus": "Color system, pattern texture, fabric characteristics, and overall style tone",
       "role": "Provide aesthetic elements to be applied onto the garment structure"
-    },
-    "model_type": {
-      "type": "text_variable",
-      "options": ["Asian female model", "Caucasian female model", "African female model"],
-      "description": "Select model type for garment-wearing presentation, body proportions and skin tone auto-adapt to selected model type"
     }
   },
   "workflow": {
