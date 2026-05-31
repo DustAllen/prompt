@@ -1,0 +1,41 @@
+{
+  "task_objective": "Shoe Style Preservation & Silhouette Transformation & Multi-View Wear Presentation - Precisely map Figure 2 shoe style onto Figure 1 line art silhouette with complete style preservation, and present in 4-grid showcase with shoe alone, side view, front-ankle close-up, and back-heel close-up views",
+  "input_assets": {
+    "silhouette_reference": {
+      "source": "Figure 1 Shoe Line Art",
+      "focus": "EXACT footwear structural framework - proportions, silhouette form, sole structure, upper construction, heel positioning, toe box shape, ankle collar styling, lace or closure system, and overall shoe profile - ABSOLUTE PRESERVATION REQUIRED",
+      "role": "Provide locked structural blueprint for silhouette transformation"
+    },
+    "style_reference": {
+      "source": "Figure 2 Shoe with Foot",
+      "focus": "Complete shoe style elements - color scheme, material texture, pattern or detailing, decorative elements, and hardware - FULL PRESERVATION REQUIRED. Foot identity (if present) including skin tone, ankle structure, and foot anatomical features - FULL PRESERVATION REQUIRED",
+      "role": "Provide shoe style and foot identity to be preserved and mapped"
+    }
+  },
+  "workflow": {
+    "role": "Professional Footwear Designer & Precision Style Mapping Specialist",
+    "steps": {
+      "step_1_silhouette_analysis": "Analyze Figure 1 line art to identify target shoe structural framework: proportions, silhouette form, sole structure, upper construction, heel positioning, toe box shape, ankle collar styling, and lace or closure system with strict precision.",
+      "step_2_style_analysis": "Analyze Figure 2 to extract complete shoe style elements with strict precision: color scheme, material texture, pattern or detailing, decorative elements, and hardware. Extract foot identity features (if present): skin tone, ankle structure, and foot anatomical features.",
+      "step_3_precise_mapping": "Precisely map Figure 2's shoe style onto Figure 1's target silhouette structure, maintaining style proportion and layout with perfect alignment. No structural deviation from Figure 1 silhouette, no style detail loss from Figure 2.",
+      "step_4_multi_view_presentation": "Generate four distinct presentation views using selected model type with auto-adapted foot anatomy and skin tone. Ensure shoe-to-foot fit is physically accurate with natural foot-shoe interaction, proper tension at lace or closure areas, and realistic shadow casting between shoe and foot. Maintain absolute shoe design consistency and model identity across all views."
+    }
+  },
+  "output_requirements": [
+    "ABSOLUTE preservation of Figure 1 footwear structural framework across all outputs - no structural deviation in any view",
+    "EXACT preservation of Figure 2's complete shoe style - colors, patterns, textures, material characteristics, and decorative details - NO detail loss",
+    "Model type selection (Asian/Caucasian/African female model) with auto-adapted foot anatomy and skin tone",
+    "Model foot anatomy and skin tone must be 100% consistent across all wear views",
+    "Physically accurate shoe-foot interaction: natural crease patterns, proper tension at closure areas, realistic sole contact",
+    "Realistic material rendering: material-specific sheen, texture, and light interaction",
+    "Coherent lighting and shadow: shoe shadows cast on foot, ambient occlusion at material folds, consistent light direction across all views",
+    "Shoe design must be 100% consistent across all 4 grids - identical colors, patterns, textures, and details",
+    "Balanced 2x2 grid composition with high-end fashion photography quality"
+  ],
+  "outputs": {
+    "grid_1": "Shoe alone on clean background - Based on Figure 1 silhouette with Figure 2 style precisely mapped. Showcasing complete shoe structure, silhouette, material texture, pattern details, and aesthetic elements with studio lighting. No foot or model elements. Shoe structure MUST strictly follow Figure 1, style MUST be 100% identical to Figure 2.",
+    "grid_2": "Side angle view (using selected model_type parameters) - Based on grid_1 design. Foot wearing the shoe in side profile, emphasizing toe box shape, closure system visibility, sole structure, and overall shoe presentation with realistic foot-shoe interaction. Shoe design MUST be 100% identical to grid_1.",
+    "grid_3": "Tilted front-ankle close-up (using selected model_type parameters) - Based on grid_1 design. Slightly angled diagonal perspective of the ankle and shoe interaction area, showcasing natural shoe fit around the ankle, collar styling, and lace or closure details with dynamic viewing angle. Shoe design MUST be 100% identical to grid_1.",
+    "grid_4": "Tilted back-heel close-up (using selected model_type parameters) - Based on grid_1 design. Slightly angled diagonal perspective of heel structure and back panel design, presenting rear detail view including heel counter, back seam, and how the shoe wraps naturally around the heel. Shoe design MUST be 100% identical to grid_1."
+  }
+}

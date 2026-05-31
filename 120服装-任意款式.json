@@ -1,5 +1,5 @@
 {
-  "task_objective": "Professional Fashion Style Transfer & High-Precision Garment Design Editing",
+  "task_objective": "Fashion Style Transfer & Multi-Angle Presentation - Redesign Figure 1 garment using Figure 2 aesthetic inspiration with precise identity preservation and 4-angle showcase",
   "input_assets": {
     "base_reference": {
       "source": "Figure 1 Person with Outfit",
@@ -12,15 +12,6 @@
       "weight": 0.75,
       "focus": "Extract aesthetic elements including color palette, pattern texture, fabric style, and overall design tone, applied exclusively to garment design",
       "role": "Provide style inspiration for garment transformation"
-    },
-    "design_parameters": {
-      "description": "Design strictly following Figure 1's original garment structure, preserve all structural characteristics without deviation",
-      "constraint": "No changes to original garment structure features including seam placement, hemline positioning, collar styling, sleeve length, and overall silhouette"
-    },
-    "model_type": {
-      "type": "text_variable",
-      "options": ["Asian female model", "Caucasian female model", "African female model"],
-      "description": "Select model type for presentation, body proportions and skin tone auto-adapt to selected model type"
     }
   },
   "workflow": {
@@ -29,7 +20,7 @@
       "step_1_base_analysis": "Parse elements from Figure 1 with strict precision: detect presence of model, extract person's identity features (if present), facial details, body proportions, pose, complete outfit structural framework, background elements, and lighting setup.",
       "step_2_style_extraction": "Extract color palette, pattern texture, fabric style, and overall design elements from Figure 2, to be applied exclusively to the garment in Figure 1.",
       "step_3_composite_generation": "Professional fashion photography, no text, full-body shot or long-shot perspective to capture the complete garment overview, high-definition details. Apply aesthetic elements from Figure 2 onto the garment in Figure 1 according to design_parameters. Ensure the entire garment is fully visible in the frame with natural fabric draping, clearly showing the overall silhouette and all design details. The aesthetic application must fit naturally with the garment structure with seamless integration, no visible artifacts, and physically accurate fabric draping.",
-      "step_4_variation_generation": "Generate four distinct design variations in a 2x2 grid layout while maintaining garment structure consistency and model identity across all views."
+      "step_4_multi_angle_generation": "Generate four distinct viewing angles (front, 3/4, side, back) of the redesigned outfit in a 2x2 grid layout, while maintaining absolute character identity and redesigned outfit consistency across all views."
     }
   },
   "output_requirements": [
@@ -38,14 +29,14 @@
     "Model type selection (Asian/Caucasian/African female model) with auto-adapted body proportions and skin tone",
     "Natural fabric draping with physically accurate rendering",
     "Background and lighting from Figure 1 remain completely untouched",
-    "Four distinct design variations with consistent garment structure",
+    "Redesigned outfit must be 100% consistent across all 4 grids - identical colors, patterns, textures, and details",
     "Balanced 2x2 grid composition",
     "High-quality fashion photography presentation throughout"
   ],
   "outputs": {
-    "grid_1": "Style Variation 01 - Garment with Figure 2 aesthetic applied, maintaining Figure 1 structure, professional fashion photography quality.",
-    "grid_2": "Style Variation 02 - Alternative aesthetic interpretation from Figure 2, preserving Figure 1 garment structure.",
-    "grid_3": "Style Variation 03 - Creative adaptation of Figure 2 elements onto Figure 1 garment framework.",
-    "grid_4": "Style Variation 04 - Artistic fusion of Figure 2 aesthetics with Figure 1 garment structure."
+    "grid_1": "Front view (0 degrees) - character wearing the redesigned outfit, full-body front view clearly revealing overall outfit design and fine details.",
+    "grid_2": "3/4 angle view (45 degrees) - character wearing the redesigned outfit, three-quarter front angle showing outfit design from a dynamic perspective with depth and dimension.",
+    "grid_3": "Side profile view (90 degrees) - character wearing the redesigned outfit, side profile showing outfit design continuity and silhouette from the lateral perspective.",
+    "grid_4": "Back view (180 degrees) - character wearing the redesigned outfit, back view presenting rear design details including back seams, hemline, and overall rear silhouette."
   }
 }

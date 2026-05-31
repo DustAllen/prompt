@@ -1,0 +1,41 @@
+{
+  "task_objective": "Nail Line Art to Press-on Nail Design & Multi-View Presentation - Generate press-on nail design from Figure 1 line art with Figure 2 inspiration aesthetics, and present in 4-grid showcase with line art, render, and hand-wearing views",
+  "input_assets": {
+    "structural_reference": {
+      "source": "Figure 1 Nail Line Art",
+      "focus": "EXACT nail structural framework - nail shapes, nail count, proportions, spacing, curvature, and layout composition - ABSOLUTE PRESERVATION REQUIRED",
+      "role": "Provide locked structural blueprint for nail design generation"
+    },
+    "aesthetic_reference": {
+      "source": "Figure 2 Inspiration",
+      "focus": "Color system, pattern texture, material characteristics, and overall style tone",
+      "role": "Provide aesthetic elements to be applied onto the nail structure"
+    }
+  },
+  "workflow": {
+    "role": "Professional Nail Artist & High-Precision Design Specialist",
+    "steps": {
+      "step_1_inspiration_analysis": "Comprehensive analysis of Figure 2 inspiration: extract core visual features including colors, textures, mood, pattern elements, material characteristics, and artistic aesthetics. Identify dominant color palette, pattern rhythm, and overall style direction.",
+      "step_2_design_generation": "Generate nail design based on Figure 1 line art structure with inspiration aesthetics from Figure 2. STRICTLY preserve Figure 1's nail shapes, nail count, proportions, spacing, curvature, and layout composition. Apply inspiration-derived color system, pattern texture, and style elements onto the locked structure with pixel-level precision. No structural deviation allowed.",
+      "step_3_render_generation": "Generate high-fidelity rendered nail effect image from the design with realistic nail rendering: accurate material simulation, natural nail curvature and light reflection, realistic nail bed color gradient, and coherent lighting interaction.",
+      "step_4_presentation_generation": "Generate hand-wearing presentation views using selected model type with auto-adapted skin tone. Ensure nail design in wear views is 100% identical to rendered effect. Present back of hand pose and clenched fist pose with natural hand-garment interaction and realistic shadow casting."
+    }
+  },
+  "output_requirements": [
+    "ABSOLUTE preservation of Figure 1 nail structural framework across all outputs - no structural deviation in any view",
+    "Aesthetic elements from Figure 2 applied exclusively to the nail design with pixel-level precision",
+    "Nail art style: OOTD / French / Bridal / Cat Eye - derived from Figure 2 inspiration",
+    "Hand model type selection (Asian/Caucasian/African female model) with auto-adapted skin tone",
+    "Realistic nail rendering: gel gloss, natural curvature, nail bed gradient, light reflection",
+    "Coherent lighting and shadow: consistent light direction across all views, realistic specular highlights on glossy surfaces",
+    "Nail design in wear views MUST be 100% identical to rendered effect - identical colors, patterns, textures, and details",
+    "Clean white background without watermarks",
+    "Balanced 2x2 grid composition with fashion-editorial presentation quality"
+  ],
+  "outputs": {
+    "grid_1": "Nail Line Art Design - Based on Figure 1 nail line art structure with Figure 2 aesthetics applied. STRICTLY preserve Figure 1's nail shapes, count, proportions, spacing, curvature, and layout. Generate nail sketch design.",
+    "grid_2": "Rendered Effect - Based on grid_1 line art design. High-fidelity rendered nail design with realistic materials, textures, gloss, and lighting. Accurate material simulation with natural nail curvature, nail bed color gradient, and coherent light reflection. Design details MUST be 100% identical to grid_1.",
+    "grid_3": "Back of Hand Presentation - Based on grid_2 rendered effect. Model wearing the nail design in back of hand pose (using selected model_type), showing nail design on all visible fingers with natural hand posture. Nail design MUST be 100% identical to grid_2 rendered effect with precise mapping.",
+    "grid_4": "Clenched Fist Presentation - Based on grid_2 rendered effect. Model wearing the nail design in clenched fist pose (using selected model_type), showing nails on visible fingers with dynamic hand gesture. Nail design MUST be 100% identical to grid_2 rendered effect with precise mapping."
+  }
+}

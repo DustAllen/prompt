@@ -1,0 +1,40 @@
+{
+  "task_objective": "Nail Design Shape Transformation & Multi-View Wear Presentation - Precisely map Figure 2 nail design onto Figure 1 nail shape silhouette with complete pattern preservation, and present in 4-grid showcase with precise mapping, back of hand, clenched fist, and hand near face views",
+  "input_assets": {
+    "shape_reference": {
+      "source": "Figure 1 Nail Line Art",
+      "focus": "EXACT nail shape silhouette, nail count, position, proportions, spacing, curvature, and geometric structure - ABSOLUTE PRESERVATION REQUIRED",
+      "role": "Provide locked shape blueprint for design transformation"
+    },
+    "design_reference": {
+      "source": "Figure 2 Nail Design",
+      "focus": "Complete pattern design, color scheme, texture, shine effects, decorative elements - FULL PRESERVATION REQUIRED",
+      "role": "Provide nail design content to be precisely mapped onto Figure 1 shape"
+    }
+  },
+  "workflow": {
+    "role": "Professional Nail Artist & Precision Mapping Specialist",
+    "steps": {
+      "step_1_shape_analysis": "Analyze Figure 1 line art to identify target nail shape silhouette, quantity, position, proportions, spacing, curvature, and geometric structure with strict precision.",
+      "step_2_design_extraction": "Extract complete pattern design, color distribution, texture, shine highlights, and decorative elements from Figure 2 nail design with NO detail loss.",
+      "step_3_precise_mapping": "Precisely map Figure 2's design onto Figure 1's target nail shape silhouette, maintaining pattern proportion and layout with perfect alignment. No structural deviation from Figure 1 shape, no design detail loss from Figure 2.",
+      "step_4_multi_view_presentation": "Generate hand-wearing presentation views using selected hand model type with auto-adapted skin tone. Ensure nail design in wear views is 100% identical to mapped result. Present back of hand pose, clenched fist pose, and hand near face pose with natural hand-nail interaction and realistic shadow casting."
+    }
+  },
+  "output_requirements": [
+    "ABSOLUTE preservation of Figure 1 nail shape silhouette, quantity, position, and geometric structure across all outputs",
+    "EXACT preservation of Figure 2's complete pattern design, colors, textures, and shine effects - NO detail loss",
+    "model type selection (Asian/Caucasian/African female hand) with auto-adapted skin tone",
+    "Realistic nail rendering: gel gloss, natural curvature, nail bed gradient, light reflection",
+    "Coherent lighting and shadow: consistent light direction across all views, realistic specular highlights on glossy surfaces",
+    "Nail design in wear views MUST be 100% identical to grid_1 mapped result - identical colors, patterns, textures, and details",
+    "Clean light gray background without watermarks",
+    "Balanced 2x2 grid composition with fashion-editorial presentation quality"
+  ],
+  "outputs": {
+    "grid_1": "Precise Mapping Result - Based on Figure 1 nail shape silhouette with Figure 2 design precisely mapped. STRICTLY adopt Figure 1's nail shapes, count, position, proportions, spacing, and curvature. COMPLETELY preserve Figure 2's pattern design, colors, textures, and shine effects. No fingers, no human elements.",
+    "grid_2": "Back of Hand Presentation - Based on grid_1 mapped result. Model wearing the nail design in back of hand pose (using selected hand_model_type), showing nail design on all visible fingers with natural hand posture. Nail design MUST be 100% identical to grid_1 mapped result with precise mapping.",
+    "grid_3": "Clenched Fist Presentation - Based on grid_1 mapped result. Model wearing the nail design in clenched fist pose (using selected hand_model_type), showing nails on visible fingers with dynamic hand gesture. Nail design MUST be 100% identical to grid_1 mapped result with precise mapping.",
+    "grid_4": "Hand Near Face Presentation - Based on grid_1 mapped result. Hand gently positioned near the face (using selected hand_model_type), with facial features matching the selected hand skin tone. Nail design MUST be 100% identical to grid_1 mapped result with precise mapping."
+  }
+}

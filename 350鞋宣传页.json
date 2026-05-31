@@ -1,0 +1,66 @@
+{
+  "task_objective": "Footwear Line Art to Shoe Design & 6-View Premium Presentation - Generate shoe design from Figure 1 line art with Figure 2 inspiration aesthetics, presented in a premium diamond layout with Figure 2 inspiration at center, 2 views on top, 1 on each side, and brand campaign at bottom, emphasizing the creative transformation from inspiration to final design",
+  "input_assets": {
+    "structural_reference": {
+      "source": "Figure 1 Line Art",
+      "focus": "EXACT footwear structural framework - proportions, silhouette form, sole structure, upper construction, heel positioning, toe box shape, ankle collar styling, lace or closure system, and overall shoe profile - ABSOLUTE PRESERVATION REQUIRED",
+      "role": "Provide locked structural blueprint for shoe design generation"
+    },
+    "aesthetic_reference": {
+      "source": "Figure 2 Inspiration",
+      "focus": "Color system, material texture, pattern or detailing, and overall style tone",
+      "role": "Provide aesthetic elements to be applied onto the shoe structure"
+    }
+  },
+  "workflow": {
+    "role": "Professional Footwear Designer & Premium Image Editing Specialist",
+    "steps": {
+      "step_1_inspiration_analysis": "Comprehensive analysis of Figure 2 inspiration: extract core visual features including colors, textures, mood, pattern elements, material characteristics, and artistic aesthetics. Generate artistic description, bullet-point analysis, and mood keywords. Identify dominant color palette, pattern rhythm, material properties, and overall style direction.",
+      "step_2_sketch_design_generation": "Generate shoe sketch design based on Figure 1 line art structure with inspiration aesthetics from Figure 2. STRICTLY preserve Figure 1's shoe proportions, silhouette form, sole structure, upper construction, heel positioning, toe box shape, ankle collar styling, and lace or closure system. Apply inspiration-derived color system, material texture, and style elements onto the locked structure with pixel-level precision. No structural deviation allowed.",
+      "step_3_render_generation": "Generate high-fidelity rendered shoe effect image from the sketch design with realistic material rendering: accurate material simulation (leather grain, suede nap, mesh weave, rubber matte), physically-based sole flexibility and upper tension, natural crease patterns at flex points, and coherent lighting interaction.",
+      "step_4_multi_view_presentation": "Generate presentation views using selected model type with auto-adapted foot anatomy and skin tone. Ensure shoe-to-foot fit is physically accurate with natural foot-shoe interaction, proper tension at lace or closure areas, and realistic shadow casting between shoe and foot. Maintain absolute shoe design consistency and model identity across all views.",
+      "step_5_campaign_generation": "Generate brand campaign image with foot wearing the shoe in a dynamic editorial pose within a stylish setting matching Figure 2 inspiration mood. High-end fashion photography style with dramatic lighting and composition.",
+      "step_6_premium_layout_assembly": "Assemble the 6-view premium diamond layout with Figure 2 inspiration at center, sketch and render on top, side view on left, detail closeup on right, brand campaign at bottom, connected with elegant visual elements indicating the creative transformation journey"
+    }
+  },
+  "output_requirements": [
+    "ABSOLUTE preservation of Figure 1 footwear structural framework across all generated views - no structural deviation",
+    "Aesthetic elements from Figure 2 applied exclusively to the shoe with pixel-level precision",
+    "Color system MUST be extracted from the inspiration image (Figure 2)",
+    "Shoe design in all wear views and campaign image MUST be 100% identical to top_right rendered effect",
+    "Model type selection (Asian/Caucasian/African female model) with auto-adapted foot anatomy and skin tone, 100% consistent across all wear views",
+    "Physically accurate shoe-foot interaction: natural crease patterns, proper tension at closure areas, realistic sole contact",
+    "Realistic material rendering: material-specific sheen, texture, and light interaction",
+    "Coherent lighting and shadow: consistent light direction across all views, realistic specular highlights on material surfaces",
+    "Shoe design must be 100% consistent across all generated views - identical colors, patterns, textures, and details",
+    "Premium diamond layout with Figure 2 inspiration at center, 2 top views, 1 left, 1 right, 1 bottom campaign",
+    "High-end fashion photography quality throughout with consistent color grading matching Figure 2 inspiration",
+    "All in-image copywriting must be Chinese-primary with English-secondary, elegant premium typography",
+    "Balanced 6-view diamond layout composition"
+  ],
+  "outputs": {
+    "center_inspiration": "Figure 2 Inspiration at center - Original inspiration image prominently displayed at the center of the layout, with premium framing and subtle glow effect. Labeled \"灵感来源 INSPIRATION\". Display AI-generated artistic description, key visual feature analysis bullet points, and mood keywords.",
+    "top_left": "Sketch Design - Positioned top-left of center inspiration. Shoe sketch design based on Figure 1 structure with Figure 2 aesthetics applied, clean background, clearly revealing design outline and structure. Labeled \"草图设计 SKETCH\".",
+    "top_right": "Rendered Effect - Positioned top-right of center inspiration. High-fidelity rendered shoe design with realistic materials, textures, gloss, and lighting. Labeled \"渲染效果 RENDER\".",
+    "left_view": "Side Profile - Positioned left of center inspiration. Foot wearing the shoe in side profile (using selected model_type), emphasizing toe box shape, closure system visibility, sole structure, and overall shoe presentation. Labeled \"侧面效果 SIDE\".",
+    "right_view": "Detail Closeup - Positioned right of center inspiration. Tilted diagonal close-up perspective of the ankle and shoe interaction area, showcasing collar styling, lace or closure details, and material texture. Labeled \"细节特写 DETAIL\".",
+    "bottom_campaign": "Brand Campaign - Positioned below center inspiration. Foot wearing the shoe in a dynamic editorial pose within a stylish setting matching Figure 2 inspiration mood. High-end fashion photography with dramatic lighting. Labeled \"品牌大片 CAMPAIGN\"."
+  },
+  "ai_copywriting": {
+    "inspiration_description": "Analyze Figure 2 inspiration image and generate an 60-word artistic description highlighting core visual features.",
+    "visual_features": "Extract 3-5 key visual features from inspiration image as icon-annotated bullet points.",
+    "mood_keywords": "Extract 4-6 mood keywords.",
+    "material_recommendations": "List 3-5 recommended shoe materials with icon identifiers, minimal text.",
+    "craftsmanship_suggestions": "List 3-5 craftsmanship suggestions with icon identifiers, minimal text.",
+    "style_analysis": "Analyze series style with icon-based visual: brand positioning, target audience, user persona.",
+    "dna_mapping": "List4-6 pairs of inspiration-to-design element correspondences with icon identifiers."
+  },
+  "layout_specification": {
+    "composition_type": "Premium diamond layout with center inspiration, 2 top views, 1 left, 1 right, 1 bottom campaign",
+    "background": "Premium gradient or subtle textured background matching Figure 2 inspiration mood",
+    "visual_connections": "Elegant subtle lines or arrows connecting center inspiration to each surrounding view, indicating the creative transformation",
+    "spacing": "Balanced white space between elements with consistent margins",
+    "color_grading": "Unified color grade across all views to match Figure 2 inspiration atmosphere",
+    "typography_style": "Elegant premium typography - serif for luxury, sans-serif for modern, script for feminine"
+  }
+}

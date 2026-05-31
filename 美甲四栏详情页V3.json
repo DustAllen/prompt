@@ -12,11 +12,6 @@
       "weight": 0.90,
       "focus": "Colors, patterns, styling mood, material textures, and artistic aesthetics",
       "role": "Provide aesthetic foundation for nail design generation"
-    },
-    "model_type": {
-      "type": "text_variable",
-      "options": ["Asian female model", "Caucasian female model", "African female model"],
-      "description": "Select model type for hand presentation, skin tone auto-adapts to selected type"
     }
   },
   "workflow": {

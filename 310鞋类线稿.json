@@ -1,0 +1,42 @@
+{
+  "task_objective": "Footwear Line Art to Shoe Design & Wear Presentation - Generate shoe design from Figure 1 line art with Figure 2 inspiration aesthetics, and present in 4-grid showcase with high-precision image editing",
+  "input_assets": {
+    "structural_reference": {
+      "source": "Figure 1 Line Art",
+      "focus": "EXACT footwear structural framework - proportions, silhouette form, sole structure, upper construction, heel positioning, toe box shape, ankle collar styling, lace or closure system, and overall shoe profile - ABSOLUTE PRESERVATION REQUIRED",
+      "role": "Provide locked structural blueprint for shoe design generation"
+    },
+    "aesthetic_reference": {
+      "source": "Figure 2 Inspiration",
+      "focus": "Color system, material texture, pattern or detailing, and overall style tone",
+      "role": "Provide aesthetic elements to be applied onto the shoe structure"
+    }
+  },
+  "workflow": {
+    "role": "Professional Footwear Designer & High-Precision Image Editing Specialist",
+    "steps": {
+      "step_1_inspiration_analysis": "Comprehensive analysis of Figure 2 inspiration: extract core visual features including colors, textures, mood, pattern elements, material characteristics, and artistic aesthetics. Identify dominant color palette, pattern rhythm, material properties, and overall style direction.",
+      "step_2_sketch_design_generation": "Generate shoe sketch design based on Figure 1 line art structure with inspiration aesthetics from Figure 2. STRICTLY preserve Figure 1's shoe proportions, silhouette form, sole structure, upper construction, heel positioning, toe box shape, ankle collar styling, and lace or closure system. Apply inspiration-derived color system, material texture, and style elements onto the locked structure with pixel-level precision. No structural deviation allowed.",
+      "step_3_render_generation": "Generate high-fidelity rendered shoe effect image from the sketch design with realistic material rendering: accurate material simulation (leather grain, suede nap, mesh weave, rubber matte), physically-based sole flexibility and upper tension, natural crease patterns at flex points, and coherent lighting interaction. Produce material recommendations, craftsmanship suggestions, and style positioning analysis.",
+      "step_4_multi_view_presentation": "Generate four distinct presentation views using selected model type with auto-adapted foot anatomy and skin tone. Ensure shoe-to-foot fit is physically accurate with natural foot-shoe interaction, proper tension at lace or closure areas, and realistic shadow casting between shoe and foot. Maintain absolute shoe design consistency and model identity across all views."
+    }
+  },
+  "output_requirements": [
+    "ABSOLUTE preservation of Figure 1 footwear structural framework across all outputs - no structural deviation in any view",
+    "Aesthetic elements from Figure 2 applied exclusively to the shoe with pixel-level precision",
+    "Model type selection (Asian/Caucasian/African female model) with auto-adapted foot anatomy and skin tone",
+    "Model foot anatomy and skin tone must be 100% consistent across all wear views",
+    "Physically accurate shoe-foot interaction: natural crease patterns, proper tension at closure areas, realistic sole contact",
+    "Realistic material rendering: material-specific sheen, texture, and light interaction",
+    "Coherent lighting and shadow: shoe shadows cast on foot, ambient occlusion at material folds, consistent light direction across all views",
+    "Seamless edge blending between shoe and foot with no visible artifacts or compositing errors",
+    "Shoe design must be 100% consistent across all 4 grids - identical colors, patterns, textures, and details",
+    "Balanced 2x2 grid composition with high-end fashion photography quality"
+  ],
+  "outputs": {
+    "grid_1": "Shoe alone on clean background - showcasing complete shoe structure, silhouette, material texture, pattern details, and aesthetic elements with studio lighting. No foot or model elements.",
+    "grid_2": "Side angle view (using selected model_type parameters) - foot wearing the shoe in side profile, emphasizing toe box shape, closure system visibility, sole structure, and overall shoe presentation with realistic foot-shoe interaction.",
+    "grid_3": "Tilted front-ankle close-up (using selected model_type parameters) - slightly angled diagonal perspective of the ankle and shoe interaction area, showcasing natural shoe fit around the ankle, collar styling, and lace or closure details with dynamic viewing angle.",
+    "grid_4": "Tilted back-heel close-up (using selected model_type parameters) - slightly angled diagonal perspective of heel structure and back panel design, presenting rear detail view including heel counter, back seam, and how the shoe wraps naturally around the heel."
+  }
+}

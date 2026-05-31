@@ -1,17 +1,17 @@
 {
-  "task_objective": "Precise Press-on Nail Mapping - Perfectly map Image 1 press-on nails onto Image 2 hand and generate 4-grid presentation",
+  "task_objective": "Precise Press-on Nail Mapping - Perfectly map Image 1 press-on nails onto Image 2 hand and generate multi-perspective presentation in 4-grid layout",
   "input_assets": {
     "source_nail_reference": {
       "source": "Image 1 Press-on Nail Design",
       "weight": 0.95,
       "focus": "EXACT preservation of press-on nail designs - every detail, color gradients, artistic elements, pattern integrity, texture depth, shine reflections, material properties, and complete nail design consistency",
-      "role": "Provide source nail designs to be perfectly mapped and maintained with zero deviation"
+      "role": "Provide source nail designs to be perfectly mapped and maintained with zero deviation across all output variations"
     },
     "target_hand_reference": {
       "source": "Image 2 Hand Reference",
       "weight": 0.90,
       "focus": "Hand anatomy, skin tone, skin texture, fingernail shapes, natural hand proportions, lighting conditions, and background environment",
-      "role": "Provide base hand structure, skin tone, and anatomy for nail mapping"
+      "role": "Provide base hand structure, skin tone, and anatomy for nail mapping and all perspective variations"
     }
   },
   "workflow": {
@@ -24,10 +24,10 @@
   },
   "FINAL_OUTPUT": {
     "description": "Professional press-on nail presentation in 2x2 grid layout with complete nail design consistency",
-    "grid_1": "Original hand gesture - strictly preserve Image 2's exact hand gesture, perspective, and anatomy with perfectly mapped nails from Image 1",
-    "grid_2": "Standard back of hand view (using Image 2 hand/skin parameters) - present the hand in standard back of hand pose showcasing perfectly mapped nails with consistent skin tone from Image 2",
-    "grid_3": "Standard fist pose (using Image 2 hand/skin parameters) - present the hand in natural fist position highlighting the nail designs on visible fingernails with consistent skin tone from Image 2",
-    "grid_4": "Hand near face pose (using Image 2 hand/skin parameters) - present the hand gently positioned near the face with facial features that match Image 2's hand skin tone, creating a cohesive and realistic presentation",
+    "grid_1": "Original hand gesture (using Image 2 hand parameters with Image 1 nail mapping) - strictly preserve Image 2's exact hand gesture, perspective, and anatomy with perfectly mapped nails from Image 1",
+    "grid_2": "Standard back of hand view (using Image 2 hand/skin parameters with Image 1 nail mapping) - present the hand in standard back of hand pose showcasing perfectly mapped nails with consistent skin tone from Image 2",
+    "grid_3": "Standard fist pose (using Image 2 hand/skin parameters with Image 1 nail mapping) - present the hand in natural fist position highlighting the nail designs on visible fingernails with consistent skin tone from Image 2",
+    "grid_4": "Hand near face pose (using Image 2 hand/skin parameters with Image 1 nail mapping) - present the hand gently positioned near the face with facial features that match Image 2's hand skin tone, creating a cohesive and realistic presentation",
     "consistency_requirements": "CRITICAL REQUIREMENTS: 100% consistent press-on nail design across all 4 grids (colors, patterns, textures, shine, details from Image 1); 100% consistent hand skin tone, skin texture, and basic hand anatomy from Image 2; realistic lighting and shadow integration matching each pose; seamless edge blending between nails and fingers; no design distortion, no color shift, no detail loss."
   }
 }
