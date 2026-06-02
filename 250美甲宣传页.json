@@ -1,0 +1,46 @@
+{
+  "task_objective": "Nail Shape Sketch to Press-on Nail Design & 6-View Premium Presentation - Generate press-on nail design from Figure 1 nail shape sketch with Figure 2 inspiration aesthetics, presented in a premium nail art layout with Figure 2 inspiration at center, 2 views on top, 1 on each side, and brand campaign at bottom, emphasizing the creative transformation from inspiration to final nail design",
+  "input_assets": {
+    "structural_reference": {
+      "source": "Figure 1 Nail Shape Sketch",
+      "focus": "EXACT nail shape structural framework - nail count, positions, shapes, contours, proportions, spacing, curvature, and layout composition - ABSOLUTE PRESERVATION REQUIRED",
+      "role": "Provide locked structural blueprint for nail design generation"
+    },
+    "aesthetic_reference": {
+      "source": "Figure 2 Inspiration",
+      "focus": "Color system, pattern texture, material gloss, decorative elements, and overall style tone",
+      "role": "Provide aesthetic elements to be applied onto the nail structure"
+    }
+  },
+  "workflow": {
+    "role": "Professional Nail Art Director & Premium Image Editing Specialist",
+    "steps": {
+      "step_1_inspiration_analysis": "Comprehensive analysis of Figure 2 inspiration: extract core visual features including colors, textures, mood, pattern elements, material characteristics, and artistic aesthetics. Generate artistic description, bullet-point analysis, and mood keywords. Identify dominant color palette, pattern rhythm, material properties, and overall style direction.",
+      "step_2_sketch_design_generation": "Generate nail sketch design based on Figure 1 nail shape sketch with inspiration aesthetics from Figure 2. STRICTLY preserve Figure 1's nail count, positions, shapes, contours, proportions, spacing, curvature, and layout. Apply inspiration-derived color system, pattern texture, and style elements onto the locked structure with pixel-level precision. No structural deviation allowed.",
+      "step_3_render_generation": "Generate high-fidelity rendered press-on nail effect image from the sketch design with realistic material rendering: accurate gloss simulation (cat eye shimmer, chrome mirror, matte velvet, holographic rainbow), physically-based light reflection and refraction, natural nail curvature highlights, and coherent lighting interaction.",
+      "step_4_multi_view_presentation": "Generate presentation views using selected hand model type with auto-adapted skin tone and hand anatomy. Ensure nail-to-finger fit is natural with seamless edge blending, proper nail curvature alignment, and realistic shadow casting between nail and finger. Maintain absolute nail design consistency and hand model identity across all views.",
+      "step_5_campaign_generation": "Generate brand campaign image with hand wearing the nail design in a dynamic editorial pose near the face, with facial features matching the selected hand model skin tone. High-end nail photography style with dramatic lighting and composition.",
+      "step_6_premium_layout_assembly": "Assemble the 6-view premium diamond layout with Figure 2 inspiration at center, sketch and render on top, hand back view on left, fist view on right, brand campaign at bottom, connected with elegant visual elements indicating the creative transformation journey"
+    }
+  },
+  "outputs": {
+    "center_inspiration": "Figure 2 Inspiration at center - Original inspiration image prominently displayed at the center of the layout, with premium framing and subtle glow effect. Labeled \"灵感溯源 INSPIRATION SOURCE\". Display AI-generated artistic description, key visual feature analysis bullet points, and mood keywords.",
+    "top_left": "Sketch Design - Positioned top-left of center inspiration. Nail sketch design based on Figure 1 nail shape structure with Figure 2 aesthetics applied, clean background, clearly revealing design outline and structure. Labeled \"甲型线稿 NAIL SKETCH\".",
+    "top_right": "Rendered Effect - Positioned top-right of center inspiration. High-fidelity rendered press-on nail design with realistic materials, textures, gloss, and lighting. Labeled \"甲面渲染 NAIL RENDER\".",
+    "left_view": "Back of Hand - Positioned left of center inspiration. Hand wearing the nail design in back of hand pose (using selected model_hand_type), emphasizing nail design on each finger, overall hand-nail harmony, and natural wear presentation. Labeled \"手背穿戴 ON HAND\".",
+    "right_view": "Fist Pose - Positioned right of center inspiration. Hand wearing the nail design in a clenched fist pose (using selected model_hand_type), emphasizing nail design from a fist angle, showcasing complete nail pattern on all five fingers simultaneously with natural gesture and skin tone. Labeled \"握拳展示 FIST VIEW\".",
+    "bottom_campaign": "Brand Campaign - Positioned below center inspiration. Hand wearing the nail design gently positioned near the face with facial features matching the selected hand model skin tone, creating a cohesive and luxurious presentation. High-end nail photography with dramatic lighting. Labeled \"指尖大片 NAIL CAMPAIGN\"."
+  },
+  "output_requirements": [
+    "ABSOLUTE preservation of Figure 1 nail shape structural framework across all generated views - no structural deviation",
+    "Aesthetic elements from Figure 2 applied exclusively to the nail design with pixel-level precision",
+    "Nail design in all wear views and campaign image MUST be 100% identical to top_right rendered effect with seamless edge blending between nail and finger with no visible artifacts",
+    "Realistic nail material rendering: gloss-specific sheen, texture, and light interaction (cat eye, chrome, matte, holographic)",
+    "Hand model type selection (Asian/Caucasian/African) with auto-adapted skin tone and hand anatomy, 100% consistent across all wear views",
+    "Coherent lighting and shadow: nail shadows cast on finger, ambient occlusion at nail edges, consistent light direction across all views",
+    "Premium Fashion layout: center inspiration, 2 top views, 1 left, 1 right, 1 bottom campaign with elegant subtle lines or arrows connecting center inspiration to each surrounding view, indicating the creative transformation journey",
+    "Premium atmosphere: color system extracted from Figure 2 with multi-layered gradient background matching inspiration mood, luminous glow around center inspiration, cinematic vignette at edges, unified color grading across all views with coherent warm/cool tone and matching saturation, luxury white space with premium framing and subtle shadow/glow effects, high-end nail photography with editorial-level retouching",
+    "AI copywriting: series title (3-4 char Chinese + UPPERCASE English subtitle + poetic Chinese tagline), inspiration analysis (60-word description + 2-4 visual feature bullets + 3-5 mood keywords), nail spec (2-4 polish materials + 2-4 craftsmanship techniques + style positioning), DNA mapping (3-5 icon-annotated inspiration-to-design element pairs)",
+    "All in-image copywriting must be Chinese-primary with English-secondary, elegant premium typography (serif for luxury, sans-serif for modern, script for feminine), with subtle decorative icons matching inspiration theme (e.g., sparkle for glamour, snowflake for winter, petal for romantic, gemstone for luxury)"
+  ]
+}
