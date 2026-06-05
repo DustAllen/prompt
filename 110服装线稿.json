@@ -1,42 +1,43 @@
 {
-  "task_objective": "Fashion Line Art to Garment Design & Wear Presentation - Generate garment design from Figure 1 line art with Figure 2 inspiration aesthetics, and present in 4-grid showcase with high-precision image editing",
+  "task_objective": "Fashion Style Transfer & 9-View 3x3 Presentation - Apply Figure 2 aesthetics onto Figure 1 garment structure (FULLY PRESERVED)",
   "input_assets": {
-    "structural_reference": {
-      "source": "Figure 1 Line Art",
-      "focus": "EXACT garment structural framework - proportions, silhouette form, seam placement, hemline positioning, collar styling, sleeve length, and overall garment length - ABSOLUTE PRESERVATION REQUIRED",
-      "role": "Provide locked structural blueprint for garment design generation"
+    "base_reference": {
+      "source": "Figure 1 Person with Outfit",
+      "focus": "Garment structural framework (proportions, silhouette, seams, hemline, collar, sleeve, waistline) - FULL PRESERVATION REQUIRED"
     },
     "aesthetic_reference": {
-      "source": "Figure 2 Inspiration",
-      "focus": "Color system, pattern texture, fabric characteristics, and overall style tone",
-      "role": "Provide aesthetic elements to be applied onto the garment structure"
+      "source": "Figure 2 Aesthetic Style",
+      "focus": "Color palette, pattern texture, fabric style, design tone - applied exclusively to garment structure"
     }
   },
   "workflow": {
-    "role": "Professional Fashion Designer & High-Precision Image Editing Specialist",
+    "role": "Fashion Designer & Style Transfer Specialist",
     "steps": {
-      "step_1_inspiration_analysis": "Comprehensive analysis of Figure 2 inspiration: extract core visual features including colors, textures, mood, pattern elements, fabric characteristics, and artistic aesthetics. Identify dominant color palette, pattern rhythm, material properties, and overall style direction.",
-      "step_2_sketch_design_generation": "Generate garment sketch design based on Figure 1 line art structure with inspiration aesthetics from Figure 2. STRICTLY preserve Figure 1's garment proportions, silhouette form, seam placement, hemline positioning, collar styling, sleeve length, and overall garment length. Apply inspiration-derived color system, pattern texture, and style elements onto the locked structure with pixel-level precision. No structural deviation allowed.",
-      "step_3_render_generation": "Generate high-fidelity rendered garment effect image from the sketch design with realistic fabric rendering: accurate material simulation (silk sheen, cotton matte, wool texture), physically-based fabric draping following gravity and body curvature, natural wrinkle patterns at stress points, and coherent lighting interaction. Produce fabric material recommendations, craftsmanship suggestions, and style positioning analysis.",
-      "step_4_multi_view_presentation": "Generate four distinct presentation views using selected model type with auto-adapted body proportions and skin tone. Ensure garment-to-body fit is physically accurate with natural fabric-body interaction, proper tension at stress points, and realistic shadow casting between garment and body. Maintain absolute garment design consistency and model identity across all views."
+      "step_1_analysis": "Analyze Figure 2 aesthetic (colors, textures, patterns, mood) and parse Figure 1 garment structure (proportions, silhouette, seams, details) with strict precision.",
+      "step_2_redesign": "Apply Figure 2 aesthetics onto Figure 1 garment structure with pixel-level precision. NO structural deviation - only color, fabric, pattern, and style change.",
+      "step_3_generation": "Generate 9 views: sketch → unmanned render (SOURCE OF TRUTH) → mannequin → 6 model poses. Garment consistency and SFW enforced in output_requirements.",
+      "step_4_layout": "Assemble 3x3 grid with consistent styling, cinematic color grading, luxury white space."
     }
   },
-  "output_requirements": [
-    "ABSOLUTE preservation of Figure 1 garment structural framework across all outputs - no structural deviation in any view",
-    "Aesthetic elements from Figure 2 applied exclusively to the garment with pixel-level precision",
-    "Model type selection (Asian/Caucasian/African female model) with auto-adapted body proportions and skin tone",
-    "Model identity, facial details, and body proportions must be 100% consistent across all wear views",
-    "Physically accurate fabric draping: gravity simulation, natural wrinkle patterns, proper tension at seams and stress points",
-    "Realistic material rendering: fabric-specific sheen, texture, and light interaction",
-    "Coherent lighting and shadow: garment shadows cast on body, ambient occlusion at fabric folds, consistent light direction across all views",
-    "Seamless edge blending between garment and body with no visible artifacts or compositing errors",
-    "Garment design must be 100% consistent across all 4 grids - identical colors, patterns, textures, and details",
-    "Balanced 2x2 grid composition with high-end fashion photography quality"
-  ],
   "outputs": {
-    "grid_1": "Garment alone on display mannequin - posed mannequin presentation on clean background, showcasing complete garment structure, silhouette, fabric texture, pattern details, and aesthetic elements with studio lighting.",
-    "grid_2": "Front full-body view (using selected model_type parameters) - model wearing the garment in natural standing pose, emphasizing overall garment fit, silhouette, collar styling, fabric draping, and complete front presentation with realistic body-garment interaction.",
-    "grid_3": "Dutch angle close-up (using selected model_type parameters) - 3/4 tilted composition with dynamic camera angle, focusing on key garment details: collar construction, button or closure area, fabric texture close-up, stitching craftsmanship, and material quality with enhanced detail rendering.",
-    "grid_4": "Back view (using selected model_type parameters) - presenting the back design of the garment when worn, including back seam details, hemline, rear silhouette, and how the fabric drapes naturally on the back of the body."
-  }
+    "view_1": "Design Sketch - Garment Lineart-sketch based on Figure 1 structure with Figure 2 aesthetics, clean background. ",
+    "view_2": "Unmanned Render - High-fidelity garment render without model, flat lay or hanger presentation. GARMENT DESIGN SOURCE OF TRUTH. ",
+    "view_3": "Window Mannequin - Garment on posed mannequin with studio lighting, luxury boutique window presentation. ",
+    "view_4": "Crossed Legs Standing - Model standing with legs crossed, sophisticated and relaxed posture, emphasizing garment silhouette and fabric drape. ",
+    "view_5": "The Hair Toss - Model with one hand sweeping hair back, elbow raised, neck slightly tilted back, dreamy gaze. ",
+    "view_6": "Over-the-Shoulder Look - Model turning back with over-the-shoulder gaze, simultaneously revealing front design details and back silhouette. ",
+    "view_7": "Mid-Stride Walking - Model captured mid-step in natural walking motion, showcasing garment movement, fabric flow, and dynamic energy.",
+    "view_8": "High-Angle Seated Pose - Model seated on the ground with legs extended diagonally, high-angle shot looking down to emphasize garment volume, layering and intricate details. ",
+    "view_9": "Car Interior Seated - Model seated elegantly in a car with legs extended forward, hands resting naturally on thighs, relaxed upper body posture, showcasing garment fit and leg lines. "
+  },
+  "output_requirements": [
+    "NO text, NO labels, NO watermarks across all 9 images",
+    "Figure 1 garment structure FULLY PRESERVED - only color, fabric, pattern, style change,Figure 2 aesthetics applied exclusively to garment with pixel-level precision",
+    "view_3 through view_9 garment MUST be 100% identical to view_2 - same colors, patterns, textures, details",
+    "Model type: Asian / Caucasian / African female, or from Figure 1 (if present), auto-adapted proportions and skin tone, consistent across all views",
+    "All views SFW - professional fashion presentation, no suggestive content",
+    "Realistic fabric: sheen, texture, draping, gravity simulation, natural wrinkles, dynamic movement",
+    "Consistent lighting and shadow across all views; NO oily/greasy shine; NO oversaturated colors",
+    "Premium 3x3 grid - cinematic color grading, luxury white space, unified visual tone, Dynamic high-end fashion magazine standard"
+  ]
 }

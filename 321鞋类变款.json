@@ -1,0 +1,30 @@
+{
+  "task_objective": "Structure Transformation & 9-View 3x3 - Map Figure 2 design onto Figure 1 line art structure (ONLY structure changes, Figure 2 design FULLY PRESERVED)",
+  "input_assets": {
+    "structural_reference": "Figure 1 Line Art shoe structure (sole shape, heel height, toe box, vamp, lace system, silhouette, proportions) - ONLY element that changes",
+    "design_reference": "Figure 2 shoe design (colors, patterns, textures, materials, details, accessories) - FULLY PRESERVED, ZERO deviation"
+  },
+  "workflow": {
+    "step_1": "Extract Figure 2 complete design + parse Figure 1 line art shoe structure",
+    "step_2": "Map Figure 2 design onto Figure 1 structure, ONLY silhouette changes, ALL design elements preserved pixel-precise",
+    "step_3": "Generate 9 views, assemble 3x3 grid with cinematic grading, luxury white space"
+  },
+  "outputs": {
+    "view_1": "Design Sketch - Transformed shoe: Figure 1 structure + Figure 2 design, clean bg",
+    "view_2": "Unmanned Render - Shoe render without foot, display stand presentation. SOURCE OF TRUTH",
+    "view_3": "Display Stand - Shoe on premium display stand with studio lighting, boutique presentation",
+    "view_4": "Front Standing - Model foot (selected model_type) wearing shoe, front view, full shoe & ankle visible",
+    "view_5": "Side Profile - Model foot wearing shoe, side view emphasizing sole curve, heel & silhouette",
+    "view_6": "Walking Step - Model foot mid-step, showcasing shoe motion, dynamic stride energy",
+    "view_7": "Crossed Ankles - Seated model with ankles crossed, relaxed elegant posture, shoe detail emphasis",
+    "view_8": "Back Heel View - Back view of shoe on foot, highlighting heel construction & rear design",
+    "view_9": "Stair Step - Model foot on stair edge, dramatic angle emphasizing sole, heel & shoe profile"
+  },
+  "output_requirements": [
+    "NO text/labels/watermarks; ONLY structure changes to Figure 1; Figure 2 design 100% preserved pixel-precise",
+    "view_3-9 shoe 100% identical to view_2",
+    "Model foot: Asian/Caucasian/African, auto-adapted skin tone, consistent",
+    "SFW; realistic material (leather, suede, mesh, patent); consistent lighting; NO oily shine; NO oversaturation",
+    "Premium 3x3 - cinematic grading, luxury white space, footwear editorial standard"
+  ]
+}

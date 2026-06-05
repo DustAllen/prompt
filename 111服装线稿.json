@@ -1,0 +1,30 @@
+{
+  "task_objective": "Style Transfer & 9-View 3x3 - Apply Figure 2 aesthetics onto Figure 1 garment structure (FULLY PRESERVED)",
+  "input_assets": {
+    "base_reference": "Figure 1 garment structure (proportions, silhouette, seams, hemline, collar, sleeve, waistline) - LOCKED",
+    "aesthetic_reference": "Figure 2 colors, pattern, texture, fabric style - applied to garment only"
+  },
+  "workflow": {
+    "step_1": "Analyze Figure 2 aesthetics + parse Figure 1 garment structure",
+    "step_2": "Apply Figure 2 aesthetics onto Figure 1 structure, pixel-precise, NO structural deviation",
+    "step_3": "Generate 9 views, assemble 3x3 grid with cinematic grading, luxury white space"
+  },
+  "outputs": {
+    "view_1": "Design Sketch - Garment Lineart-sketch based on Figure 1 structure with Figure 2 aesthetics, clean bg",
+    "view_2": "Unmanned Render - Flat lay/hanger, no model. SOURCE OF TRUTH",
+    "view_3": "Mannequin - Studio lighting, boutique window presentation",
+    "view_4": "Crossed Legs - Standing, legs crossed, relaxed sophisticated posture",
+    "view_5": "Hair Toss - Hand sweeping hair back, elbow raised, neck tilted, dreamy gaze",
+    "view_6": "Over-Shoulder - Turning back, revealing front details + back silhouette",
+    "view_7": "Mid-Stride - Walking motion, fabric flow, dynamic energy",
+    "view_8": "High-Angle Seated - Ground seated, legs diagonal, high-angle emphasizing volume & details",
+    "view_9": "Car Seated - Elegantly seated in car, legs forward, showcasing fit & leg lines"
+  },
+  "output_requirements": [
+    "NO text/labels/watermarks; Figure 1 structure LOCKED; Figure 2 aesthetics pixel-precise",
+    "view_3-9 garment 100% identical to view_2",
+    "Model: Asian/Caucasian/African or from Figure 1, auto-adapted, consistent",
+    "SFW; realistic fabric draping; consistent lighting; NO oily shine; NO oversaturation",
+    "Premium 3x3 - cinematic grading, luxury white space, magazine editorial standard"
+  ]
+}

@@ -8,8 +8,8 @@
     },
     "aesthetic_reference": {
       "source": "Figure 2 Inspiration",
-      "focus": "Color system, fabric texture, pattern or detailing, and overall style tone",
-      "role": "Provide aesthetic elements to be applied onto the garment structure"
+      "focus": "Color system, fabric texture, pattern or detailing, and overall style tone - applied exclusively to garment structure",
+      "role": "Provide aesthetic elements to be applied onto the garment structure from Figure 1"
     }
   },
   "workflow": {
@@ -33,7 +33,7 @@
   },
   "output_requirements": [
     "ABSOLUTE preservation of Figure 1 garment structural framework across all generated views - no structural deviation",
-    "Aesthetic elements from Figure 2 applied exclusively to the garment with pixel-level precision",
+    "Aesthetic elements from Figure 2 applied exclusively to the garment structure with pixel-level precision",
     "Garment design in all wear views and campaign image MUST be 100% identical to top_right rendered effect with seamless edge blending between garment and body with no visible artifacts",
     "Realistic fabric rendering: fabric-specific sheen, texture, and light interaction (silk, cotton, wool, linen)",
     "Model type selection (Asian/Caucasian/African female model) with auto-adapted body proportions and skin tone, 100% consistent across all wear views",

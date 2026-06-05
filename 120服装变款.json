@@ -1,0 +1,50 @@
+{
+  "task_objective": "Garment Structure Transformation & 8-View Premium Presentation - Transform Figure 2 garment design onto Figure 1 line art structure while FULLY preserving Figure 2's complete design (colors, patterns, textures, details), only changing the structural silhouette, presented in a premium 8-grid layout, NO text in images",
+  "input_assets": {
+    "structural_reference": {
+      "source": "Figure 1 Line Art",
+      "focus": "EXACT garment structural framework - proportions, silhouette form, seam placement, hemline positioning, collar styling, sleeve length, waistline, and overall garment length - THIS IS THE ONLY ELEMENT THAT CHANGES",
+      "role": "Provide the new structural silhouette for garment transformation"
+    },
+    "design_reference": {
+      "source": "Figure 2 Outfit Design",
+      "focus": "COMPLETE garment design preservation - color scheme, pattern texture, fabric characteristics, decorative details, accessories, material properties, shine effects - FULL PRESERVATION REQUIRED, ZERO DESIGN DEVIATION ALLOWED",
+      "role": "Provide the garment design to be fully preserved and mapped onto Figure 1 structure"
+    }
+  },
+  "workflow": {
+    "role": "Professional Fashion Designer & Precision Structure Transformation Specialist",
+    "steps": {
+      "step_1_design_extraction": "Extract COMPLETE garment design from Figure 2 with pixel-level precision: color scheme, pattern texture, fabric characteristics, decorative details, accessories, material properties, and shine effects. EVERY design element must be captured with zero detail loss.",
+      "step_2_structure_analysis": "Analyze Figure 1 line art to identify target garment structural framework: proportions, silhouette form, seam placement, hemline positioning, collar styling, sleeve length, waistline, and overall garment length with strict precision.",
+      "step_3_structure_transformation": "Precisely map Figure 2's COMPLETE design onto Figure 1's target structure. ONLY the structural silhouette changes to match Figure 1 - ALL design elements (colors, patterns, textures, details, accessories) remain 100% identical to Figure 2. No design deviation allowed.",
+      "step_4_design_views": "Generate design process views: sketch design and unmanned render showing the transformed garment with Figure 1 structure and Figure 2 design.",
+      "step_5_mannequin_view": "Generate window mannequin display render showing the transformed garment on a posed mannequin with studio lighting.",
+      "step_6_model_poses": "Generate 5 dynamic model wearing views using selected model type, each in a distinct editorial pose. The garment in view_3 through view_8 MUST be 100% identical to view_2 rendered garment - same colors, patterns, textures, and details.",
+      "step_7_layout_assembly": "Assemble the 8-view premium layout in a 4x2 grid with elegant visual elements and consistent styling throughout. NO text, NO labels, NO watermarks in any image."
+    }
+  },
+  "outputs": {
+    "view_1": "Design Sketch - Transformed garment sketch with Figure 1 structure and Figure 2 design applied, clean background, clearly revealing new structural outline with preserved design elements. No text.",
+    "view_2": "Unmanned Render - High-fidelity rendered transformed garment without model, flat lay or hanger presentation, clean background, showcasing Figure 1 structure with Figure 2 design fully preserved. This is the GARMENT DESIGN SOURCE OF TRUTH - all subsequent views must match this exactly. No text.",
+    "view_3": "Window Mannequin - Transformed garment (100% identical to view_2) displayed on posed display mannequin with studio lighting, simulating luxury boutique window presentation. No text.",
+    "view_4": "Front Wearing - Model wearing the transformed garment (100% identical to view_2) in standard front-facing standing pose (using selected model_type), full-body view clearly revealing overall outfit design and fine details. No text.",
+    "view_5": "S-Curve / Contrapposto - Model wearing the transformed garment (100% identical to view_2) in weight-shift pose with elegant body curve, one hip slightly dropped creating natural S-curve silhouette, showcasing how the garment drapes and moves with the body. No text.",
+    "view_6": "Crossed Legs Standing - Model wearing the transformed garment (100% identical to view_2) standing with legs crossed, creating a sophisticated and relaxed posture, emphasizing garment silhouette and fabric drape from a refined angle. No text.",
+    "view_7": "Mid-Stride Walking - Model wearing the transformed garment (100% identical to view_2) captured mid-step in a natural walking motion, showcasing garment movement, fabric flow, and dynamic energy. No text.",
+    "view_8": "Over-the-Shoulder Look - Model wearing the transformed garment (100% identical to view_2) turning back with over-the-shoulder gaze, simultaneously revealing front design details and back silhouette in one composition. No text."
+  },
+  "output_requirements": [
+    "NO text, NO labels, NO watermarks in any of the 8 output images",
+    "ONLY the structural silhouette changes to match Figure 1 - ALL design elements from Figure 2 (colors, patterns, textures, details, accessories) must be 100% preserved with ZERO deviation",
+    "Figure 1 garment structural framework MUST be precisely adopted - proportions, silhouette, seams, hemline, collar, sleeve, waistline",
+    "Garment in view_3 through view_8 MUST be 100% identical to view_2 rendered garment - identical colors, patterns, textures, details, no deviation allowed",
+    "Model type selection: Asian / Caucasian / African female model, with auto-adapted body proportions and skin tone, 100% consistent across all model views",
+    "Realistic fabric rendering: fabric-specific sheen, texture, and light interaction (silk, cotton, wool, linen)",
+    "Physically accurate fabric draping: gravity simulation, natural wrinkle patterns, proper tension at seams and stress points, dynamic fabric movement in walking pose",
+    "Coherent lighting and shadow: garment shadows cast on body, ambient occlusion at fabric folds, consistent light direction across all views",
+    "NO oily/greasy shine on skin or fabric - reject unnatural glossy, waxy, or plastic-looking highlights on model skin and garment surfaces",
+    "NO oversaturated colors - maintain natural, true-to-life color saturation, avoid artificially boosted or neon-like color intensity",
+    "Balanced 4x2 grid composition with premium fashion photography quality throughout"
+  ]
+}

@@ -1,42 +1,51 @@
 {
-  "task_objective": "High Fashion Virtual Try-On & Multi-Angle Presentation - Dress Figure 2 outfit onto Figure 1 character with precise identity preservation and 4-angle showcase",
+  "task_objective": "High Fashion Virtual Try-On & 9-View Editorial Presentation - Dress Figure 2 outfit onto Figure 1 character with precise identity preservation, presented in a premium 9-grid (3x3) layout with original pose preservation plus magazine-cover editorial poses, NO text in images",
   "input_assets": {
     "character_reference": {
       "source": "Figure 1 Character",
-      "weight": 0.90,
-      "focus": "Facial features, hair, skin tone, body proportions, pose, and identity characteristics - FULL PRESERVATION REQUIRED",
-      "role": "Provide character identity and body structure for virtual try-on"
+      "focus": "Body pose, posture, gesture, and composition ",
+      "role": "Provide body pose reference for view_1 original pose preservation"
     },
     "outfit_reference": {
       "source": "Figure 2 Outfit",
-      "weight": 0.85,
       "focus": "Clothing cut, fabric texture, pattern, color, accessories, and complete outfit design - FULL PRESERVATION REQUIRED",
       "role": "Provide outfit design to be dressed onto the character"
     }
   },
   "workflow": {
-    "role": "Professional Fashion Photographer & Virtual Try-On Specialist",
+    "role": "Professional Fashion Photographer & Editorial Virtual Try-On Specialist",
     "steps": {
-      "step_1_character_analysis": "Parse character identity from Figure 1 with strict precision: facial features, hair, skin tone, body proportions, and pose.",
-      "step_2_outfit_extraction": "Extract complete outfit details from Figure 2: clothing cut, fabric textures, patterns, colors, and accessories with NO detail loss.",
+      "step_1_outfit_extraction": "Extract complete outfit details from Figure 2: clothing cut, fabric textures, patterns, colors, and accessories with NO detail loss. This is the OUTFIT DESIGN SOURCE OF TRUTH.",
+      "step_2_character_analysis": "Parse character identity from Figure 1 with strict precision: facial features, hair, skin tone, body proportions.",
       "step_3_virtual_dressing": "Precisely dress the outfit from Figure 2 onto the character from Figure 1. The outfit must fit the character's body naturally with seamless edges, no visible artifacts, and physically accurate draping.",
-      "step_4_multi_angle_generation": "Generate four distinct viewing angles , while maintaining absolute character identity and outfit consistency across all views."
+      "step_4_original_pose": "Preserve Figure 1's original pose exactly while dressing the outfit from Figure 2 onto the character. The character's posture, gesture, and composition remain identical to Figure 1 - only the outfit changes.",
+      "step_5_editorial_poses": "Generate 8 distinct magazine-cover editorial poses, each creating a unique visual narrative while maintaining absolute character identity and outfit consistency across all views. Outfit in all views MUST be 100% identical to the original outfit from Figure 2.",
+      "step_6_layout_assembly": "Assemble the 9-view premium layout in a 3x3 grid with elegant visual elements and consistent styling throughout. NO text, NO labels, NO watermarks in any image."
     }
   },
-  "output_requirements": [
-    "EXACT preservation of character identity from Figure 1 (facial features, hair, skin tone, body proportions)",
-    "EXACT preservation of outfit design from Figure 2 (cut, fabric, pattern, color, accessories)",
-    "Natural outfit-to-body fit with seamless edges and physically accurate draping",
-    "Background source selection (Figure 1 Character background / Figure 2 Outfit background) with seamless integration and with auto-adapted atmosphere and shadows",
-    "Outfit design must be 100% consistent across all 4 grids - identical colors, patterns, textures, and details",
-    "Balanced 2x2 grid composition",
-    "High-quality fashion photography presentation throughout"
-  ],
   "outputs": {
-    "grid_1": "Front view (0 degrees) - character wearing the outfit from Figure 2, full-body front view clearly revealing overall outfit design and fine details.",
-    "grid_2": "3/4 angle view (45 degrees) - character wearing the outfit, three-quarter front angle showing outfit design from a dynamic perspective with depth and dimension.",
-    "grid_3": "Side profile view (90 degrees) - character wearing the outfit, side profile showing outfit design continuity and silhouette from the lateral perspective.",
-    "grid_4": "Back view (180 degrees) - character wearing the outfit, back view presenting rear design details including back seams, hemline, and overall rear silhouette."
-  }
+    "view_1": "Original Pose Preservation - Character wearing the outfit from Figure 2 (100% identical) while STRICTLY preserving Figure 1's original pose, posture, gesture, and composition. Only the outfit changes, everything else remains exactly as Figure 1. No text.",
+    "view_2": "The Triangle - Character wearing the outfit (100% identical to Figure 2) with one hand on hip or in pocket, elbow pointing outward creating triangular negative spaces, or one leg bent on an elevated surface. Triangular composition delivers stability, power, and commanding presence. Magazine editorial quality. No text.",
+    "view_3": "The Lean - Character wearing the outfit (100% identical to Figure 2) leaning shoulder or back gently against a wall, weight shifted to one side, one leg straight and the other slightly bent with toe pointed, gaze optionally away from camera. Effortless chic with relaxed sophistication. Magazine editorial quality. No text.",
+    "view_4": "Over-the-Shoulder Gaze - Character wearing the outfit (100% identical to Figure 2) standing with back to camera, upper body twisted, head turned back looking at camera with chin slightly tucked and piercing gaze. Perfectly reveals back tailoring while guiding the eye along the spine line. Strong narrative and mystery. Magazine editorial quality. No text.",
+    "view_5": "The Stride - Character wearing the outfit (100% identical to Figure 2) captured mid-stride with large steps, arms swinging naturally, hair and garment hem caught in dynamic motion. Captures the shape of wind, ideal for coats, wide-leg pants, or flowing dresses bringing static fabric to life. Magazine editorial quality. No text.",
+    "view_6": "Framing the Face - Character wearing the outfit (100% identical to Figure 2) with one or both hands near the face - lightly touching chin, adjusting collar, fingers near necklace, or partially framing the face. Locks viewer attention on face and upper garment details, adding intimate emotional tension. Magazine editorial quality. No text.",
+    "view_7": "Grounded Squat / Crouch - Character wearing the outfit (100% identical to Figure 2) in a low-center-of-gravity squat, feet shoulder-width apart, body leaning forward, elbows resting on knees, looking directly at camera. Avant-garde and street-level tension, breaks conventional eye-level aesthetics, perfect for structured or tailored pieces. Magazine editorial quality. No text.",
+    "view_8": "The Hair Toss - Character wearing the outfit (100% identical to Figure 2) with one hand sweeping hair back, elbow raised, neck slightly tilted back, eyes closed or with a dreamy gaze. Ultimate dynamic beauty and sensuality, flowing hair as foreground creating rich visual layers. Magazine editorial quality. No text.",
+    "view_9": "Asymmetrical Cross - Character wearing the outfit (100% identical to Figure 2) with arms crossed in front of chest but not pressed tight - leaving space between arms and body, legs in asymmetric crossed stance with weight on back leg. Conveys an unapproachable high-fashion attitude, asymmetric body language makes the frame vivid and unconventional. Magazine editorial quality. No text."
+  },
+  "output_requirements": [
+    "NO text, NO labels, NO watermarks in any of the 9 output images",
+    "EXACT preservation of outfit design from Figure 2 (cut, fabric, pattern, color, accessories) across all 9 views - 100% identical, no deviation",
+    "Model type selection: Asian / Caucasian / African female model, with auto-adapted body proportions, skin tone, and facial features, 100% consistent across all 9 views.",
+    "view_1 MUST strictly preserve Figure 1's original pose, posture, gesture, and composition - only the outfit changes to Figure 2",
+    "Natural outfit-to-body fit with seamless edges and physically accurate draping in every pose",
+    "Each pose must create authentic editorial tension and magazine-cover visual impact",
+    "Dynamic fabric response: garment must react naturally to each pose - draping, stretching, flowing, or creasing according to body movement and gravity",
+    "Realistic fabric rendering: fabric-specific sheen, texture, and light interaction",
+    "Coherent lighting and shadow: consistent light direction across all views with dramatic editorial lighting",
+    "NO oily/greasy shine on skin or fabric - reject unnatural glossy, waxy, or plastic-looking highlights",
+    "NO oversaturated colors - maintain natural, true-to-life color saturation",
+    "Balanced 3x3 grid composition with high-end fashion magazine photography quality throughout"
+  ]
 }
-    

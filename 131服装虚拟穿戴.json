@@ -1,0 +1,30 @@
+{
+  "task_objective": "Virtual Try-On & 9-View 3x3 - Dress Figure 2 outfit onto Figure 1 character (pose preserved), magazine editorial poses",
+  "input_assets": {
+    "character_reference": "Figure 1 body pose, posture, gesture ",
+    "outfit_reference": "Figure 2 outfit (cut, fabric, pattern, color, accessories) - FULL PRESERVATION REQUIRED"
+  },
+  "workflow": {
+    "step_1": "Extract Figure 2 outfit design + parse Figure 1 character pose & proportions",
+    "step_2": "Dress Figure 2 outfit onto character, seamless fit, physically accurate draping. view_1 preserves Figure 1 original pose exactly",
+    "step_3": "Generate 9 views (1 original pose + 8 editorial poses), assemble 3x3 grid with cinematic grading"
+  },
+  "outputs": {
+    "view_1": "Original Pose - Figure 1 pose STRICTLY preserved, only outfit changes to Figure 2",
+    "view_2": "Crossed Legs - Standing, legs crossed, relaxed sophisticated posture",
+    "view_3": "Hair Toss - Hand sweeping hair back, elbow raised, neck tilted, dreamy gaze",
+    "view_4": "Over-Shoulder - Turning back, revealing front details + back silhouette",
+    "view_5": "The Kneel - Kneeling on grass, hand holding Hair, outfit spread softly, sweet relaxed gaze.",
+    "view_6": "The Curtsy - Standing upright, hand lifting outfit, showcasing outfit details, aristocratic elegance.",
+    "view_7": "The Pose - One leg lifted, hand on hip, holding phone for mirror selfie, dramatic high-fashion stance",
+    "view_8": "Car Seated - Elegantly seated in car, legs forward, showcasing fit & leg lines",
+    "view_9": "Asymmetrical Cross - Arms crossed with space, asymmetric leg stance, unapproachable high-fashion attitude"
+  },
+  "output_requirements": [
+    "NO text/labels/watermarks; Figure 2 outfit 100% preserved across all 9 views",
+    "view_1 MUST strictly preserve Figure 1 original pose - only outfit changes",
+    "Model: Asian/Caucasian/African (face & identity from model type, NOT from Figure 1), auto-adapted, consistent",
+    "SFW; realistic fabric draping & dynamic response to each pose; consistent lighting; NO oily shine; NO oversaturation",
+    "Premium 3x3 - cinematic grading, magazine editorial standard"
+  ]
+}
