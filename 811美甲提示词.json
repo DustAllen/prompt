@@ -1,0 +1,28 @@
+{
+  "task_objective": "9-Variation Nail Art Prompt Generation - Extract aesthetics from ANY image → 9 distinct 5-nail prompts (each ≤60 words), NO nail shape, NO hand",
+  "input_assets": {
+    "source_image": "Input Image (ANY type) - Extract: color palette, patterns, textures, mood, visual motifs → translate into nail art design language"
+  },
+  "workflow": {
+    "step_1": "Extract aesthetics from image: dominant/secondary/accent colors, patterns, textures, mood, motifs",
+    "step_2": "Map aesthetics to 9 distinct nail design variations: each diverges along a unique creative axis while sharing same DNA",
+    "step_3": "Generate 9 prompts (each ≤60 words): opening + per-nail highlights + closing keywords"
+  },
+  "outputs": {
+    "prompt_1": "Original - Faithful translation of image aesthetics into 5-nail design",
+    "prompt_2": "Complementary - Inverted color scheme (warm↔cool, light↔dark), same design structure",
+    "prompt_3": "Monochrome - Single-hue tonal variation of dominant color, all elements in matching tone",
+    "prompt_4": "Pattern Remix - Keep palette but change pattern type (French→chevron, ombre→marble, solid→animal print)",
+    "prompt_5": "Material Swap - Replace embellishment materials (crystals→pearls, 3D→foil, rhinestones→studs)",
+    "prompt_6": "Minimalist - Base color + one accent element only, clean graphic lines",
+    "prompt_7": "Maximalist - Double decoration layers, secondary embellishments, stacked 3D elements",
+    "prompt_8": "Style Migration - Shift genre keeping color DNA (romantic→geometric, classic→avant-garde)",
+    "prompt_9": "Texture Shift - Change all surface finishes (gloss→velvet, smooth→chrome, clear→frosted)"
+  },
+  "output_requirements": [
+    "9 English prompts, each ≤60 words; NO nail shape (no stiletto/almond/square), NO hand/finger/skin",
+    "Each prompt must be visually distinct — no cross-contamination between variation types",
+    "All prompts must share recognizable DNA from source image: color fidelity, pattern translation, mood consistency",
+    "Use nail art terminology: French tip, ombre, smile line, cuticle, rhinestone cluster, 3D sculpted, chrome, velvet, etc."
+  ]
+}

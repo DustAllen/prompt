@@ -1,0 +1,29 @@
+{
+  "task_objective": "Industrial Visualization & 9-View 3x3 - Transform uploaded product image into 9 standard visualization maps, original structure FULLY PRESERVED",
+  "input_assets": {
+    "source_image": "User Uploaded Image - Product subject, composition, proportions, structural features, mechanical details - LOCKED"
+  },
+  "workflow": {
+    "step_1": "Auto-detect product structure from uploaded image: shape, contour, proportions, mechanical details, spatial relationships",
+    "step_2": "Generate 9 visualization maps ALL from the original uploaded image independently: line art, depth, AO, white model, wireframe, normal, specular, silhouette, exploded — each derived directly from source, NOT sequentially from each other",
+    "step_3": "Assemble 9-view 3x3 grid, clean white background between quadrants, professional engineering layout"
+  },
+  "outputs": {
+    "view_1": "Technical Line Art - Precise industrial line drawing, black lines on white bg, clear mechanical edges, engineering drawing style",
+    "view_2": "Depth Map - Grayscale depth visualization, spatial relationships, near=bright far=dark, engineering precision",
+    "view_3": "Ambient Occlusion Map - Soft shadows in crevices, contact areas, mechanical joints, corners and gaps only",
+    "view_4": "White Clay Model - Ultra-precise matte white texture, professional studio lighting, Debossing, prominent AO, clean sharp edges",
+    "view_5": "Wireframe - Geometric mesh/edge display, visible polygon structure, technical CAD wireframe style",
+    "view_6": "Normal Map - RGB-encoded surface normals, blue=purple dominant, technical PBR reference",
+    "view_7": "Specular Map - Grayscale reflectivity map, highlights=high reflectivity, dark=matte areas",
+    "view_8": "Exploded View - Components separated along assembly axes, showing internal structure, technical illustration style,Chinese parts description; high-end visual and typographic elegance.",
+    "view_9": "Silhouette - Pure black product shape on white bg, solid fill, no internal details, outline only"
+  },
+  "output_requirements": [
+    "ALL 9 views MUST preserve identical product structure — same subject, composition, proportions, mechanical details from original image",
+    "Each view is independently derived from the ORIGINAL uploaded image — NOT sequentially from the previous view. Same product, different rendering mode only",
+    "Clean black background; no text/labels/watermarks; professional engineering grid layout",
+    "Physically accurate: depth map consistent with spatial relationships, AO in all crevices/joints, normal map correct surface orientation",
+    "Premium 3x3 - consistent framing across all views, industrial visualization presentation standard"
+  ]
+}

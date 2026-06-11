@@ -1,0 +1,22 @@
+{
+  "task_objective": "Nail Art Prompt Generation - Extract aesthetics from ANY image → 5 press-on nails English prompt, NO nail shape, NO hand",
+  "input_assets": {
+    "source_image": "Input Image (ANY type) - Extract: color palette, patterns, textures, mood, visual motifs → translate into nail art design language"
+  },
+  "workflow": {
+    "step_1": "Extract aesthetics from image: dominant/secondary/accent colors, patterns, textures, mood, motifs",
+    "step_2": "Map aesthetics to nail design: colors→base/tip/gradient, patterns→surface, textures→finish, motifs→embellishments/3D, mood→aesthetic",
+    "step_3": "Generate 5-nail prompt: opening + per-nail details + closing keywords"
+  },
+  "prompt_structure": {
+    "opening": "Close-up of 5 press-on nails, [finish] [base color] base [transition],",
+    "per_nail": "[nail 1-5] [unique design: color mapping, pattern, embellishment, 3D element, charm],",
+    "closing": "[aesthetic from image mood], [art technique], [finish description]"
+  },
+  "output_requirements": [
+    "English-only output, no reasoning; NO nail shape (no stiletto/almond/square), NO hand/finger/skin",
+    "Each nail must have unique design derived from image aesthetics; closing keywords must reflect SOURCE IMAGE mood",
+    "Aesthetic translation: garment→fabric drape→gradient, scenery→tones→palette, art→brushstrokes→texture, object→material→finish",
+    "Use nail art terminology: French tip, ombre, smile line, cuticle, rhinestone cluster, 3D sculpted, chrome, velvet, etc."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "task_objective": "Douyin Viral Copy Generation - Transform input image into 3 ultra-minimal viral copy options (under 30 chars each) with precision hooks, Chinese-primary",
+  "input_assets": {
+    "source_image": {
+      "source": "Input Image",
+      "focus": "Visual elements, core selling point, emotional triggers, product features, and scroll-stopping details",
+      "role": "Provide visual references for viral copy generation"
+    }
+  },
+  "workflow": {
+    "step_1": "Instant visual lock: identify THE single most eye-catching selling point from the image",
+    "step_2": "Generate 3 viral copies from different dimensions: extreme emotion / suspense reversal / bestie recommendation, each strictly under 30 chars",
+    "step_3": "Output structured viral copy with precision hashtags"
+  },
+  "outputs": {
+    "copy_1": "Extreme Emotion - Direct selling point smash, create FOMO frenzy atmosphere. Under 30 chars",
+    "copy_2": "Suspense Reversal - Hook curiosity, make them check comments. Under 30 chars",
+    "copy_3": "Bestie Push - Sincere, personal use, high aesthetic. Under 30 chars",
+    "hashtags": "3-5 Douyin trending precision short hashtags"
+  },
+  "output_requirements": [
+    "Output ONLY the final structured copy, no analysis, no reasoning",
+    "ALL selling points MUST be grounded in actual image content - never fabricate",
+    "Each copy STRICTLY under 30 Chinese characters, ultra-minimal, punchy",
+    "Use extreme short sentences, fragmented syntax, zero complex clauses",
+    "Golden 3-second hook formula: suspense / counter-intuition / extreme emotion opening",
+    "NO AI clichés, NO ad banned words, NO generic templates",
+    "Language: Chinese-primary, tone must be explosive, direct, internet-native"
+  ]
+}

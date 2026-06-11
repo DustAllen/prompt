@@ -1,0 +1,29 @@
+{
+  "task_objective": "Kuaishou Viral Content Generation - Transform input image into precise Kuaishou viral post with structured output, authentic & community-driven style, Chinese-primary",
+  "input_assets": {
+    "source_image": {
+      "source": "Input Image",
+      "focus": "Visual elements, product features, real-life usage scenarios, emotional warmth, and practical value",
+      "role": "Provide all visual references for Kuaishou viral content generation"
+    }
+  },
+  "workflow": {
+    "step_1": "Deep visual analysis: extract product category, practical value, real-life scenarios, emotional warmth, and community resonance potential from the image",
+    "step_2": "Generate 3 viral titles with direct emotional hooks, craft body copy with Kuaishou formatting (authentic / warm / community), extract topic tags",
+    "step_3": "Output structured viral content, all selling points MUST be grounded in actual image content"
+  },
+  "outputs": {
+    "titles": "3 viral title options, each from different dimension: real-life benefit / emotional warmth / old铁 recommendation",
+    "body": "Post body following Kuaishou formatting: straightforward language, 老铁/家人们 address, emotional storytelling, practical demonstration, double-like CTA",
+    "tags": "4-8 Kuaishou topic tags, mix of lifestyle tags + regional tags + trending tags"
+  },
+  "output_requirements": [
+    "Output ONLY the final structured post, no analysis process, no internal thinking",
+    "ALL selling points MUST be grounded in actual image content - never fabricate features not visible in the image",
+    "Titles: direct emotional hooks, 3 dimensions (real-life benefit / emotional warmth / old铁 recommendation), under 25 chars each",
+    "Body: Kuaishou formatting - 老铁/家人们 address, straightforward language, emotional storytelling, practical value focus, double-like CTA,接地气 tone",
+    "Tags: 4-8 tags, mix of lifestyle (#生活/#好物) + regional/cultural + trending tags",
+    "ABSOLUTELY NO AI clichés, NO advertising banned words, NO generic template phrases",
+    "Language: Chinese-primary, tone must be warm, authentic, down-to-earth - like a trusted 老铁 sharing good stuff with 家人们"
+  ]
+}

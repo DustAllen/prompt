@@ -1,0 +1,29 @@
+{
+  "task_objective": "Viral Social Media Post Generation - Transform input image into precise Xiaohongshu viral post with structured output, no reasoning, Chinese-primary",
+  "input_assets": {
+    "source_image": {
+      "source": "Input Image",
+      "focus": "Visual elements, product features, color palette, textures, styling details, emotional cues, and usage scenarios",
+      "role": "Provide all visual references for viral post generation"
+    }
+  },
+  "workflow": {
+    "step_1": "Deep visual analysis: extract product category, key features, color system, material texture, emotional tone, target audience, and usage scenarios from the image",
+    "step_2": "Generate 3 viral titles from different angles (emotional/value/trend), craft body copy with Xiaohongshu formatting, extract traffic hashtags",
+    "step_3": "Output structured viral post, all selling points MUST be grounded in actual image content"
+  },
+  "outputs": {
+    "titles": "3 viral title options with Emoji, each from different dimension: emotional angle / value angle / trend angle",
+    "body": "Post body following Xiaohongshu formatting rules: multi-emoji, short paragraphs (max 3 lines), bold/symbol highlights, authentic bestie-recommending tone",
+    "hashtags": "4-8 high-traffic precision-matched hashtags"
+  },
+  "output_requirements": [
+    "Output ONLY the final structured post, no analysis process, no internal thinking",
+    "ALL selling points MUST be grounded in actual image content - never fabricate features not visible in the image",
+    "Titles: must include Emoji, 3 different dimensions (emotional/value/trend), under 25 chars each",
+    "Body: Xiaohongshu formatting - multi-emoji (🎀✨💡🔥👗), short paragraphs (max 3 lines), bold key points, authentic excited bestie tone",
+    "Hashtags: 4-8 tags, mix of high-traffic broad tags + niche precision tags",
+    "ABSOLUTELY NO AI-sounding clichés, NO advertising banned words, NO generic template phrases",
+    "Language: Chinese-primary, tone must feel genuine, excited, sincere - like a bestie who found treasure and can't wait to share"
+  ]
+}

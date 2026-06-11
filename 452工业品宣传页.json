@@ -1,0 +1,35 @@
+{
+  "task_objective": "Industrial Product Promo Page & 6-View Diamond Layout - Generate product design from Figure 1 line art with Figure 2 inspiration aesthetics, center inspiration with surrounding design views",
+  "input_assets": {
+    "structural_reference": {
+      "source": "Figure 1 Line Art",
+      "focus": "EXACT product structural framework - shape, contour, surface area, dimensions, mechanical details, assembly structure - ABSOLUTE PRESERVATION REQUIRED",
+      "role": "Provide locked structural blueprint for industrial product design generation"
+    },
+    "aesthetic_reference": {
+      "source": "Figure 2 Inspiration",
+      "focus": "Color system, pattern, texture, style tone - applied to product design_area only",
+      "role": "Provide aesthetic elements to be applied onto the product structure"
+    }
+  },
+  "workflow": {
+    "step_1": "Analyze Figure 2 inspiration + parse Figure 1 product structure (auto-detect shape/contour/surface area)",
+    "step_2": "Generate sketch → render from Figure 1 structure + Figure 2 aesthetics, pixel-precise, NO structural deviation",
+    "step_3": "Generate multi-angle views + brand campaign, assemble diamond layout with premium atmosphere"
+  },
+  "outputs": {
+    "center_inspiration": "Figure 2 Inspiration at center with premium framing & glow. Label: 灵感溯源 INSPIRATION SOURCE",
+    "top_left": "Sketch Design - Figure 1 structure + Figure 2 aesthetics sketch. Label: 产品线稿 PRODUCT SKETCH",
+    "top_right": "Product Render - High-fidelity render, realistic material. Label: 产品渲染 PRODUCT RENDER. SOURCE OF TRUTH",
+    "left_view": "Side Profile - Product side view, emphasizing silhouette & surface detail. Label: 侧面效果 SIDE",
+    "right_view": "Detail Closeup - Tilted close-up of surface relief, texture & craftsmanship. Label: 细节特写 DETAIL",
+    "bottom_campaign": "Brand Campaign - Product in styled setting matching Figure 2 mood, dramatic lighting. Label: 品牌大片 CAMPAIGN"
+  },
+  "output_requirements": [
+    "Figure 1 product structure LOCKED; Figure 2 aesthetics pixel-precise on central rectangular area only",
+    "All views product design 100% identical to top_right render",
+    "Coherent lighting: product shadows on surface, ambient occlusion at crevices, consistent light direction",
+    "Premium diamond layout - Figure 2 color gradient bg, glow around center, cinematic vignette, unified color grading, luxury white space, editorial retouching",
+    "AI copywriting: Chinese-primary + English-secondary, series poetic title + inspiration analysis + product spec (materials + craftsmanship) + DNA mapping (icon-annotated), elegant typography with theme-matching decorative icons"
+  ]
+}

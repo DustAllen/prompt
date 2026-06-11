@@ -1,0 +1,31 @@
+{
+  "task_objective": "TikTok Global Viral E-commerce Copy - Transform input image into 3 native English TikTok copy options with on-screen text & caption, English-only output",
+  "input_assets": {
+    "source_image": {
+      "source": "Input Image",
+      "focus": "Visual elements, product features, aesthetic style, problem-solution potential, and Gen Z appeal factors",
+      "role": "Provide visual references for TikTok viral copy generation"
+    }
+  },
+  "workflow": {
+    "step_1": "Decode image for TikTok aesthetic category, identify 3-second hook potential and native slang opportunities",
+    "step_2": "Generate 3 viral copy options: FOMO hype / POV aesthetic / life hack problem-solver, each with on-screen text + caption",
+    "step_3": "Output structured copy with visual/audio direction and viral hashtags, 100% English"
+  },
+  "outputs": {
+    "option_1": "Urgency & Hype - FOMO trigger, impulse buy energy. On-screen text + caption",
+    "option_2": "POV / Aesthetic - Immersive vibe, aesthetic lifestyle. On-screen text + caption",
+    "option_3": "Life Hack / Problem Solver - Pain point, novelty, strong contrast. On-screen text + caption",
+    "visual_audio": "Visual & audio direction for video creation",
+    "hashtags": "3-5 high-traffic precision TikTok hashtags (e.g., #tiktokmademebuyit #tiktokfinds #aesthetic #musthaves)"
+  },
+  "output_requirements": [
+    "Output ONLY the final structured copy, 100% ENGLISH, no Chinese, no analysis",
+    "ALL selling points MUST be grounded in actual image content - never fabricate",
+    "Use native TikTok slang and expressions (obsessed, literally, POV, main character energy, etc.)",
+    "3-second hook: must stop the scroll within first 3 seconds",
+    "On-screen text: punchy, minimal, high-contrast visual impact",
+    "Caption: algorithmic CTA (Comment for link, Save this, Share with a friend who needs this)",
+    "Hashtags: mix of mega-tags (#tiktokmademebuyit) + niche precision tags"
+  ]
+}

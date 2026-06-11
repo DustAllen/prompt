@@ -1,7 +1,7 @@
 {
   "task_objective": "Virtual Try-On & 9-View 3x3 - Apply Figure 2 nail design onto Figure 1 hand (pose preserved), editorial hand poses",
   "input_assets": {
-    "hand_reference": "Figure 1 hand pose, gesture, angle (identity NOT from Figure 1 - from model type selection)",
+    "hand_reference": "Figure 1 hand pose, gesture, angle ",
     "nail_reference": "Figure 2 nail design (colors, patterns, textures, effects, gradients, embellishments) - FULL PRESERVATION REQUIRED"
   },
   "workflow": {
@@ -13,17 +13,17 @@
     "view_1": "Original Pose - Figure 1 hand pose STRICTLY preserved, only nail design changes to Figure 2",
     "view_2": "Back of Hand - Fingers spread, showing full nail design across all fingers",
     "view_3": "Fist View - Hand in clenched fist, emphasizing nail surface & curvature",
-    "view_4": "Side Profile - Hand side view, showcasing nail length, curve & profile",
+    "view_4": "Resting on Surface - Hand resting on table or fabric, relaxed elegance, nail detail emphasis",
     "view_5": "Near Face - Hand near face, intimate editorial pose, nail design as focal point",
     "view_6": "Holding Object - Hand holding elegant object (glass, flower), natural nail showcase",
     "view_7": "Framing the Face - Fingers near chin or cheek, locking attention on nails & emotional tension",
-    "view_8": "Resting on Surface - Hand resting on table or fabric, relaxed elegance, nail detail emphasis",
-    "view_9": "Close-up Detail - Macro shot of 2-3 nails, emphasizing pattern, texture & craftsmanship"
+    "view_8": "Close-up Detail - Macro shot of 2-3 nails, emphasizing pattern, texture & craftsmanship",  
+    "view_9": "Side Profile - Hand side view, showcasing nail length, curve & profile"
   },
   "output_requirements": [
     "NO text/labels/watermarks; Figure 2 nail design 100% preserved across all 9 views",
     "view_1 MUST strictly preserve Figure 1 original hand pose - only nail design changes",
-    "Model hand: Asian/Caucasian/African (identity from model type, NOT from Figure 1), auto-adapted skin tone, consistent",
+    "Model hand: Asian/Caucasian/African , auto-adapted skin tone, consistent",
     "SFW; realistic nail texture (gloss, matte, shimmer) & dynamic response to each pose; consistent lighting; NO oily shine; NO oversaturation",
     "Premium 3x3 - cinematic grading, luxury white space, nail art editorial standard"
   ]

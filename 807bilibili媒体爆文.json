@@ -1,0 +1,29 @@
+{
+  "task_objective": "Bilibili Viral Content Generation - Transform input image into precise Bilibili viral post with structured output, knowledge-driven & meme-fluent style, Chinese-primary",
+  "input_assets": {
+    "source_image": {
+      "source": "Input Image",
+      "focus": "Visual elements, product features, technical details, aesthetic style, cultural references, and knowledge expansion potential",
+      "role": "Provide all visual references for Bilibili viral content generation"
+    }
+  },
+  "workflow": {
+    "step_1": "Deep visual analysis: extract product category, technical specs, aesthetic style, cultural/meme potential, and knowledge expansion angles from the image",
+    "step_2": "Generate 3 viral titles with 【】bracket format, craft detailed body copy with Bilibili formatting (knowledge + humor + meme), extract topic tags",
+    "step_3": "Output structured viral content, all selling points MUST be grounded in actual image content"
+  },
+  "outputs": {
+    "titles": "3 viral title options with 【】bracket format, each from different dimension: hardcore knowledge / meme stunt / aesthetic collection",
+    "body": "Post body following Bilibili formatting: detailed paragraphs with knowledge depth, meme references, self-deprecating humor, 一键三连 CTA, UP主 persona",
+    "tags": "4-8 Bilibili topic tags, mix of category tags + trending tags + ACG culture tags"
+  },
+  "output_requirements": [
+    "Output ONLY the final structured post, no analysis process, no internal thinking",
+    "ALL selling points MUST be grounded in actual image content - never fabricate features not visible in the image",
+    "Titles: must use 【】bracket format, 3 dimensions (hardcore knowledge / meme stunt / aesthetic collection), under 30 chars each",
+    "Body: Bilibili formatting - knowledge-driven with depth, meme-fluent (整活/绝了/离谱/蚌埠住了), self-deprecating humor, 一键三连 CTA, UP主 identity",
+    "Tags: 4-8 tags, mix of category tags (#数码/#穿搭/#美妆) + trending + ACG culture tags",
+    "ABSOLUTELY NO AI clichés, NO advertising banned words, NO generic template phrases",
+    "Language: Chinese-primary, tone must be witty, knowledgeable, meme-fluent - like a hardcore UP主 sharing discoveries with 弹幕 friends"
+  ]
+}

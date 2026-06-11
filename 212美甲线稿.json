@@ -1,0 +1,30 @@
+{
+  "task_objective": "Nail Design Generation & 9-View 3x3 - Generate 9 distinctly different nail design variations from Figure 1 nail shape line art + text prompt, nails-only, NO hand",
+  "input_assets": {
+    "base_reference": "Figure 1 Nail Shape Line Art - Nail shape, length, curvature, outline, proportions, spacing - LOCKED",
+    "design_prompt": "Text Prompt - Nail design description (base color, tip style, gradient, embellishments, 3D elements, aesthetic) - DESIGN SPECIFICATION"
+  },
+  "workflow": {
+    "step_1": "Parse Figure 1 nail structure + analyze text prompt design DNA (colors, patterns, embellishments, aesthetic)",
+    "step_2": "Generate 9 visually distinct design variations on Figure 1 nail structure, each diverges along a UNIQUE creative axis while preserving core DNA",
+    "step_3": "Assemble 3x3 grid, nails-only, cinematic grading, luxury white space"
+  },
+  "outputs": {
+    "view_1": "Original - Faithful reproduction of text prompt on Figure 1 nail structure. BENCHMARK",
+    "view_2": "Complementary Palette - Invert color scheme to complementary opposites (nude↔plum, white↔onyx, warm↔cool), same design structure",
+    "view_3": "Monochrome - Reduce entire design to single-hue tonal variation of the dominant color, all embellishments in matching tone",
+    "view_4": "Pattern Reinterpretation - Keep same color palette but change pattern execution (French tips→chevron, ombre→marble swirl, solid→animal print)",
+    "view_5": "Material Swap - Keep same layout but replace all embellishment materials (crystals→pearls, 3D acrylic→flat foil, rhinestones→studs, charms→decals)",
+    "view_6": "Minimalist - Strip to bare essentials: base color + one accent element only, remove all 3D/layered embellishments, clean graphic lines",
+    "view_7": "Maximalist - Double the decoration layers: add secondary embellishments between existing ones, introduce accent color highlights, stack 3D elements",
+    "view_8": "Style Migration - Shift to a different nail art genre while keeping color DNA (bridal→dark glamour, classic→avant-garde, romantic→geometric)",
+    "view_9": "Texture Transformation - Change all surface finishes (gloss→velvet matte, smooth→chrome mirror, clear→frosted glass, solid→glitter bomb)"
+  },
+  "output_requirements": [
+    "NO text/labels/watermarks; NO hand/finger/skin — ALL views nails-only on Figure 1 structure",
+    "Figure 1 nail structure LOCKED; text prompt design DNA preserved as recognizable thread across all 9 variations",
+    "Each view must diverge along its UNIQUE creative axis ONLY — no cross-contamination between variation types",
+    "Realistic nail texture; consistent lighting; NO oily shine; NO oversaturation",
+    "Premium 3x3 - cinematic grading, luxury white space; each variation must be visually distinct at a glance from all others"
+  ]
+}

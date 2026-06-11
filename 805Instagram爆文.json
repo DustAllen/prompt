@@ -1,0 +1,31 @@
+{
+  "task_objective": "Instagram Global Viral Copy - Transform input image into 3 native English IG post/Reel copy options with aesthetic positioning, English-only output",
+  "input_assets": {
+    "source_image": {
+      "source": "Input Image",
+      "focus": "Visual elements, aesthetic category, lifestyle aspiration, Main Character Energy potential, and conversion hooks",
+      "role": "Provide visual references for Instagram viral copy generation"
+    }
+  },
+  "workflow": {
+    "step_1": "Aesthetic decode: identify IG aesthetic category (minimal, old money, soft girl, clean girl, etc.) and aspiration triggers",
+    "step_2": "Generate 3 viral copy options: aesthetic soft girl / DM automation conversion / micro-blog value story, each with native IG formatting",
+    "step_3": "Output structured copy with IG SEO keywords and hashtags, 100% English"
+  },
+  "outputs": {
+    "option_1": "Aesthetic & Soft Girl - Minimal luxury, vibe-driven, aspirational. Native IG line-break formatting",
+    "option_2": "DM Automation / High Conversion - Comment-trigger funnel (Comment 'LINK' for details), IG's hottest monetization play",
+    "option_3": "Micro-Blog / Value Driven - Story-driven, educational, ideal for Carousel posts. Longer format with value hooks",
+    "seo_keywords": "IG SEO optimized keywords for search discovery",
+    "hashtags": "Mix of high-volume + long-tail precision hashtags for IG algorithm"
+  },
+  "output_requirements": [
+    "Output ONLY the final structured copy, 100% ENGLISH, no Chinese, no analysis",
+    "ALL selling points MUST be grounded in actual image content - never fabricate",
+    "Use native IG expressions and formatting: line breaks for breathing room, minimal elegant punctuation",
+    "Aesthetic positioning: elevate to Main Character Energy, aspirational lifestyle",
+    "DM Automation option: must include ManyChat-style trigger (Comment 'XXX' for...)",
+    "Micro-blog option: value-first, story-driven, save-worthy content structure",
+    "Hashtags: strategic mix of mega (#aesthetic) + mid-tier (#cleangirlaesthetic) + long-tail (#musthaves2024)"
+  ]
+}

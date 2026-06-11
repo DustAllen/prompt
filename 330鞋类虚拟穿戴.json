@@ -1,7 +1,7 @@
 {
   "task_objective": "Virtual Try-On & 9-View 3x3 - Dress Figure 2 shoe onto Figure 1 foot (pose preserved), editorial foot poses",
   "input_assets": {
-    "foot_reference": "Figure 1 foot pose, posture, angle (facial features NOT from Figure 1 - from model type selection)",
+    "foot_reference": "Figure 1 foot pose, posture, angle ",
     "shoe_reference": "Figure 2 shoe design (sole, heel, vamp, material, color, details, accessories) - FULL PRESERVATION REQUIRED"
   },
   "workflow": {
@@ -23,7 +23,7 @@
   "output_requirements": [
     "NO text/labels/watermarks; Figure 2 shoe design 100% preserved across all 9 views",
     "view_1 MUST strictly preserve Figure 1 original foot pose - only shoe changes",
-    "Model foot: Asian/Caucasian/African (identity from model type, NOT from Figure 1), auto-adapted skin tone, consistent",
+    "Model foot: Asian/Caucasian/African , auto-adapted skin tone, consistent",
     "SFW; realistic material (leather, suede, mesh, patent) & dynamic response to each pose; consistent lighting; NO oily shine; NO oversaturation",
     "Premium 3x3 - cinematic grading, luxury white space, footwear editorial standard"
   ]

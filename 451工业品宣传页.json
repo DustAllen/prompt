@@ -1,0 +1,34 @@
+{
+  "task_objective": "Industrial Product Promo Page & 3+1 Layout - 3-top (inspiration→sketch→render) + 1-bottom (campaign)",
+  "input_assets": {
+    "structural_reference": {
+      "source": "Figure 1 Line Art",
+      "focus": "EXACT product structural framework - shape, contour, surface area, dimensions, mechanical details, assembly structure - ABSOLUTE PRESERVATION REQUIRED",
+      "role": "Provide locked structural blueprint for industrial product design generation"
+    },
+    "aesthetic_reference": {
+      "source": "Figure 2 Inspiration",
+      "focus": "Color system, pattern, texture, style tone - applied to product design_area only",
+      "role": "Provide aesthetic elements to be applied onto the product structure"
+    }
+  },
+  "workflow": {
+    "step_1": "Analyze Figure 2 inspiration + parse Figure 1 product structure (auto-detect shape/contour/surface area)",
+    "step_2": "Generate sketch → render from Figure 1 structure + Figure 2 aesthetics, pixel-precise, NO structural deviation",
+    "step_3": "Generate brand campaign, assemble 3-top + 1-bottom layout with premium atmosphere & transformation flow"
+  },
+  "outputs": {
+    "top_left": "Inspiration Source - Figure 2 original image with premium framing. Label: 灵感溯源 INSPIRATION",
+    "top_center": "Sketch Design - Figure 1 structure + Figure 2 aesthetics sketch. Label: 产品线稿 SKETCH",
+    "top_right": "Product Render - High-fidelity render, realistic material. Label: 产品渲染 RENDER. SOURCE OF TRUTH",
+    "bottom_full": "Brand Campaign - Product in styled setting matching Figure 2 mood, spanning full width. Label: 品牌大片 CAMPAIGN"
+  },
+  "output_requirements": [
+    "Figure 1 product structure LOCKED; Figure 2 aesthetics pixel-precise on central rectangular area only",
+    "Campaign product 100% identical to top_right render",
+    "Coherent lighting: product shadows on surface, ambient occlusion at crevices, consistent light direction",
+    "3-top + 1-bottom layout - gradient bg from Figure 2 colors, glow around top-left, cinematic vignette, luxury white space",
+    "Subtle flow lines connecting inspiration→sketch→render→campaign, indicating creative transformation journey",
+    "AI copywriting: Chinese-primary + English-secondary, series poetic title + inspiration analysis , elegant typography with theme-matching decorative icons"
+  ]
+}

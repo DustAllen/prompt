@@ -1,0 +1,38 @@
+{
+  "task_objective": "Footwear Promo Page & 6-View Fashion Layout - center inspiration with surrounding design views",
+  "input_assets": {
+    "structural_reference": {
+      "source": "Figure 1 Line Art",
+      "focus": "EXACT shoe structural framework - sole shape, heel height, toe box, vamp, lace system, silhouette, proportions - ABSOLUTE PRESERVATION REQUIRED",
+      "role": "Provide locked structural blueprint for shoe design generation"
+    },
+    "aesthetic_reference": {
+      "source": "Figure 2 Inspiration",
+      "focus": "Color system, material texture, pattern or detailing, and overall style tone",
+      "role": "Provide aesthetic elements to be applied onto the shoe structure"
+    }
+  },
+  "workflow": {
+    "step_1": "Analyze Figure 2 inspiration + parse Figure 1 shoe structure",
+    "step_2": "Generate sketch → render from Figure 1 structure + Figure 2 aesthetics, pixel-precise, NO structural deviation",
+    "step_3": "Generate model foot wearing views + brand campaign, assemble diamond layout with premium atmosphere"
+  },
+  "outputs": {
+    "center_inspiration": "Figure 2 Inspiration - Original image at center with premium framing & glow. Label: 灵感溯源 INSPIRATION SOURCE",
+    "top_left": "Sketch Design - Figure 1 structure + Figure 2 aesthetics sketch. Label: 草图设计 SKETCH",
+    "top_right": "Shoe Render - High-fidelity render, realistic material. Label: 鞋款渲染 SHOE RENDER. SOURCE OF TRUTH",
+    "left_view": "Side Profile - Model foot side view, sole curve & heel emphasis. Label: 侧面效果 SIDE",
+    "right_view": "Detail Closeup - Dutch angle heel/vamp detail, material & craftsmanship. Label: 细节特写 DETAIL",
+    "bottom_campaign": "Brand Campaign - Dynamic editorial foot pose, stylish setting matching Figure 2 mood. Label: 品牌时尚 FASHION CAMPAIGN"
+  },
+  "output_requirements": [
+    "Figure 1 shoe structure LOCKED; Figure 2 aesthetics pixel-precise",
+    "All wear views shoe 100% identical to top_right render",
+    "Model foot: Asian/Caucasian/African, auto-adapted skin tone, consistent",
+    "Subtle flow lines connecting inspiration→sketch→render→campaign, indicating creative transformation journey",
+    "SFW; realistic material (leather, suede, mesh, patent); consistent lighting; NO oily shine; NO oversaturation",
+    "Coherent lighting: shoe shadows on surface, ambient occlusion at folds, consistent light direction",
+    "Premium atmosphere: Figure 2 color gradient bg, glow around center, cinematic vignette, unified color grading, luxury white space, editorial retouching",
+    "AI copywriting: Chinese-primary + English-secondary, series poetic title + inspiration analysis + shoe spec + DNA mapping (icon-annotated), elegant typography with theme-matching decorative icons"
+  ]
+}

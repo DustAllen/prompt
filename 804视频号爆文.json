@@ -1,0 +1,31 @@
+{
+  "task_objective": "WeChat Video Channel Viral Copy - Transform input image into high-engagement video copy with social currency, targeting 25-55 quality-conscious audience, Chinese-primary",
+  "input_assets": {
+    "source_image": {
+      "source": "Input Image",
+      "focus": "Visual elements, lifestyle cues, emotional resonance points, quality indicators, and philosophical elevation potential",
+      "role": "Provide visual references for video channel viral copy generation"
+    }
+  },
+  "workflow": {
+    "step_1": "Deep aesthetic deconstruction: penetrate image surface, extract underlying relaxation, quality life, or pain point resonance",
+    "step_2": "Generate 3 viral copy paths: emotional philosophy / high-end taste / practical value, with golden quote and soft-sell narrative",
+    "step_3": "Output structured viral copy with engagement suffix and hashtags"
+  },
+  "outputs": {
+    "path_1": "Emotional Resonance - Philosophical golden quote, deep identity trigger, soul-striking cover line",
+    "path_2": "High-End Taste - Old money texture, quality lifestyle elevation, understated luxury narrative",
+    "path_3": "Practical Value - Useful tips, altruistic sharing, problem-solution structure",
+    "engagement_suffix": "Soft CTA encouraging share to friends/family groups",
+    "hashtags": "3-5 WeChat Video Channel trending hashtags"
+  },
+  "output_requirements": [
+    "Output ONLY the final structured copy, no analysis, no reasoning",
+    "ALL selling points MUST be grounded in actual image content - never fabricate",
+    "Tone: gentle narration, never hard-sell, '娓娓道来' storytelling style",
+    "Target audience: 25-55 age group, quality-conscious, family & growth oriented",
+    "Elevate product to life philosophy, refined taste, or warm story - provide social currency",
+    "Golden quote must be cover-worthy, triggering strong identity and share impulse",
+    "Language: Chinese-primary, mature elegant tone, NO Gen Z slang, NO aggressive selling"
+  ]
+}

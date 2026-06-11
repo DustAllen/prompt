@@ -1,0 +1,25 @@
+{
+  "task_objective": "8-Second Video Prompt - Transform 1 source image into cinematic video prompt following 4-position layout (CENTER inspiration → TOP-LEFT sketch → TOP-RIGHT render → BOTTOM campaign), auto-detect product category, English-only, no reasoning",
+  "input_assets": {
+    "source_image": "Input Image - Visual elements, layout composition, subject matter, color palette, textures, narrative flow (auto-detected: garment/footwear/nail/accessory)"
+  },
+  "workflow": {
+    "step_1": "Auto-detect product category from source image, extract: inspiration aesthetics, structural elements, material textures, campaign potential",
+    "step_2": "Map source image to 4-position layout: CENTER inspiration → TOP-LEFT sketch → TOP-RIGHT render → BOTTOM campaign, build 8-second timeline with category-adapted transitions",
+    "step_3": "Output complete English video prompt with seamless morphing transitions, camera movements, style keywords"
+  },
+  "prompt_structure": {
+    "opening": "A cinematic 8-second [auto-detected category] video with seamless morphing transitions.",
+    "segment_1": "[0s-2s: Inspiration → Sketch] Close-up of the image at CENTER position (inspiration). Visual elements detach and float, transforming into ink lines that rapidly sketch the design outline on dark background, referencing the image at TOP-LEFT position (sketch). [Camera movement]. [Lighting/mood].",
+    "segment_2": "[2s-5s: Sketch → Render] The sketch at TOP-LEFT position instantly gains volume. Materials and textures materialize to fill the design shape in real-time. Camera pushes in to show texture changing from 2D drawing to 3D realistic product, referencing the image at TOP-RIGHT position (render). [Camera movement]. [Atmosphere].",
+    "segment_3": "[5s-8s: Grand Reveal] Seamless transition to wide shot of model/subject wearing the finished design in a stylish setting matching inspiration mood, referencing the image at BOTTOM position (campaign). [Camera movement]. [Cinematic atmosphere].",
+    "closing": "Style keywords: [3-5 keywords]. Camera: [summary]."
+  },
+  "output_requirements": [
+    "Output ONLY English video prompt, no reasoning/explanation; each segment must explicitly specify the image position being referenced (CENTER / TOP-LEFT / TOP-RIGHT / BOTTOM)",
+    "Auto-detect product category and adapt all descriptions accordingly (garment→fabric drape, footwear→sole curve, nail→gloss texture, etc.)",
+    "8-second timeline [0s-2s]/[2s-5s]/[5s-8s], each segment: subject + dynamic action + camera movement + lighting/atmosphere",
+    "Seamless morphing transitions between segments; consistent subject + object permanence to prevent artifacts; ONE camera movement per segment",
+    "Model type auto-adapted from source image; include style keywords + camera summary at end"
+  ]
+}

@@ -13,11 +13,11 @@
     "view_1": "Design Sketch - Shoe lineart-sketch based on Figure 1 structure with Figure 2 aesthetics, clean bg",
     "view_2": "Unmanned Render - Shoe render without foot, display stand presentation. SOURCE OF TRUTH",
     "view_3": "Display Stand - Shoe on premium display stand with studio lighting, boutique presentation",
-    "view_4": "Front Standing - Model foot (selected model_type) wearing shoe, front view, full shoe & ankle visible",
-    "view_5": "Side Profile - Model foot wearing shoe, side view emphasizing sole curve, heel & silhouette",
-    "view_6": "Walking Step - Model foot mid-step, showcasing shoe motion, dynamic stride energy",
-    "view_7": "Crossed Ankles - Seated model with ankles crossed, relaxed elegant posture, shoe detail emphasis",
-    "view_8": "Back Heel View - Back view of shoe on foot, highlighting heel construction & rear design",
+    "view_4": "Back Heel View - Back view of shoe on foot, highlighting heel construction & rear design",
+    "view_5": "Front Standing - Model foot (selected model_type) wearing shoe, front view, full shoe & ankle visible",
+    "view_6": "Side Profile - Model foot wearing shoe, side view emphasizing sole curve, heel & silhouette",
+    "view_7": "Walking Step - Model foot mid-step, showcasing shoe motion, dynamic stride energy",
+    "view_8": "Crossed Ankles - Seated model with ankles crossed, relaxed elegant posture, shoe detail emphasis",
     "view_9": "Stair Step - Model foot on stair edge, dramatic angle emphasizing sole, heel & shoe profile"
   },
   "output_requirements": [

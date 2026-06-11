@@ -1,0 +1,30 @@
+{
+  "task_objective": "Industrial Product Pattern Design & 9-View 3x3 - Apply Figure 2 aesthetics onto Figure 1 designated area (FULLY PRESERVED), with material rendering + 3D print visualization",
+  "input_assets": {
+    "structural_reference": "Figure 1 Industrial Line Art - Auto-detect product shape/contour/structure - LOCKED",
+    "aesthetic_reference": "Figure 2 Inspiration - Style, patterns, textures, chromatic elements - applied to design_area ONLY"
+  },
+  "workflow": {
+    "step_1": "Auto-detect Figure 1 product structure + extract Figure 2 aesthetics",
+    "step_2": "Apply Figure 2 aesthetics within design_area ONLY, generate sketch → aged brass render (SOURCE OF TRUTH) → material variations → 3D print visualizations",
+    "step_3": "Assemble 9-view 3x3 grid, straight-on front view, macro product photography, soft grey background"
+  },
+  "outputs": {
+    "view_1": "Design Sketch - Figure 1 structure + Figure 2 aesthetics lineart sketch on [design_area], clean bg",
+    "view_2": "Aged Brass Render - High-fidelity aged brass material render, matte finish with polished relief details. SOURCE OF TRUTH",
+    "view_3": "Polished Silver - Same design in mirror-polished silver, high reflectivity, cool metallic tone",
+    "view_4": "Rose Gold - Same design in rose gold / copper tone, warm metallic, elegant patina",
+    "view_5": "Walnut Wood - Same design in walnut wood craftsmanship, rich grain texture, warm brown tones",
+    "view_6": "Acrylic - Same design in crystal-clear or tinted acrylic, transparent/translucent, modern glossy finish, light refraction, precision-cut edges",
+    "view_7": "Ultra-White Depth Map - high-resolution industrial 3D model render, monochrome pure white material like industrial clay or high-density plastic, matte surface, preserve all original structure, proportions, and features, AO-enhanced shading for surface detail without color interference, 8K resolution, extreme detail fidelity, suitable for subsequent depth map generation",
+    "view_8": "3D Laser Print Depth Map - high-precision grayscale depth map optimized for laser 3D printing, near=bright (255) far=dark (0), 16-bit dynamic range, micron-level surface detail preserved, smooth gradient transitions, optimized Z-axis displacement, overhang <45°, minimum wall thickness SLA/SLS compliant, sharp edges and embossed patterns retained, pure height-field data, engineering-grade dimensional accuracy, slicer-ready output",
+    "view_9": "Depth Map - industrial-grade high-precision grayscale depth map for 3D laser printing, near=bright far=dark, 16-bit dynamic range, raw Z-axis displacement with sub-millimeter accuracy, enhanced edge definition, smooth tonal gradients to prevent banding, manifold geometry ensured, sharp detail preservation, production-ready for SLA/SLS laser printing or laser engraving, engineering-calibrated depth values, no lighting, shading, or color"
+  },
+  "output_requirements": [
+    "Figure 1 product structure LOCKED; Figure 2 aesthetics pixel-precise on central rectangular area ONLY ",
+    "Text output:no text,Elegant premium typograph, refined kerning & hierarchy",
+    "Each material/visualization must produce physically accurate light interaction: reflections, shadows, surface texture, AO specific to that mode",
+    "Straight-on front view, macro product photography, soft grey background; no visible artifacts; consistent structural framework across all views,zero aesthetic bleed into surrounding structure; view_3-9 relief pattern 100% identical to view_2",
+    "Premium 3x3 - cinematic grading, luxury white space, industrial design presentation standard"
+  ]
+}

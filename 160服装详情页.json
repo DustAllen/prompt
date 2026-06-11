@@ -1,0 +1,38 @@
+{
+  "task_objective": "Product Detail Page Generator - Generate complete detail page strictly following Image 1 framework structure, with Image 2 product as variable input, auto-adapting copywriting and visuals",
+  "input_assets": {
+    "layout_framework": {
+      "source": "Image 1 - Detail Page Layout Framework",
+      "focus": "Page layout structure, module order, column arrangement, component positioning, visual hierarchy, text block placement, section proportions, copywriting format, image treatment style, layer effects",
+      "role": "Definitive structural blueprint — all output must strictly follow this framework",
+      "constraints": "1:1 replica of this framework's layout structure, visual style, and copywriting format"
+    },
+    "product_image": {
+      "source": "Image 2 - Uploaded Product Image (VARIABLE)",
+      "focus": "Product appearance, color variants, material texture, design details, craftsmanship features, visual selling points",
+      "role": "Core product visual content for all product showcase sections",
+      "constraints": "Present product exactly as shown — no design modifications. Image treatment must match framework's style"
+    }
+  },
+  "workflow": {
+    "step_1": "Analyze Image 1 framework: extract layout structure, module order, visual hierarchy, copywriting format, image treatment style, and all layer effects",
+    "step_2": "Analyze Image 2 product: extract type, shape, color, material, design details, selling points. Place product visuals into framework zones with matching effects",
+    "step_3": "Generate all copywriting following framework style + campaign section + color system from product image, assemble complete detail page"
+  },
+  "outputs": {
+    "page_header": "Header with dynamic product title following framework layout",
+    "main_content_modules": "All framework content modules with product visuals in corresponding zones",
+    "campaign_section": "Campaign featuring uploaded product following framework layout",
+    "color_system": "Color palette extracted from product image in framework format",
+    "footer_section": "Footer following framework layout and style"
+  },
+  "output_requirements": [
+    "FRAMEWORK FIDELITY: Strictly follow Image 1 layout — no module additions, deletions, or reordering",
+    "VISUAL FIDELITY: All visual effects (overlays, gradients, shadows, masks, blending modes, color grading) must match Image 1",
+    "COPYWRITING FIDELITY: Text style, tone, format, heading hierarchy, and bilingual pattern must replicate Image 1",
+    "PRODUCT FIDELITY: Product must be presented exactly as shown in Image 2 without modifications",
+    "DYNAMIC ADAPTATION: Auto-detect product category, extract selling points, generate context-aware copywriting, apply framework visual style to product images",
+    "Premium atmosphere: product-color gradient bg, cinematic vignette, unified color grading, luxury white space, editorial retouching",
+    "AI copywriting: Chinese-primary + English-secondary, series title + feature highlights + material recommendations + craftsmanship details + style positioning, elegant typography matching framework"
+  ]
+}

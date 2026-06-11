@@ -26,12 +26,12 @@
   "output_requirements": [
     "Figure 1 nail structure LOCKED; Figure 2 aesthetics pixel-precise",
     "Campaign nail design 100% identical to top_right render",
+    "text output: ,elegant typography with High-end aesthetic",
     "Model hand: Asian/Caucasian/African, auto-adapted skin tone, consistent",
     "SFW; realistic nail texture (gloss, matte, shimmer); consistent lighting; NO oily shine; NO oversaturation",
     "3-top + 1-bottom layout - gradient bg from Figure 2 colors, glow around top-left, cinematic vignette, luxury white space",
     "Subtle flow lines connecting inspiration→sketch→render→campaign, indicating creative transformation journey",
     "Coherent lighting: nail highlights & shadows, ambient occlusion, consistent light direction",
-    "Premium atmosphere: Figure 2 color gradient bg, glow around center, cinematic vignette, unified color grading, luxury white space, editorial retouching",
-    "AI copywriting: Chinese-primary + English-secondary, series poetic title + inspiration analysis, elegant typography with theme-matching decorative icons"
+    "Premium atmosphere: Figure 2 color gradient bg, glow around center, cinematic vignette, unified color grading, luxury white space, editorial retouching"
   ]
 }

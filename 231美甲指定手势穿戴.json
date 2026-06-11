@@ -1,0 +1,30 @@
+{
+  "task_objective": "Multi-Gesture Nail Try-On & 9-View 3x3 - Map Image 2 hand+nail design onto Image 1's 9 hand gestures (ONLY gesture changes, hand identity + nail design FULLY PRESERVED)",
+  "input_assets": {
+    "gesture_reference": "Image 1 9-Gesture Grid - 9 distinct hand gestures (finger positions, wrist angle, palm orientation, hand placement, camera angle, composition) - ONLY provide gestures",
+    "hand_nail_image": "Image 2 Hand+Nail (VARIABLE) - Hand skin tone, nail shape, nail design (colors, patterns, textures, embellishments, 3D elements) - FULLY PRESERVED, ZERO deviation"
+  },
+  "workflow": {
+    "step_1": "Extract all 9 hand gestures from Image 1 + analyze Image 2 hand identity & nail design details (base color, tip style, gradient, embellishments, 3D elements, aesthetic)",
+    "step_2": "Map Image 2 hand+nail onto each of 9 gestures, ONLY gesture changes to Image 1, hand identity & nail design 100% preserved",
+    "step_3": "Generate 9 views, assemble 3x3 grid matching Image 1 layout, consistent lighting & background"
+  },
+  "outputs": {
+    "view_1": "Gesture 1 - Image 2 hand+nail in Image 1 gesture 1, exact finger positions & camera angle",
+    "view_2": "Gesture 2 - Image 2 hand+nail in Image 1 gesture 2, exact finger positions & camera angle",
+    "view_3": "Gesture 3 - Image 2 hand+nail in Image 1 gesture 3, exact finger positions & camera angle",
+    "view_4": "Gesture 4 - Image 2 hand+nail in Image 1 gesture 4, exact finger positions & camera angle",
+    "view_5": "Gesture 5 - Image 2 hand+nail in Image 1 gesture 5, exact finger positions & camera angle",
+    "view_6": "Gesture 6 - Image 2 hand+nail in Image 1 gesture 6, exact finger positions & camera angle",
+    "view_7": "Gesture 7 - Image 2 hand+nail in Image 1 gesture 7, exact finger positions & camera angle",
+    "view_8": "Gesture 8 - Image 2 hand+nail in Image 1 gesture 8, exact finger positions & camera angle",
+    "view_9": "Gesture 9 - Image 2 hand+nail in Image 1 gesture 9, exact finger positions & camera angle"
+  },
+  "output_requirements": [
+    "NO text/labels/watermarks; ALL 9 gestures MUST be identical to Image 1 — zero deviation in finger positions, wrist angle, palm orientation, camera angle",
+    "Hand identity + nail design MUST remain exactly as Image 2 — consistent skin tone, nail shape, colors, patterns, embellishments across all 9 views",
+    "Natural hand mechanics in each gesture; realistic proportions; consistent lighting & background across all views",
+    "SFW; realistic nail texture (gloss, matte, shimmer); NO oily shine; NO oversaturation; All 9 gestures must be generated — no missing or merged gestures",
+    "Premium 3x3 - matching Image 1 grid layout, cinematic grading, luxury white space"
+  ]
+}

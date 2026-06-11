@@ -1,0 +1,27 @@
+{
+  "task_objective": "8-Second Video Prompt - Transform 3 images (inspiration → sketch → campaign) into cinematic video prompt, auto-detect product category, English-only, no reasoning",
+  "input_assets": {
+    "inspiration_image": "Image 1 Inspiration - Color palette, textures, mood, pattern, artistic aesthetics",
+    "sketch_image": "Image 2 Design Sketch - Structural outline, proportions, silhouette, design framework (auto-detected: garment/shoes/nail/accessory)",
+    "campaign_image": "Image 3 Rendered Campaign - Product in final styled setting, model/subject, lighting, atmosphere"
+  },
+  "workflow": {
+    "step_1": "Auto-detect product category from 3 images (garment/footwear/nail art/accessory/etc.), extract: Image 1 inspiration aesthetics, Image 2 sketch structure, Image 3 campaign atmosphere",
+    "step_2": "Build 8-second timeline with category-adapted transitions: [0s-2s] Image 1 inspiration → Image 2 sketch morphing, [2s-5s] Image 2 sketch → 3D render with material simulation, [5s-8s] render → Image 3 campaign grand reveal",
+    "step_3": "Output complete English video prompt with fluid organic transitions, particle dissolves, liquid motion, camera movements, style keywords"
+  },
+  "prompt_structure": {
+    "opening": "A cinematic 8-second [auto-detected category] video with fluid organic morphing transitions.",
+    "segment_1": "[0s-2s: Inspiration → Sketch] Close-up of Image 1. Visual elements detach and swirl, dissolving into luminous ink particles that flow into design outline matching Image 2 sketch. [Camera movement]. [Lighting/mood].",
+    "segment_2": "[2s-5s: Sketch → Render] Image 2 sketch breathes to life — colors bloom like watercolor, materials cascade with liquid motion, 2D sketch transforms to 3D realistic product. [Camera movement]. [Atmosphere].",
+    "segment_3": "[5s-8s: Grand Reveal] Rendered product flows into reality, scene expands revealing final styled presentation matching Image 3 campaign. [Camera movement]. [Cinematic atmosphere].",
+    "closing": "Style keywords: [3-5 keywords]. Camera: [summary]. Transitions: fluid organic morphing, particle dissolves, liquid motion."
+  },
+  "output_requirements": [
+    "Output ONLY English video prompt, no reasoning/explanation; each segment must explicitly specify which Image (1/2/3) is referenced",
+    "Auto-detect product category from images and adapt all descriptions accordingly (garment→fabric drape, footwear→sole curve, nail→gloss texture, etc.)",
+    "8-second timeline [0s-2s]/[2s-5s]/[5s-8s], each segment: subject + dynamic action + camera movement + lighting/atmosphere",
+    "Fluid organic transitions between segments: particle dissolves, liquid motion, flowing morphing — NO hard cuts",
+    "Consistent subject + object permanence to prevent artifacts; ONE camera movement per segment; avoid multiple subjects simultaneously; include style keywords + camera summary at end"
+  ]
+}

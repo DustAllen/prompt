@@ -1,0 +1,30 @@
+{
+  "task_objective": "WeChat Moments Private Domain Copy - Transform input image into 3 persona-based朋友圈 posts with comment section script, Chinese-primary",
+  "input_assets": {
+    "source_image": {
+      "source": "Input Image",
+      "focus": "Visual elements, lifestyle scene details, product features suitable for soft-implant, scarcity signals",
+      "role": "Provide visual references for private domain monetization copy"
+    }
+  },
+  "workflow": {
+    "step_1": "Extract lifestyle scene details from image, identify soft-implant opportunities for natural product mention",
+    "step_2": "Generate 3 persona-based posts: real user / lifestyle vibe / honest seller, each under 6 lines, ultra-colloquial",
+    "step_3": "Output structured copy with matching comment section script for scarcity & conversion"
+  },
+  "outputs": {
+    "post_1": "Real User / Asked-Bombarded - Create social heat & herd mentality. Max 6 lines, ultra-colloquial",
+    "post_2": "Lifestyle Vibe / Atmosphere - High-end feel, emotional value, casual flex. Max 6 lines, ultra-colloquial",
+    "post_3": "Honest Seller / Insider Reveal - Professional, source advantage, heartfelt. Max 6 lines, ultra-colloquial",
+    "comment_script": "Staged comment sequence: [1st comment] VIP priority tease + [1hr later] scarcity urgency update"
+  },
+  "output_requirements": [
+    "Output ONLY the final structured copy, no analysis, no reasoning",
+    "ALL selling points MUST be grounded in actual image content - never fabricate",
+    "Post body: max 6 lines, ultra-colloquial, must feel like real personal sharing NOT advertisement",
+    "Anti-fold formatting: proper paragraph breaks, whitespace, minimal precise Emoji, NO text walls",
+    "Comment script must create scarcity & urgency naturally, self-Q&A format",
+    "Tone: authentic, human, like chatting with friends - zero commercial feel in main post",
+    "Language: Chinese-primary, extreme colloquial, everyday speech patterns"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "task_objective": "Nail Art Promo Page & 6-View Fashion Layout - center inspiration with surrounding design views",
+  "input_assets": {
+    "structural_reference": {
+      "source": "Figure 1 Line Art",
+      "focus": "EXACT nail structural framework - nail shape, length, curvature, outline, proportions, spacing - ABSOLUTE PRESERVATION REQUIRED",
+      "role": "Provide locked structural blueprint for nail design generation"
+    },
+    "aesthetic_reference": {
+      "source": "Figure 2 Inspiration",
+      "focus": "Color system, texture, pattern or detailing, and overall style tone",
+      "role": "Provide aesthetic elements to be applied onto the nail structure"
+    }
+  },
+  "workflow": {
+    "step_1": "Analyze Figure 2 inspiration + parse Figure 1 nail structure",
+    "step_2": "Generate sketch → render from Figure 1 structure + Figure 2 aesthetics, pixel-precise, NO structural deviation",
+    "step_3": "Generate model hand wearing views + brand campaign, assemble diamond layout with premium atmosphere"
+  },
+  "outputs": {
+    "center_inspiration": "Figure 2 Inspiration - Original image at center with premium framing & glow. Label: 灵感溯源 INSPIRATION SOURCE",
+    "top_left": "Sketch Design - Figure 1 structure + Figure 2 aesthetics sketch. Label: 草图设计 SKETCH",
+    "top_right": "Nail Render - High-fidelity render, realistic texture. Label: 美甲渲染 NAIL RENDER. SOURCE OF TRUTH",
+    "left_view": "Back of Hand - Model hand fingers spread, full nail design display. Label: 手背展示 BACK",
+    "right_view": "Detail Closeup - Dutch angle nail close-up, pattern & craftsmanship. Label: 细节特写 DETAIL",
+    "bottom_campaign": "Brand Campaign - Elegant hand editorial pose, stylish setting matching Figure 2 mood. Label: 品牌时尚 FASHION CAMPAIGN"
+  },
+  "output_requirements": [
+    "Figure 1 nail structure LOCKED; Figure 2 aesthetics pixel-precise",
+    "All wear views nail design 100% identical to top_right render",
+    "Model hand: Asian/Caucasian/African, auto-adapted skin tone, consistent",
+    "SFW; realistic nail texture (gloss, matte, shimmer); consistent lighting; NO oily shine; NO oversaturation",
+    "Coherent lighting: nail highlights & shadows, ambient occlusion, consistent light direction",
+    "Premium atmosphere: Figure 2 color gradient bg, glow around center, cinematic vignette, unified color grading, luxury white space, editorial retouching",
+    "AI copywriting: Chinese-primary + English-secondary, series poetic title + inspiration analysis + nail spec + DNA mapping (icon-annotated), elegant typography with theme-matching decorative icons"
+  ]
+}
