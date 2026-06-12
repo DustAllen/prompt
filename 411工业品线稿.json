@@ -1,0 +1,32 @@
+{
+  "task_objective": "Industrial Line Art to Relief Pattern Design & 9-View 3x3 - Map Figure 2 patterns onto Figure 1 product, view_1 precise replica, views 2-9 creative variations,  material, original product structure FULLY PRESERVED",
+  "input_assets": {
+    "product_reference": "Figure 1 Industrial Line Art - Outer frame dimensions, shape, outline, structural features - LOCKED",
+    "pattern_inspiration": "Figure 2 Inspiration Image - Decorative patterns, surface textures, artistic motifs — pattern structure only, discard color"
+},
+  "workflow": {
+    "step_1": "Auto-detect Figure 1 product structure + extract Figure 2 pattern structure (discard color)",
+    "step_2": "View_1 (FIXED): 1:1 replica of Figure 2 pattern within designated_area. Views 2-9 (CREATIVE): free designs inspired by Figure 2 aesthetic DNA within designated_area",
+    "step_3": "Verify Figure 1 product specs/dimensions/shape unchanged, apply  material + designated_text, assemble 9-view 3x3 grid"
+  },
+  "outputs": {
+    "view_1": "Precise Replica - 1:1 replica of Figure 2 pattern, self-adapted to Figure 1 product within designated_area, ",
+    "view_2": "Creative Variation 02 - Inspired by Figure 2 aesthetic DNA, self-adapted within designated_area, ",
+    "view_3": "Creative Variation 03 - Inspired by Figure 2 aesthetic DNA, self-adapted within designated_area, ",
+    "view_4": "Creative Variation 04 - Inspired by Figure 2 aesthetic DNA, self-adapted within designated_area, ",
+    "view_5": "Creative Variation 05 - Inspired by Figure 2 aesthetic DNA, self-adapted within designated_area, ",
+    "view_6": "Creative Variation 06 - Inspired by Figure 2 aesthetic DNA, self-adapted within designated_area, ",
+    "view_7": "Creative Variation 07 - Inspired by Figure 2 aesthetic DNA, self-adapted within designated_area, ",
+    "view_8": "Creative Variation 08 - Inspired by Figure 2 aesthetic DNA, self-adapted within designated_area, ",
+    "view_9": "Creative Variation 09 - Inspired by Figure 2 aesthetic DNA, self-adapted within designated_area, "
+  },
+  "output_requirements": [
+    "PRODUCT LOCK: Outer frame dimensions and shape identical to Figure 1 — zero deviation across all 9 views",
+    "PATTERN SELF-ADAPT: Patterns from Figure 2 automatically wrap/fill/scale to fit within designated_area",
+    "VIEW_1 FIXED: Strict 1:1 replica of Figure 2 pattern; VIEWS 2-9 CREATIVE: free designs sharing Figure 2 aesthetic DNA",
+    "DESIGNATED AREA: Pattern application confined to specified product surface area only",
+    "DESIGNATED TEXT: specified text in soft cute cartoon font, auto-scaled, no overflow,elegant typography matching framework",
+    "MATERIAL: Brushed matte base + mirror-polished relief, monochrome  metallic tones — zero color saturation",
+    "No text/labels/watermarks except designated_text; Premium 3x3, macro front view"
+  ]
+}
