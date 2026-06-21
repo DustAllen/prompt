@@ -1,0 +1,29 @@
+{
+  "task_objective": "Nail Line Art to Design & 9-View 3x3 - Map design_prompt onto Figure 1 nail line art, original nail structure FULLY PRESERVED",
+  "input_assets": {
+    "structural_reference": "Figure 1 Nail Shape Line Art - Nail shape, length, curvature, outline, proportions, spacing - LOCKED",
+    "design_prompt": "Text Prompt - Nail design description (base color, tip style, gradient, embellishments, 3D elements, aesthetic) - DESIGN SPECIFICATION"
+  },
+  "workflow": {
+    "step_1": "Parse Figure 1 nail structure + analyze design_prompt DNA",
+    "step_2": "View_1 (FIXED): 1:1 replica of design_prompt. Views 2-9 (MASTER): same DNA reinterpreted through 8 distinct nail art master/brand aesthetics",
+    "step_3": "Verify Figure 1 nail structure unchanged across all views, assemble 9-view 3x3 grid"
+  },
+  "outputs": {
+    "view_1": "Precise Replica - 1:1 replica of design_prompt on Figure 1 nail structure, SOURCE OF TRUTH",
+    "view_2": "Park Eunkyung (Unistella) - Seoul avant-garde nail pioneer, ultra-thin wire line art, broken-glass negative space, conceptual minimal geometry, editorial fashion runway nail innovation",
+    "view_3": "Betina Goldstein - LA luxury editorial nail artist, hyper-clean micro minimalist design, sheer nude base, precise gold foil accents, soft negative space, understated luxury aesthetic",
+    "view_4": "Nail Sunny (Russia studio collective) - viral experimental nail art, hyper-realistic 3D miniature objects, surreal sculptural nails, playful illusionistic storytelling, high-detail acrylic engineering",
+    "view_5": "Sojin Oh - Korean luxury bridal nail specialist, soft milky ombré, pearl layering, crystal micro embellishment, elegant gradient fade, romantic high-end salon finish",
+    "view_6": "Eri Ishizu (Nail Labo / Tokyo editorial) - translucent jelly nails, aurora chrome shimmer, glass-like depth layering, soft holographic diffusion, futuristic ethereal minimalism",
+    "view_7": "Zola Ganzorigt - Hollywood celebrity nail artist, glazed chrome finish, liquid metal reflective gradients, clean almond nail perfection, modern luxury mirror aesthetic",
+    "view_8": "Chaun Legend - precision sculpted nail architecture, ultra-crisp line work, structured French reinterpretation, sharp symmetry, fashion editorial clean geometry",
+    "view_9": "Julie Kandalec - New York editorial nail artist, soft wearable luxury, delicate hand-painted accents, modern romantic minimalism, subtle texture layering with refined restraint"
+  },
+  "output_requirements": [
+    "NAIL LOCK: Figure 1 nail structure identical across all 9 views — zero structural deviation; NO hand/finger/skin — nails-only",
+    "Design prompt DNA preserved as recognizable thread across all 9 variations",
+    "HD,Realistic nail texture; consistent lighting; NO oily shine; NO oversaturation",
+    "No text/labels/watermarks; Premium 3x3, cinematic grading, luxury white space"
+  ]
+}

@@ -1,30 +1,29 @@
 {
-  "task_objective": "Style Transfer & 9-View 3x3 - Apply Figure 2 aesthetics onto Figure 1 shoe structure (FULLY PRESERVED)",
+  "task_objective": "Footwear Line Art to Shoe Design & 9-View 3x3 - Map Figure 2 aesthetics onto Figure 1 shoe line art, original shoe structure FULLY PRESERVED",
   "input_assets": {
-    "base_reference": "Figure 1 shoe structure (sole shape, heel height, toe box, vamp, lace system, silhouette, proportions) - LOCKED",
-    "aesthetic_reference": "Figure 2 colors, pattern, texture, material style - applied to shoe only"
+    "structural_reference": "Figure 1 Shoe Line Art - Sole shape, heel height, toe box, vamp, lace system, silhouette, proportions - LOCKED",
+    "aesthetic_reference": "Figure 2 Inspiration Image - Colors, pattern, texture, material style - applied to shoe only"
   },
   "workflow": {
-    "step_1": "Analyze Figure 2 aesthetics + parse Figure 1 shoe structure",
-    "step_2": "Apply Figure 2 aesthetics onto Figure 1 structure, pixel-precise, NO structural deviation",
-    "step_3": "Generate 9 views, assemble 3x3 grid with cinematic grading, luxury white space"
+    "step_1": "Parse Figure 1 shoe structure + extract Figure 2 aesthetic DNA",
+    "step_2": "View_1 (FIXED): 1:1 replica of Figure 2 aesthetics. Views 2-9 (DESIGNER): same DNA reinterpreted through 8 distinct footwear designer/brand aesthetics",
+    "step_3": "Verify Figure 1 shoe structure unchanged across all views, assemble 9-view 3x3 grid"
   },
   "outputs": {
-    "view_1": "Design Sketch - Shoe lineart-sketch based on Figure 1 structure with Figure 2 aesthetics, clean bg",
-    "view_2": "Unmanned Render - Shoe render without foot, display stand presentation. SOURCE OF TRUTH",
-    "view_3": "Display Stand - Shoe on premium display stand with studio lighting, boutique presentation",
-    "view_4": "Back Heel View - Back view of shoe on foot, highlighting heel construction & rear design",
-    "view_5": "Front Standing - Model foot (selected model_type) wearing shoe, front view, full shoe & ankle visible",
-    "view_6": "Side Profile - Model foot wearing shoe, side view emphasizing sole curve, heel & silhouette",
-    "view_7": "Walking Step - Model foot mid-step, showcasing shoe motion, dynamic stride energy",
-    "view_8": "Crossed Ankles - Seated model with ankles crossed, relaxed elegant posture, shoe detail emphasis",
-    "view_9": "Stair Step - Model foot on stair edge, dramatic angle emphasizing sole, heel & shoe profile"
+    "view_1": "Precise Replica - 1:1 replica of Figure 2 aesthetics on Figure 1 shoe, SOURCE OF TRUTH",
+    "view_2": "Christian Louboutin - Red-lacquered soles, sculptural heels, sensual curves, glamorous embellishment",
+    "view_3": "Tinker Hatfield - Architectural innovation, visible technology, bold color blocking, performance-driven design",
+    "view_4": "Manolo Blahnik - Refined elegance, slender stiletto, exotic materials, artisan craftsmanship",
+    "view_5": "Salvatore Ferragamo - Inventive construction, rainbow palette, sculpted wedge, heritage leatherwork",
+    "view_6": "Sergio Rossi - Sensual geometry, precision cut, metallic finishes, red-carpet sophistication",
+    "view_7": "Stella McCartney - Sustainable luxury, clean lines, chunky platform, eco-conscious material innovation",
+    "view_8": "Rick Owens - Dark avant-garde, exaggerated platforms, brutalist forms, gothic minimalism",
+    "view_9": "Tabitha Simmons - Romantic whimsy, floral prints, vintage-inspired, feminine detailing"
   },
   "output_requirements": [
-    "NO text/labels/watermarks; Figure 1 shoe structure LOCKED; Figure 2 aesthetics pixel-precise",
-    "view_3-9 shoe 100% identical to view_2",
-    "Model foot: Asian/Caucasian/African female, auto-adapted skin tone, consistent across all views",
-    "SFW; realistic material (leather, suede, mesh, patent); consistent lighting; NO oily shine; NO oversaturation",
-    "Premium 3x3 - cinematic grading, luxury white space, footwear editorial standard"
+    "SHOE LOCK: Figure 1 shoe structure identical across all 9 views — zero structural deviation",
+    "Model foot: Asian/Caucasian/African, auto-adapted and consistent across all views. Walking step captured mid-stride, showcasing dynamic shoe motion and energetic stride.",
+    "SFW; realistic material rendering; consistent lighting; NO oily shine; NO oversaturation",
+    "No text/labels/watermarks; Premium 3x3, cinematic grading, luxury white space, footwear editorial standard"
   ]
 }

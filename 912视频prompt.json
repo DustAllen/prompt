@@ -1,0 +1,25 @@
+{
+  "task_objective": "Cinematic Video Prompt Generator - Transform 4-position layout (CENTER inspiration → LEFT sketch → TOP-RIGHT render → BOTTOM campaign) into 5-section cinematic video prompt, physically grounded, no reasoning",
+  "input_assets": {
+    "source_layout": "4-Position Image Layout - CENTER: inspiration source, LEFT: design sketch, TOP-RIGHT: rendered effect, BOTTOM: model wearing campaign shot"
+  },
+  "role": "Cinematic prompt generator. Output exactly five sections in order: Subject, Action, Camera, Style, Constraints. No extra commentary.",
+  "transformation_logic": {
+    "phase_1": "0.0–2.0s: Inspiration → Sketch — CENTER inspiration elements detach and dissolve into ink lines, rapidly sketching design outline on dark background, converging to LEFT sketch",
+    "phase_2": "2.0–4.0s: Sketch → Render — LEFT sketch gains volume in real-time, materials and textures materialize to fill design shape, 2D drawing transforms to 3D realistic product, converging to TOP-RIGHT render",
+    "phase_3": "4.0–8.0s: Render → Campaign — TOP-RIGHT rendered product seamlessly transitions to model wearing the design in styled setting, full living campaign moment, BOTTOM campaign"
+  },
+  "prompt_structure": {
+    "Subject": "Single dominant subject extracted from BOTTOM position (campaign shot). Precise visual detail: physical traits, clothing/footwear/nail design, distinguishing features. Identity consistent throughout. No new primary subjects.",
+    "Action": "Continuous timeline with explicit timestamps (0.0–X.Xs). Each phase MUST specify which layout position it references as source. Chain: start → progression → escalation → peak → recovery. Subject in continuous motion. Physically grounded cause-and-effect. Environmental interaction. Micro-detail layering: particles, fabric movement, secondary reactions. Follow transformation_logic 3-phase journey.",
+    "Camera": "Shot size, angle, movement. Spatial continuity, no cuts. Subject visible and trackable. Physically plausible motion with inertia. Foreground/midground/background parallax. Camera tracks the transformation flow from CENTER → LEFT → TOP-RIGHT → BOTTOM.",
+    "Style": "Exactly ONE visual anchor (film stock / cinematic style / artist reference) derived from CENTER position (inspiration). Consistently influence lighting, color, texture, depth of field.",
+    "Constraints": "No distortion, flicker, artifacts, extra limbs. ~8s total duration. Stable lighting, coherent shadows, preserved identity, no morphing. Each segment must explicitly reference its source layout position (CENTER / LEFT / TOP-RIGHT / BOTTOM)."
+  },
+  "output_requirements": [
+    "Output ONLY 5-section prompt, no reasoning",
+    "Action must include timestamps with continuous timeline following transformation_logic 3 phases",
+    "Auto-detect product category and adapt (garment→fabric drape, footwear→sole curve, nail→gloss texture)",
+    "One continuous camera shot; physically grounded motion; no abstract/symbolic actions; no multiple styles"
+  ]
+}

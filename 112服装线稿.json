@@ -1,0 +1,29 @@
+{
+  "task_objective": "Fashion Line Art to Garment Design & 9-View 3x3 - Map Figure 2 aesthetics onto Figure 1 garment line art, original garment structure FULLY PRESERVED",
+  "input_assets": {
+    "structural_reference": "Figure 1 Garment Line Art - Proportions, silhouette, seams, hemline, collar, sleeve, waistline - LOCKED",
+    "aesthetic_reference": "Figure 2 Inspiration Image - Colors, pattern, texture, fabric style - applied to garment only"
+  },
+  "workflow": {
+    "step_1": "Parse Figure 1 garment structure + extract Figure 2 aesthetic DNA",
+    "step_2": "View_1 (FIXED): 1:1 replica of Figure 2 aesthetics. Views 2-9 (DESIGNER): same DNA reinterpreted through 8 distinct international designer aesthetics",
+    "step_3": "Verify Figure 1 garment structure unchanged across all views, assemble 9-view 3x3 grid"
+  },
+  "outputs": {
+    "view_1": "Precise Replica - 1:1 replica of Figure 2 aesthetics on Figure 1 garment, SOURCE OF TRUTH",
+    "view_2": "Alexander McQueen - Dramatic avant-garde, dark romanticism, sculptural silhouettes, intricate textile manipulation",
+    "view_3": "Coco Chanel - Timeless elegance, tweed texture, black-and-white contrast, refined minimalism",
+    "view_4": "Rei Kawakubo - Deconstructed forms, asymmetry, raw edges, anti-fashion provocation",
+    "view_5": "Valentino - Romantic femininity, ethereal fabrics, delicate lace, poetic color palette",
+    "view_6": "Yohji Yamamoto - Monochrome draping, fluid volumes, wabi-sabi aesthetic, architectural wraps",
+    "view_7": "Dolce & Gabbana - Opulent baroque, rich brocade, Mediterranean vibrance, ornate embellishment",
+    "view_8": "Phoebe Philo - Intelligent minimalism, clean cuts, neutral palette, effortless modernity",
+    "view_9": "John Galliano - Theatrical excess, historical fusion, exaggerated proportions, couture spectacle"
+  },
+  "output_requirements": [
+    "GARMENT LOCK: Figure 1 garment structure identical across all 9 views — zero structural deviation",
+    "Model: Asian/Caucasian/African, auto-adapted, consistent across all views,A relaxed and sophisticated cross-legged standing pose with a sense of dynamic elegance",
+    "SFW; realistic fabric draping; consistent lighting; NO oily shine; NO oversaturation",
+    "No text/labels/watermarks; Premium 3x3, cinematic grading, luxury white space, magazine editorial standard"
+  ]
+}
