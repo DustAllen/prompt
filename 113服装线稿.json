@@ -1,11 +1,11 @@
 {
   "task_objective": "Fashion Image to Standardized Line Art & 9-View 3x3 - Convert Figure 1 to standardized garment line art, then map Figure 2 aesthetics onto it, garment structure FULLY PRESERVED",
   "input_assets": {
-    "source_image": "Figure 1 - Any garment image (photo/sketch/render) - Will be converted to standardized line art first",
+    "source_image": "Figure 1 - Any garment image (photo/sketch/render) - Extract ONLY garment, exclude background/figure",
     "aesthetic_reference": "Figure 2 Inspiration Image - Colors, pattern, texture, fabric style - applied to garment only"
   },
   "workflow": {
-    "step_1": "Convert Figure 1 to standardized garment line art: extract garment silhouette, clean up details, standardize proportions",
+    "step_1": "Extract ONLY garment from Figure 1 (exclude background, model, and other elements), then convert to standardized garment line art: clean up details, standardize proportions",
     "step_2": "Parse standardized line art structure + extract Figure 2 aesthetic DNA",
     "step_3": "View_1 (FIXED): 1:1 replica of Figure 2 aesthetics. Views 2-9 (DESIGNER): same DNA reinterpreted through 8 distinct international designer aesthetics",
     "step_4": "Verify garment structure unchanged across all views, assemble 9-view 3x3 grid"
@@ -22,7 +22,8 @@
     "view_9": "John Galliano - Theatrical excess, historical fusion, exaggerated proportions, couture spectacle"
   },
   "output_requirements": [
-    "LINE ART CONVERSION: Figure 1 automatically converted to clean, standardized garment line art before aesthetic application",
+    "GARMENT EXTRACTION: Extract ONLY garment from Figure 1, completely exclude background, human figure, and other non-garment elements",
+    "LINE ART CONVERSION: Convert extracted garment to clean, standardized line art before aesthetic application",
     "GARMENT LOCK: Standardized garment structure identical across all 9 views — zero structural deviation",
     "Model: Asian/Caucasian/African, auto-adapted, consistent across all views,A relaxed and sophisticated cross-legged standing pose with a sense of dynamic elegance",
     "SFW; realistic fabric draping; consistent lighting; NO oily shine; NO oversaturation",
