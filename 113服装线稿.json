@@ -1,0 +1,31 @@
+{
+  "task_objective": "Fashion Image to Standardized Line Art & 9-View 3x3 - Convert Figure 1 to standardized garment line art, then map Figure 2 aesthetics onto it, garment structure FULLY PRESERVED",
+  "input_assets": {
+    "source_image": "Figure 1 - Any garment image (photo/sketch/render) - Will be converted to standardized line art first",
+    "aesthetic_reference": "Figure 2 Inspiration Image - Colors, pattern, texture, fabric style - applied to garment only"
+  },
+  "workflow": {
+    "step_1": "Convert Figure 1 to standardized garment line art: extract garment silhouette, clean up details, standardize proportions",
+    "step_2": "Parse standardized line art structure + extract Figure 2 aesthetic DNA",
+    "step_3": "View_1 (FIXED): 1:1 replica of Figure 2 aesthetics. Views 2-9 (DESIGNER): same DNA reinterpreted through 8 distinct international designer aesthetics",
+    "step_4": "Verify garment structure unchanged across all views, assemble 9-view 3x3 grid"
+  },
+  "outputs": {
+    "view_1": "Precise Replica - 1:1 replica of Figure 2 aesthetics on standardized garment, SOURCE OF TRUTH",
+    "view_2": "Alexander McQueen - Dramatic avant-garde, dark romanticism, sculptural silhouettes, intricate textile manipulation",
+    "view_3": "Coco Chanel - Timeless elegance, tweed texture, black-and-white contrast, refined minimalism",
+    "view_4": "Rei Kawakubo - Deconstructed forms, asymmetry, raw edges, anti-fashion provocation",
+    "view_5": "Valentino - Romantic femininity, ethereal fabrics, delicate lace, poetic color palette",
+    "view_6": "Yohji Yamamoto - Monochrome draping, fluid volumes, wabi-sabi aesthetic, architectural wraps",
+    "view_7": "Dolce & Gabbana - Opulent baroque, rich brocade, Mediterranean vibrance, ornate embellishment",
+    "view_8": "Phoebe Philo - Intelligent minimalism, clean cuts, neutral palette, effortless modernity",
+    "view_9": "John Galliano - Theatrical excess, historical fusion, exaggerated proportions, couture spectacle"
+  },
+  "output_requirements": [
+    "LINE ART CONVERSION: Figure 1 automatically converted to clean, standardized garment line art before aesthetic application",
+    "GARMENT LOCK: Standardized garment structure identical across all 9 views — zero structural deviation",
+    "Model: Asian/Caucasian/African, auto-adapted, consistent across all views,A relaxed and sophisticated cross-legged standing pose with a sense of dynamic elegance",
+    "SFW; realistic fabric draping; consistent lighting; NO oily shine; NO oversaturation",
+    "No text/labels/watermarks; Premium 3x3, cinematic grading, luxury white space, magazine editorial standard"
+  ]
+}
